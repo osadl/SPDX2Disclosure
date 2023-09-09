@@ -2,7 +2,7 @@
 Create more verbose versions of an SPDX disclosure file
 
 ## Usage
-# ./src/SPDX2Disclosure.py --help
+\# ./src/SPDX2Disclosure.py --help
 usage: SPDX2Disclosure.py [-h] [-l VERBOSITY] [-v] SPDX
 
 positional arguments:
