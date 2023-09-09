@@ -1,8 +1,13 @@
 # SPDX2Disclosure
+
+## Purpose
 Create more verbose versions of an SPDX disclosure file
 
-## Usage
-\# ./src/SPDX2Disclosure.py --help
+## Usage and command line options
+```bash
+SPDX2Disclosure.py --help
+```
+```
 usage: SPDX2Disclosure.py [-h] [-l VERBOSITY] [-v] SPDX
 
 positional arguments:
@@ -17,3 +22,4 @@ options:
 
 Create several more verbose versions of the disclosure document from the SPDX
 tag:value file
+```
