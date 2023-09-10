@@ -15,7 +15,7 @@ def getlicenselist(filename):
         if line.startswith('Copyright notices'):
             break;
     f.close()
-    return(licenselist)
+    return licenselist
 
 def collectlicenses(filename):
     licenses = {}
@@ -37,7 +37,7 @@ def collectlicenses(filename):
                 intext = False
                 licenses[ref] = licensetext.strip()
     f.close()
-    return(licenses)
+    return licenses
 
 def SPDX2Disclosure(filename, licenselevel, verbose):
     if licenselevel == 0:
@@ -61,7 +61,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
             file = line[10:].rstrip()
             infile = True
             continue
-        if infile: 
+        if infile:
             if line.startswith('LicenseInfoInFile: '):
                 licensenotice.append(line[19:].strip())
             if line.startswith('FileCopyrightText: '):
