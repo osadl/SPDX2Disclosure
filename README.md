@@ -24,8 +24,9 @@ Create several more verbose versions of the disclosure document from the SPDX
 tag:value file
 ```
 
-## Example program runs on software package bzip2-1.0.8
+## Example program runs on software package <i>bzip2-1.0.8</i>
 ### Existing files
+The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/bzip2/version-1.0.8">related curation data of the OSSelot project</a>.
 * SPDX tag:value file: <a href="/example/bzip2-1.0.8-SPDX2TV.spdx">bzip2-1.0.8-SPDX2TV.spdx</a>
 * Default OSS disclosure document: <a href="/example/bzip2-1.0.8-OSS-disclosure.txt">bzip2-1.0.8-OSS-disclosure.txt</a>
 
