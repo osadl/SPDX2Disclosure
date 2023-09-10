@@ -32,18 +32,18 @@ tag:value file
 ### Command line and resulting more verbose version of the disclosure document
 * Copyright notices by file (no command line option)
 ```bash
-./SPDX2Disclosure.py bzip2-1.0.8-SPDX2TV.spdx >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file.txt
+./src/SPDX2Disclosure.py example/bzip2-1.0.8-SPDX2TV.spdx >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file.txt
 ```
 Program output: <a href="/example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file.txt</a>
 
 *  Copyright notices and referenced licenses by file (command line option "-lr")
 ```bash
-./SPDX2Disclosure.py bzip2-1.0.8-SPDX2TV.spdx -lr >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt
+./src/SPDX2Disclosure.py example/bzip2-1.0.8-SPDX2TV.spdx -lr >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt
 ```
 Program output: <a href="/example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt</a>
 
 * Copyright notices and verbatim licenses by file (command line option "-lt")
 ```bash
-./SPDX2Disclosure.py bzip2-1.0.8-SPDX2TV.spdx -lt >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt
+./src/SPDX2Disclosure.py example/bzip2-1.0.8-SPDX2TV.spdx -lt >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt
 ```
 Program output: <a href="/example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt</a>
