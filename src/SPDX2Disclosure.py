@@ -4,15 +4,9 @@
 # Copyright (c) 2023 Open Source Automation Development Lab (OSADL) eG <info@osadl.org>
 # Author Carsten Emde <C.Emde@osadl.org>
 
-import sys
-import os
-import subprocess
 import argparse
-import re
-import zipfile
 
 def getlicenselist(filename):
-
     filename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
     f = open(filename, 'r')
     licenselist = ''
@@ -60,6 +54,8 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
         if line.startswith('LicenseID: '):
             break
         if line.startswith('FileName: '):
+            if verbose:
+                print('Found entry of file ', line[10:].rstrip())
             copyrightnotice = ''
             licensenotice = []
             file = line[10:].rstrip()
