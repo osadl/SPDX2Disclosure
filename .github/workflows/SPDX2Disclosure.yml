@@ -1,0 +1,20 @@
+name: SPDX2Disclosure
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Run the script
+      run: |
+        ./src/SPDX2Disclosure.py example/bzip2-1.0.8-SPDX2TV.spdx >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file2.txt
+        diff example/bzip2-1.0.8-SPDX2TV.spdx >example/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file2*.txt
