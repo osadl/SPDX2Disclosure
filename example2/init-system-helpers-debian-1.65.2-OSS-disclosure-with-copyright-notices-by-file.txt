@@ -1,0 +1,1 @@
+Licensing "none" unknown, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", or "(t)ext"

@@ -6,6 +6,18 @@
 
 import argparse
 
+def ishex(s):
+    try:
+        int(s, 16)
+        return True
+    except ValueError:
+        return False
+
+def hashexsuffix(licensename):
+    parts = licensename.split('-')
+    suffix = parts[len(parts) - 1]
+    return ishex(suffix)
+
 def getlicenselist(filename):
     filename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
     f = open(filename, 'r')
@@ -15,7 +27,7 @@ def getlicenselist(filename):
         if line.startswith('Copyright notices'):
             break;
     f.close()
-    return licenselist
+    return licenselist.strip()
 
 def collectlicenses(filename):
     licenses = {}
@@ -40,9 +52,13 @@ def collectlicenses(filename):
     return licenses
 
 def SPDX2Disclosure(filename, licenselevel, verbose):
-    if licenselevel == 0:
-        print(getlicenselist(filename))
-    else:
+    if licenselevel == 0 or licenselevel == 2:
+        licenses = getlicenselist(filename) 
+        if licenselevel == 0: 
+            print(licenses, 'by file:\n')
+        else:
+            print(licenses, 'and licenses by file:\n')
+    if licenselevel > 0:
         licenses = collectlicenses(filename)
 
     f = open(filename, 'r')
@@ -57,13 +73,12 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
             if verbose:
                 print('Found entry of file ', line[10:].rstrip())
             copyrightnotice = ''
-            licensenotice = []
             file = line[10:].rstrip()
             infile = True
             continue
         if infile:
-            if line.startswith('LicenseInfoInFile: '):
-                licensenotice.append(line[19:].strip())
+            if line.startswith('LicenseConcluded: '):
+                licensenotices = line[18:].strip().split(' AND ')
             if line.startswith('FileCopyrightText: '):
                 incopyright = True
             if incopyright:
@@ -80,10 +95,8 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                     needsection = False
                     haslicense = False
                     if licenselevel > 0:
-                        for licensename in licensenotice:
-                            if licensename != 'NOASSERTION':
-                                haslicense = True
-                                break
+                        if licensenotices[0] != 'NOASSERTION':
+                            haslicense = True
                     if copyrightnotice != 'NOASSERTION' or haslicense:
                         if first:
                             first = False
@@ -103,16 +116,15 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                         if len(copyrightnotice) > 0 and copyrightnotice != 'NOASSERTION':
                             print()
                         print('LICENSING:')
-                        for licensename in licensenotice:
+                        for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
-                                if licenselevel > 1:
+                                if licenselevel == 3 or (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)):
                                     print(licensename + ':')
                                     print(licenses[licensename])
                                     print()
                                 else:
                                     print(licensename)
                                 needsection = True
-                        licensenotice = []
                     copyrightnotice = ''
                     if needsection:
                         print()
@@ -126,6 +138,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
     f.close
 
 def main():
+    errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", or "(t)ext"'
     parser = argparse.ArgumentParser(prog = 'SPDX2Disclosure.py',
         epilog = 'Create several more verbose versions of the disclosure document from the SPDX tag:value file')
 
@@ -135,22 +148,23 @@ def main():
     parser.add_argument('-l', '--licensing',
       metavar = 'VERBOSITY',
       default = 'none',
-      help = 'add licensing information per file, may be "(n)one" (default), "(r)eferenced", or "(t)ext"')
+      help = 'add licensing information per file, ' + errorhelp)
     parser.add_argument('-v', '--verbose',
       action = 'store_true',
       default = False,
       help = 'show names and texts the program is using')
     args = parser.parse_args()
 
-    if args.licensing not in ['n', 'none', 'r', 'referenced', 't', 'text']:
-        print('Licensing "', args.licensing, '" unknown, must be either "(n)one", "(r)eferenced" or "(t)ext"', sep = '')
-        exit(1)
-
     licenselevel = 0
     if args.licensing in ['r', 'referenced']:
         licenselevel = 1
-    elif args.licensing in ['t', 'text']:
+    elif args.licensing in ['b', 'bsdtext']:
         licenselevel = 2
+    elif args.licensing in ['t', 'text']:
+        licenselevel = 3
+    else:
+        print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
+        exit(1)
 
     SPDX2Disclosure(args.filename, licenselevel, args.verbose)
 
