@@ -53,7 +53,7 @@ Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-not
 ```bash
 ./src/SPDX2Disclosure.py example1/bzip2-1.0.8-SPDX2TV.spdx -lb >example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt
 ```
-Program output: <a href="/example1/bzip2-1.0.8-1.65.2-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
+Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
 
 * Copyright notices and verbatim licenses by file (command line option "-lt")
 ```bash
