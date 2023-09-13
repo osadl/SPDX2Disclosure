@@ -155,8 +155,9 @@ def main():
       help = 'show names and texts the program is using')
     args = parser.parse_args()
 
-    licenselevel = 0
-    if args.licensing in ['r', 'referenced']:
+    if args.licensing in ['n', 'none']:
+        licenselevel = 0
+    elif args.licensing in ['r', 'referenced']:
         licenselevel = 1
     elif args.licensing in ['b', 'bsdtext']:
         licenselevel = 2
