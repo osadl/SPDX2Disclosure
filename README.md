@@ -24,7 +24,7 @@ Create several more verbose versions of the disclosure document from the SPDX ta
 ## Options
 
 |    Long option      | Short option |                        Function                    |
-|:-------------------:|:------------:|:--------------------------------------------------:|
+|:--------------------|:------------:|:---------------------------------------------------|
 |licensing=none       |     -ln      | Additional section with copyright notices per file |
 |licensing=referenced |     -lr      | Same as -ln plus referenced licenses               |
 |licensing=bsdtext    |     -lb      | Same as -ln plus verbatim BSD licenses             |
