@@ -16,12 +16,10 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -l VERBOSITY, --licensing VERBOSITY
-                        add licensing information per file, may be "(n)one"
-                        (default), "(r)eferenced", or "(t)ext"
+                        add licensing information per file, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", or "(t)ext"
   -v, --verbose         show names and texts the program is using
 
-Create several more verbose versions of the disclosure document from the SPDX
-tag:value file
+Create several more verbose versions of the disclosure document from the SPDX tag:value file
 ```
 
 ## Example no. 1 program runs on software package <i>bzip2-1.0.8</i>
