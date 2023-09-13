@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # This software is licensed under GPL-3.0
 # Copyright (c) 2023 Open Source Automation Development Lab (OSADL) eG <info@osadl.org>
@@ -78,7 +78,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
             continue
         if infile:
             if line.startswith('LicenseConcluded: '):
-                licensenotices = line[18:].strip().split(' AND ')
+                licensenotices = line[18:].strip().replace(' OR ', ' AND ').split(' AND ')
             if line.startswith('FileCopyrightText: '):
                 incopyright = True
             if incopyright:
