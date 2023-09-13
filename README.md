@@ -21,12 +21,20 @@ options:
 
 Create several more verbose versions of the disclosure document from the SPDX tag:value file
 ```
+## Options
 
-## Example no. 1 program runs on software package <i>bzip2-1.0.8</i>
-OB### Existing files
+|    Long option      | Short option |                        Function                    |
+|:-------------------:|:------------:|:--------------------------------------------------:|
+|licensing=none       |     -ln      | Additional section with copyright notices per file |
+|licensing=referenced |     -lr      | Same as -ln plus referenced licenses               |
+|licensing=bsdtext    |     -lb      | Same as -ln plus verbatim BSD licenses             |
+|licensing=text       |     -lt      | Same as -ln plus all licenses verbatim             |
+
+## Example no. 1: Program runs on software package <i>bzip2-1.0.8</i>
+### Existing files
 The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/bzip2/version-1.0.8">related curation data of the OSSelot project</a>.
-* SPDX tag:value file: <a href="/example/bzip2-1.0.8-SPDX2TV.spdx">bzip2-1.0.8-SPDX2TV.spdx</a>
-* Default OSS disclosure document: <a href="/example/bzip2-1.0.8-OSS-disclosure.txt">bzip2-1.0.8-OSS-disclosure.txt</a>
+* SPDX tag:value file: <a href="/example1/bzip2-1.0.8-SPDX2TV.spdx">bzip2-1.0.8-SPDX2TV.spdx</a>
+* Default OSS disclosure document: <a href="/example1/bzip2-1.0.8-OSS-disclosure.txt">bzip2-1.0.8-OSS-disclosure.txt</a>
 
 ### Command line and resulting more verbose version of the disclosure document
 * Copyright notices by file (no command line option)
@@ -53,7 +61,12 @@ Program output: <a href="/example1/bzip2-1.0.8-1.65.2-OSS-disclosure-with-copyri
 ```
 Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt</a>
 
-## Example no. 2 program runs on software package <i>init-system-helpers-debian-1.65.2</i>
+## Example no. 2: Program runs on software package <i>init-system-helpers-debian-1.65.2</i>
+### Existing files
+The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/bzip2/version-1.0.8">related curation data of the OSSelot project</a>.
+* SPDX tag:value file: <a href="/example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx">init-system-helpers-debian-1.65.2-SPDX2TV.spdx</a>
+* Default OSS disclosure document: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclosure.txt">init-system-helpers-debian-1.65.2-OSS-disclosure.txt</a>
+
 * Copyright notices by file (no command line option)
 ```bash
 ./src/SPDX2Disclosure.py example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx >example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-by-file.txt
