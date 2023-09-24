@@ -8,27 +8,28 @@ Create more verbose versions of an SPDX disclosure file
 SPDX2Disclosure.py --help
 ```
 ```
-usage: SPDX2Disclosure.py [-h] [-l VERBOSITY] [-v] SPDX
+usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-v] SPDX
 
 positional arguments:
   SPDX                  file name of an SPDX tag:value input file to process
 
 options:
   -h, --help            show this help message and exit
-  -l VERBOSITY, --licensing VERBOSITY
-                        add licensing information per file, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", or "(t)ext"
+  -l AMOUNT, --licensing AMOUNT
+                        licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
   -v, --verbose         show names and texts the program is using
 
 Create several more verbose versions of the disclosure document from the SPDX tag:value file
 ```
 ## Options
 
-|    Long option      | Short option |                        Function                    |
-|:--------------------|:------------:|:---------------------------------------------------|
-|licensing=none       |     -ln      | Additional section with copyright notices per file |
-|licensing=referenced |     -lr      | Same as -ln plus referenced licenses               |
-|licensing=bsdtext    |     -lb      | Same as -ln plus verbatim BSD licenses             |
-|licensing=text       |     -lt      | Same as -ln plus all licenses verbatim             |
+|    Long option      | Short option |                        Function                     |
+|:--------------------|:------------:|:----------------------------------------------------|
+|licensing=none       |     -ln      | Additional section with copyright notices per file  |
+|licensing=referenced |     -lr      | Same as -ln plus all licenses referenced            |
+|licensing=bsdtext    |     -lb      | Same as -ln plus non-standard BSD licenses verbatim |
+|licensing=hashedtext |     -lh      | Same as -ln plus all hashed licenses verbatim       |
+|licensing=text       |     -lt      | Same as -ln plus all licenses verbatim              |
 
 ## Example no. 1: Program runs on software package <i>bzip2-1.0.8</i>
 ### Existing files
@@ -49,11 +50,17 @@ Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-not
 ```
 Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt</a>
 
-*  Copyright notices, BSD-style licenses verbatim and other licenses referenced by file (command line option "-lb")
+*  Copyright notices, non-standard BSD-style licenses verbatim and other licenses referenced by file (command line option "-lb")
 ```bash
 ./src/SPDX2Disclosure.py example1/bzip2-1.0.8-SPDX2TV.spdx -lb >example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt
 ```
 Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
+
+*  Copyright notices, all hashed licenses verbatim and other licenses referenced by file (command line option "-lh")
+```bash
+./src/SPDX2Disclosure.py example1/bzip2-1.0.8-SPDX2TV.spdx -lh >example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt
+```
+Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt">bzip2-1.0.8-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
 
 * Copyright notices and verbatim licenses by file (command line option "-lt")
 ```bash
@@ -84,6 +91,12 @@ Program output: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclos
 ./src/SPDX2Disclosure.py example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx -lb >example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt
 ```
 Program output: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt">init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
+
+*  Copyright notices, all hashed licenses verbatim and other licenses referenced by file (command line option "-lh")
+```bash
+./src/SPDX2Disclosure.py example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx -lh >example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt
+```
+Program output: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt">init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
 
 * Copyright notices and verbatim licenses by file (command line option "-lt")
 ```bash

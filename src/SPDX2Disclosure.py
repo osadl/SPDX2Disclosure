@@ -52,7 +52,7 @@ def collectlicenses(filename):
     return licenses
 
 def SPDX2Disclosure(filename, licenselevel, verbose):
-    if licenselevel == 0 or licenselevel == 2:
+    if licenselevel in [0, 2, 3]:
         licenses = getlicenselist(filename) 
         if licenselevel == 0: 
             print(licenses, 'by file:\n')
@@ -118,7 +118,8 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                         print('LICENSING:')
                         for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
-                                if licenselevel == 3 or (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)):
+                                if (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)) or\
+                                  (licenselevel == 3 and hashexsuffix(licensename)) or licenselevel == 4:
                                     print(licensename + ':')
                                     print(licenses[licensename])
                                     print()
@@ -138,7 +139,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
     f.close
 
 def main():
-    errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", or "(t)ext"'
+    errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"'
     parser = argparse.ArgumentParser(prog = 'SPDX2Disclosure.py',
         epilog = 'Create several more verbose versions of the disclosure document from the SPDX tag:value file')
 
@@ -146,9 +147,9 @@ def main():
       metavar = 'SPDX',
       help = 'file name of an SPDX tag:value input file to process')
     parser.add_argument('-l', '--licensing',
-      metavar = 'VERBOSITY',
+      metavar = 'AMOUNT',
       default = 'none',
-      help = 'add licensing information per file, ' + errorhelp)
+      help = 'licensing information per file to add, ' + errorhelp)
     parser.add_argument('-v', '--verbose',
       action = 'store_true',
       default = False,
@@ -161,8 +162,10 @@ def main():
         licenselevel = 1
     elif args.licensing in ['b', 'bsdtext']:
         licenselevel = 2
-    elif args.licensing in ['t', 'text']:
+    elif args.licensing in ['h', 'hashedtext']:
         licenselevel = 3
+    elif args.licensing in ['t', 'text']:
+        licenselevel = 4
     else:
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
