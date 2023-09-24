@@ -33,15 +33,39 @@ Create several more comprehensive versions of the disclosure document from the S
 
 ## Program description per command line option
 ### 1. licensing=none
-In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file will be included in every section.
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the
+
+* copyright notices of the package file
+
+will be included in every section.
 ### 2. licensing=referenced
-The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the copyright notices of the package file plus a reference to the license will be included in every section. A list of all licenses with references will then be added to the output stream.
+The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the
+
+* copyright notices of the package file and
+* a reference to the license
+
+will be included in every section. A list of all licenses with references will then be added to the output stream.
 ### 3. licensing=bsdtext
-In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file and, if distributed under a non-standard BSD license, the original license test will be included in every section.
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the
+
+* copyright notices of the package file and,
+* if distributed under a non-standard BSD license, the original license text
+
+will be included in every section.
 ### 4. licensing=hashedtext
-In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file and, if distributed under any non-standard license as indicated by a hash suffix of the license reference, the original license text will be included in every section.
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the
+
+* copyright notices of the package file and,
+* if distributed under any non-standard license as indicated by a hash suffix of the license reference,
+
+the original license text will be included in every section.
 ### 5. licensing=text
-The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the copyright notices of the package file plus the verbatim text of the licenses will be included in every section.
+The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the
+
+* copyright notices of the package file and
+* the verbatim text of the licenses
+
+will be included in every section.
 
 ## Example no. 1: Program runs on software package <i>bzip2-1.0.8</i>
 ### Existing files
