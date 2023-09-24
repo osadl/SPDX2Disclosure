@@ -56,9 +56,9 @@ will be included in every section.
 In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the
 
 * copyright notices of the package file and,
-* if distributed under any non-standard license as indicated by a hash suffix of the license reference,
+* if distributed under any non-standard license as indicated by a hash suffix of the license reference, the original license text
 
-the original license text will be included in every section.
+will be included in every section.
 ### 5. licensing=text
 The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the
 
