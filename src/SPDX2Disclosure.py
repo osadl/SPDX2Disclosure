@@ -141,7 +141,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
 def main():
     errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"'
     parser = argparse.ArgumentParser(prog = 'SPDX2Disclosure.py',
-        epilog = 'Create several more verbose versions of the disclosure document from the SPDX tag:value file')
+        epilog = 'Create several more comprehensive versions of the disclosure document from the SPDX tag:value file')
 
     parser.add_argument('filename',
       metavar = 'SPDX',

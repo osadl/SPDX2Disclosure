@@ -1,7 +1,7 @@
 # SPDX2Disclosure
 
 ## Purpose
-Create more verbose versions of an SPDX disclosure file
+Create more comprehensive versions of an SPDX disclosure file
 
 ## Usage and command line options
 ```bash
@@ -19,7 +19,7 @@ options:
                         licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
   -v, --verbose         show names and texts the program is using
 
-Create several more verbose versions of the disclosure document from the SPDX tag:value file
+Create several more comprehensive versions of the disclosure document from the SPDX tag:value file
 ```
 ## Options
 
@@ -31,13 +31,26 @@ Create several more verbose versions of the disclosure document from the SPDX ta
 |licensing=hashedtext |     -lh      | Same as -ln plus all hashed licenses verbatim       |
 |licensing=text       |     -lt      | Same as -ln plus all licenses verbatim              |
 
+## Program description per command line option
+### 1. licensing=none
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file will be included in every section.
+### 2. licensing=referenced
+The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the copyright notices of the package file plus a reference to the license will be included in every section. A list of all licenses with references will then be added to the output stream.
+### 3. licensing=bsdtext
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file and, if distributed under a non-standard BSD license, the original license test will be included in every section.
+### 4. licensing=hashedtext
+In a first step, the complete first part of the original OSS Disclosure document will be sent to the program output. Thereafter, new sections for every file of the original package will be appended to the output stream and the copyright notices of the package file and, if distributed under any non-standard license as indicated by a hash suffix of the license reference, the original license text will be included in every section.
+### 5. licensing=text
+The original OSS Disclosure document is not used. Instead, new sections for every file of the original package will be sent to the program output, and the copyright notices of the package file plus the verbatim text of the licenses will be included in every section.
+
 ## Example no. 1: Program runs on software package <i>bzip2-1.0.8</i>
 ### Existing files
 The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/bzip2/version-1.0.8">related curation data of the OSSelot project</a>.
+
 * SPDX tag:value file: <a href="/example1/bzip2-1.0.8-SPDX2TV.spdx">bzip2-1.0.8-SPDX2TV.spdx</a>
 * Default OSS disclosure document: <a href="/example1/bzip2-1.0.8-OSS-disclosure.txt">bzip2-1.0.8-OSS-disclosure.txt</a>
 
-### Command line and resulting more verbose version of the disclosure document
+### Command line and resulting more comprehensive version of the disclosure document
 * Copyright notices by file (no command line option)
 ```bash
 ./src/SPDX2Disclosure.py example1/bzip2-1.0.8-SPDX2TV.spdx >example1/bzip2-1.0.8-OSS-disclosure-with-copyright-notices-by-file.txt
@@ -71,9 +84,11 @@ Program output: <a href="/example1/bzip2-1.0.8-OSS-disclosure-with-copyright-not
 ## Example no. 2: Program runs on software package <i>init-system-helpers-debian-1.65.2</i>
 ### Existing files
 The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/init-system-helpers-debian/version-1.65.2">related curation data of the OSSelot project</a>.
+
 * SPDX tag:value file: <a href="/example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx">init-system-helpers-debian-1.65.2-SPDX2TV.spdx</a>
 * Default OSS disclosure document: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclosure.txt">init-system-helpers-debian-1.65.2-OSS-disclosure.txt</a>
 
+### Command line and resulting more comprehensive version of the disclosure document
 * Copyright notices by file (no command line option)
 ```bash
 ./src/SPDX2Disclosure.py example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx >example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-by-file.txt
