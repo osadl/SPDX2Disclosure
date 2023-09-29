@@ -101,7 +101,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                         if first:
                             first = False
                         else:
-                            print('-'*72)
+                            print('-'*8)
                         print('FILE: ' + file + ':')
                         needsection = True
                     else:
