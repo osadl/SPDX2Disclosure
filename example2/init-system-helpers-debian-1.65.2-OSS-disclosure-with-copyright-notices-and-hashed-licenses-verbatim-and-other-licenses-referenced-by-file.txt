@@ -693,7 +693,7 @@ dh-make output file, you may use that output file without restriction.
 This special exception was added by Craig Small in version 0.37 of dh-make.
 
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
 COPYRIGHT NOTICES:
 Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
@@ -702,7 +702,7 @@ Copyright (c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 LICENSING:
 LicenseRef-GPL-2.0-or-later
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
 COPYRIGHT NOTICES:
 Copyright (C) 2006 Red Hat, Inc. All rights reserved.
@@ -712,7 +712,7 @@ Copyright (C) 2013 Michael Stapelberg <stapelberg@debian.org>
 LICENSING:
 LicenseRef-GPL-2.0-or-later
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
 COPYRIGHT NOTICES:
 © 2013-2014 Michael Stapelberg <stapelberg@debian.org>
@@ -745,7 +745,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
 COPYRIGHT NOTICES:
 © 2013 Michael Stapelberg <stapelberg@debian.org>
@@ -778,7 +778,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
 COPYRIGHT NOTICES:
 Copyright: 2001 Henrique de Moraes Holschuh
@@ -786,7 +786,7 @@ Copyright: 2001 Henrique de Moraes Holschuh
 LICENSING:
 LicenseRef-GPL-2.0-or-later
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
 COPYRIGHT NOTICES:
 Copyright: 2001 Henrique de Moraes Holschuh
@@ -794,7 +794,7 @@ Copyright: 2001 Henrique de Moraes Holschuh
 LICENSING:
 LicenseRef-GPL-2.0-or-later
 
-------------------------------------------------------------------------
+--------
 FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
 COPYRIGHT NOTICES:
 Copyright: 2006 Red Hat, Inc., Petter Reinholdtsen <pere@hungry.com>

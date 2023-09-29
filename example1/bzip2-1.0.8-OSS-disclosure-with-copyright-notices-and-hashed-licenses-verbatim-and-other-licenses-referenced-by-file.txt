@@ -66,12 +66,12 @@ Julian Seward. All rights reserved.
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/dlltest.c:
 LICENSING:
 LicenseRef-Public-domain
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/format.pl:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -79,7 +79,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib_private.h:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -87,7 +87,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/compress.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -95,7 +95,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/randtable.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -103,7 +103,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/unzcrash.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -111,7 +111,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/decompress.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -119,7 +119,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/huffman.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -127,7 +127,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -135,7 +135,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.h:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -143,7 +143,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/blocksort.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -151,7 +151,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.COMPILATION.PROBLEMS:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -159,7 +159,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/crctable.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -167,7 +167,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile-libbz2_so:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -175,7 +175,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -183,7 +183,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/spewG.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -191,7 +191,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/xmlproc.sh:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -199,7 +199,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/CHANGES:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -207,7 +207,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2recover.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -215,7 +215,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -224,7 +224,7 @@ Copyright (C) 1996-2019 by Julian Seward.
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.XML.STUFF:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -232,7 +232,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/mk251.c:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -240,7 +240,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README:
 COPYRIGHT NOTICES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
@@ -248,7 +248,7 @@ Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 LICENSING:
 LicenseRef-bzip2-1.0.8
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/LICENSE:
 COPYRIGHT NOTICES:
 copyright (C) 1996-2019 Julian R Seward. All rights reserved.

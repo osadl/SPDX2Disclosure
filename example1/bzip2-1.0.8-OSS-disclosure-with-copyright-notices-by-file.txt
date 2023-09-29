@@ -62,96 +62,96 @@ FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/manual.xm
 copyright Julian Seward
 Julian Seward. All rights reserved.
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/format.pl:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib_private.h:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/compress.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/randtable.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/unzcrash.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/decompress.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/huffman.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.h:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/blocksort.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.COMPILATION.PROBLEMS:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/crctable.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile-libbz2_so:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/spewG.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/xmlproc.sh:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/CHANGES:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2recover.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 Copyright (C) 1996-2019 by Julian Seward.
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.XML.STUFF:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/mk251.c:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README:
 Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
 
-------------------------------------------------------------------------
+--------
 FILE: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/LICENSE:
 copyright (C) 1996-2019 Julian R Seward. All rights reserved.
 
