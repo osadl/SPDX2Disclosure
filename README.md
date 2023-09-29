@@ -142,3 +142,41 @@ Program output: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclos
 ./src/SPDX2Disclosure.py example2/init-system-helpers-debian-1.65.2-SPDX2TV.spdx -lt >example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt
 ```
 Program output: <a href="/example2/init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt">init-system-helpers-debian-1.65.2-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt</a>
+
+## Example no. 3: Program runs on software package <i>busybox-1.36.1</i>
+### Existing files
+The following files that are used to exemplify the function of the <i>SPDX2Disclosure.py</i> script are taken from the <a href="https://github.com/Open-Source-Compliance/package-analysis/tree/main/analysed-packages/init-system-helpers-debian/version-1.65.2">related curation data of the OSSelot project</a>.
+
+* SPDX tag:value file: <a href="/example3/busybox-1.36.1-SPDX2TV.spdx">busybox-1.36.1-SPDX2TV.spdx</a>
+* Default OSS disclosure document: <a href="/example3/busybox-1.36.1-OSS-disclosure.txt">busybox-1.36.1-OSS-disclosure.txt</a>
+
+### Command line and resulting more comprehensive version of the disclosure document
+* Copyright notices by file (no command line option)
+```bash
+./src/SPDX2Disclosure.py example3/busybox-1.36.1-SPDX2TV.spdx >example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-by-file.txt
+```
+Program output: <a href="/example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-by-file.txt">busybox-1.36.1-OSS-disclosure-with-copyright-notices-by-file.txt</a>
+
+*  Copyright notices and referenced licenses by file (command line option "-lr")
+```bash
+./src/SPDX2Disclosure.py example3/busybox-1.36.1-SPDX2TV.spdx -lr >example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt
+```
+Program output: <a href="/example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt">busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-referenced-licenses-by-file.txt</a>
+
+*  Copyright notices, BSD-style licenses verbatim and other licenses referenced by file (command line option "-lb")
+```bash
+./src/SPDX2Disclosure.py example3/busybox-1.36.1-SPDX2TV.spdx -lb >example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt
+```
+Program output: <a href="/example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt">busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
+
+*  Copyright notices, all hashed licenses verbatim and other licenses referenced by file (command line option "-lh")
+```bash
+./src/SPDX2Disclosure.py example3/busybox-1.36.1-SPDX2TV.spdx -lh >example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt
+```
+Program output: <a href="/example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-hashed-licenses-verbatim-and-other-licenses-referenced-by-file.txt">busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-BSD-licenses-verbatim-and-other-licenses-referenced-by-file.txt</a>
+
+* Copyright notices and verbatim licenses by file (command line option "-lt")
+```bash
+./src/SPDX2Disclosure.py example3/busybox-1.36.1-SPDX2TV.spdx -lt >example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt
+```
+Program output: <a href="/example3/busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt">busybox-1.36.1-OSS-disclosure-with-copyright-notices-and-verbatim-licenses-by-file.txt</a>
