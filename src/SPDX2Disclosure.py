@@ -67,6 +67,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, showpreamble, verbose
 
     if licenselevel in [0, 2, 3]:
         alllicenses = getlicenselist(filename)
+        alllicenses = alllicenses.replace('LICENSES \n', 'LICENSES\n(See the details below for the assignment of licenses to files.)\n', 1)
         if licenselevel == 0: 
             print(alllicenses, 'by file:\n')
         else:

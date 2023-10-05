@@ -12,7 +12,8 @@ init-system-helpers-debian-1.65.2
 
 ================================================================================
 
-LICENSES 
+LICENSES
+(See the details below for the assignment of licenses to files.)
 
 --------------------------------------------------------------------------------
 
