@@ -8,7 +8,7 @@ Create more comprehensive versions of an SPDX disclosure file
 SPDX2Disclosure.py --help
 ```
 ```
-usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-v] SPDX
+usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-p] [-v] SPDX
 
 positional arguments:
   SPDX                  file name of an SPDX tag:value input file to process
@@ -17,6 +17,7 @@ options:
   -h, --help            show this help message and exit
   -l AMOUNT, --licensing AMOUNT
                         licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
+  -p, --preamble        prepend general package data
   -v, --verbose         show names and texts the program is using
 
 Create several more comprehensive versions of the disclosure document from the SPDX tag:value file

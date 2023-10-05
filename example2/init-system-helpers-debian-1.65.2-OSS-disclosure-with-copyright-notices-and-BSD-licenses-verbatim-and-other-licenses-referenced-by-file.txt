@@ -1,3 +1,9 @@
+PackageName: init-system-helpers-debian-1.65.2.tar.gz
+PackageVerificationCode: 487d893d4d75b3867363863f0e8fa5f5f430dd52
+PackageChecksum: MD5: 33015f1203d48dcbca5905d0431d20ef
+PackageLicenseConcluded: NOASSERTION
+--------
+
 ================================================================================
 
 init-system-helpers-debian-1.65.2
@@ -684,35 +690,35 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 
 Copyright notices and licenses by file:
 
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/debian/rules:
-LICENSING:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/debian/rules:
+LicenseConcluded:
 LicenseRef-Permission-Notice-e736e00b0a92678104529a355e94bce1
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
+FileCopyrightText:
 Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 Copyright (c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
+FileCopyrightText:
 Copyright (C) 2006 Red Hat, Inc. All rights reserved.
 Copyright (C) 2008 Canonical Ltd. August 2008 - Dustin Kirkland <kirkland@canonical.com>
 Copyright (C) 2013 Michael Stapelberg <stapelberg@debian.org>
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
+FileCopyrightText:
 © 2013-2014 Michael Stapelberg <stapelberg@debian.org>
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-BSD-3-Clause-90005cdb54612ecb8538d62c6b6a6f88:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -741,11 +747,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
+FileCopyrightText:
 © 2013 Michael Stapelberg <stapelberg@debian.org>
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-BSD-3-Clause-90005cdb54612ecb8538d62c6b6a6f88:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -774,26 +780,26 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
+FileCopyrightText:
 Copyright: 2001 Henrique de Moraes Holschuh
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
+FileCopyrightText:
 Copyright: 2001 Henrique de Moraes Holschuh
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
-COPYRIGHT NOTICES:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
+FileCopyrightText:
 Copyright: 2006 Red Hat, Inc., Petter Reinholdtsen <pere@hungry.com>
 
-LICENSING:
+LicenseConcluded:
 LicenseRef-GPL-2.0-only
 

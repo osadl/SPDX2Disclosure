@@ -29,11 +29,18 @@ def getlicenselist(filename):
     f.close()
     return licenselist.strip()
 
-def collectlicenses(filename):
+def collectlicenses(filename, showpreamble):
     licenses = {}
+    preamble = {}
     f = open(filename, 'r')
     intext = False
+    preambletags = ['PackageName', 'PackageVerificationCode', 'PackageChecksum', 'PackageLicenseConcluded']
+
     for line in f:
+        if showpreamble and len(preamble) < 4:
+            for p in preambletags:
+                if line.startswith(p + ': '):
+                    preamble[p] = line[len(p) + 2:].rstrip()
         if not intext:
             if line.startswith('LicenseID: '):
                 ref = line[11:].rstrip()
@@ -49,17 +56,21 @@ def collectlicenses(filename):
                 intext = False
                 licenses[ref] = licensetext.strip()
     f.close()
-    return licenses
+    return preamble, licenses
 
-def SPDX2Disclosure(filename, licenselevel, verbose):
+def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
+    preamble, licenses = collectlicenses(filename, showpreamble)
+    if showpreamble:
+        for key, val in preamble.items():
+            print(key, ': ', val, sep='')
+        print('-'*8,'\n', sep='')
+
     if licenselevel in [0, 2, 3]:
-        licenses = getlicenselist(filename) 
+        alllicenses = getlicenselist(filename)
         if licenselevel == 0: 
-            print(licenses, 'by file:\n')
+            print(alllicenses, 'by file:\n')
         else:
-            print(licenses, 'and licenses by file:\n')
-    if licenselevel > 0:
-        licenses = collectlicenses(filename)
+            print(alllicenses, 'and licenses by file:\n')
 
     f = open(filename, 'r')
     first = True
@@ -102,7 +113,7 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                             first = False
                         else:
                             print('-'*8)
-                        print('FILE: ' + file + ':')
+                        print('FileName: ' + file + ':')
                         needsection = True
                     else:
                         if verbose:
@@ -110,12 +121,12 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                             print()
                     if copyrightnotice != 'NOASSERTION':
                         if licenselevel > 0:
-                            print('COPYRIGHT NOTICES:')
+                            print('FileCopyrightText:')
                         print(copyrightnotice)
                     if licenselevel > 0 and haslicense:
                         if len(copyrightnotice) > 0 and copyrightnotice != 'NOASSERTION':
                             print()
-                        print('LICENSING:')
+                        print('LicenseConcluded:')
                         for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
                                 if (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)) or\
@@ -130,8 +141,8 @@ def SPDX2Disclosure(filename, licenselevel, verbose):
                     if needsection:
                         print()
     if licenselevel == 1:
-        print()
-        print('REFERENCED LICENSES:')
+        print('\nReferenced licenses:')
+        print('-'*20,'\n', sep='')
         for k in licenses:
             print(k + ':')
             print(licenses[k])
@@ -150,6 +161,10 @@ def main():
       metavar = 'AMOUNT',
       default = 'none',
       help = 'licensing information per file to add, ' + errorhelp)
+    parser.add_argument('-p', '--preamble',
+      action = 'store_true',
+      default = False,
+      help = 'prepend general package data')
     parser.add_argument('-v', '--verbose',
       action = 'store_true',
       default = False,
@@ -170,7 +185,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, licenselevel, args.verbose)
+    SPDX2Disclosure(args.filename, licenselevel, args.preamble, args.verbose)
 
 if __name__ == '__main__':
     main()

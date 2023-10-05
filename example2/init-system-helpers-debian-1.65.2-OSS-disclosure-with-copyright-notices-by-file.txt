@@ -684,33 +684,33 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 
 Copyright notices by file:
 
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
 Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 Copyright (c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
 Copyright (C) 2006 Red Hat, Inc. All rights reserved.
 Copyright (C) 2008 Canonical Ltd. August 2008 - Dustin Kirkland <kirkland@canonical.com>
 Copyright (C) 2013 Michael Stapelberg <stapelberg@debian.org>
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
 © 2013-2014 Michael Stapelberg <stapelberg@debian.org>
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
 © 2013 Michael Stapelberg <stapelberg@debian.org>
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
 Copyright: 2001 Henrique de Moraes Holschuh
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
 Copyright: 2001 Henrique de Moraes Holschuh
 
 --------
-FILE: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
+FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
 Copyright: 2006 Red Hat, Inc., Petter Reinholdtsen <pere@hungry.com>
 
