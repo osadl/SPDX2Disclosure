@@ -67,6 +67,8 @@ Copyright: 2006 Red Hat, Inc., Petter Reinholdtsen <pere@hungry.com>
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
 
+--------
+
 
 Referenced licenses:
 --------------------

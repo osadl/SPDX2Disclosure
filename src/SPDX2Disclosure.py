@@ -141,6 +141,7 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
                     if needsection:
                         print()
     if licenselevel == 1:
+        print('-'*8,'\n', sep='')
         print('\nReferenced licenses:')
         print('-'*20,'\n', sep='')
         for k in licenses:

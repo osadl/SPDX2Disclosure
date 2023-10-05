@@ -199,6 +199,8 @@ FileName: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/LICEN
 FileCopyrightText:
 copyright (C) 1996-2019 Julian R Seward. All rights reserved.
 
+--------
+
 
 Referenced licenses:
 --------------------
