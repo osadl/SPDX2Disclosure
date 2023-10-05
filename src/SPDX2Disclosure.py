@@ -58,7 +58,7 @@ def collectlicenses(filename, showpreamble):
     f.close()
     return preamble, licenses
 
-def SPDX2Disclosure(filename, licenselevel, showchecksums, showpreamble, verbose):
+def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showpreamble, verbose):
     preamble, licenses = collectlicenses(filename, showpreamble)
     if showpreamble:
         for key, val in preamble.items():
@@ -78,6 +78,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, showpreamble, verbose
     infile = False
     incopyright = False
     licensesinuse = []
+    n = 1
     for line in f:
         line = line.rstrip()
         if line.startswith('LicenseID: '):
@@ -125,7 +126,11 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, showpreamble, verbose
                             first = False
                         else:
                             print('-'*8)
-                        print('FileName: ' + file + ':')
+                        if shownumbers:
+                            print('FileName(' + str(n) + '): ' + file + ':')
+                            n = n + 1
+                        else:
+                            print('FileName: ' + file + ':')
                         if showchecksums:
                             if sha1 != '':
                                 print('FileChecksum: SHA1:', sha1)
@@ -188,6 +193,10 @@ def main():
       action = 'store_true',
       default = False,
       help = 'include SHA1, SHA256 and MD5 checksums')
+    parser.add_argument('-n', '--numbered',
+      action = 'store_true',
+      default = False,
+      help = 'files are consecutively numbered')
     parser.add_argument('-p', '--preamble',
       action = 'store_true',
       default = False,
@@ -212,7 +221,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.preamble, args.verbose)
+    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose)
 
 if __name__ == '__main__':
     main()

@@ -18,6 +18,7 @@ options:
   -l AMOUNT, --licensing AMOUNT
                         licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
   -c, --checksums       include SHA1, SHA256 and MD5 checksums
+  -n, --numbered        files are consecutively numbered
   -p, --preamble        prepend general package data
   -v, --verbose         show names and texts the program is using
 
