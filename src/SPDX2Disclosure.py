@@ -76,6 +76,7 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
     first = True
     infile = False
     incopyright = False
+    licensesinuse = []
     for line in f:
         line = line.rstrip()
         if line.startswith('LicenseID: '):
@@ -129,6 +130,8 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
                         print('LicenseConcluded:')
                         for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
+                                if licensename not in licensesinuse:
+                                    licensesinuse.append(licensename)
                                 if (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)) or\
                                   (licenselevel == 3 and hashexsuffix(licensename)) or licenselevel == 4:
                                     print(licensename + ':')
@@ -145,9 +148,10 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
         print('\nReferenced licenses:')
         print('-'*20,'\n', sep='')
         for k in licenses:
-            print(k + ':')
-            print(licenses[k])
-            print()
+            if k in licensesinuse:
+                print(k + ':')
+                print(licenses[k])
+                print()
     f.close
 
 def main():
