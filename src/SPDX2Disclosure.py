@@ -58,7 +58,7 @@ def collectlicenses(filename, showpreamble):
     f.close()
     return preamble, licenses
 
-def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
+def SPDX2Disclosure(filename, licenselevel, showchecksums, showpreamble, verbose):
     preamble, licenses = collectlicenses(filename, showpreamble)
     if showpreamble:
         for key, val in preamble.items():
@@ -85,10 +85,20 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
             if verbose:
                 print('Found entry of file ', line[10:].rstrip())
             copyrightnotice = ''
+            sha1 = ''
+            sha256 = ''
+            md5 = ''
             file = line[10:].rstrip()
             infile = True
             continue
         if infile:
+            if showchecksums:
+                if line.startswith('FileChecksum: SHA1: '):
+                    sha1 = line[20:].strip()
+                if line.startswith('FileChecksum: SHA256: '):
+                    sha256 = line[22:].strip()
+                if line.startswith('FileChecksum: MD5: '):
+                    md5 = line[19:].strip()
             if line.startswith('LicenseConcluded: '):
                 licensenotices = line[18:].strip().replace(' OR ', ' AND ').split(' AND ')
             if line.startswith('FileCopyrightText: '):
@@ -115,6 +125,13 @@ def SPDX2Disclosure(filename, licenselevel, showpreamble, verbose):
                         else:
                             print('-'*8)
                         print('FileName: ' + file + ':')
+                        if showchecksums:
+                            if sha1 != '':
+                                print('FileChecksum: SHA1:', sha1)
+                            if sha256 != '':
+                                print('FileChecksum: SHA256:', sha256)
+                            if md5 != '':
+                                print('FileChecksum: MD5:', md5)
                         needsection = True
                     else:
                         if verbose:
@@ -166,6 +183,10 @@ def main():
       metavar = 'AMOUNT',
       default = 'none',
       help = 'licensing information per file to add, ' + errorhelp)
+    parser.add_argument('-c', '--checksums',
+      action = 'store_true',
+      default = False,
+      help = 'include SHA1, SHA256 and MD5 checksums')
     parser.add_argument('-p', '--preamble',
       action = 'store_true',
       default = False,
@@ -190,7 +211,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, licenselevel, args.preamble, args.verbose)
+    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.preamble, args.verbose)
 
 if __name__ == '__main__':
     main()

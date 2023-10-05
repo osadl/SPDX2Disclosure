@@ -691,6 +691,9 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 Copyright notices and licenses by file:
 
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/debian/rules:
+FileChecksum: SHA1: df2624b9a63796ad68de9d3a57b1ad112718f810
+FileChecksum: SHA256: 2e3551d78dc24a4641983517f63aacac0ff5b33d6f4cae87b30f7d24e082c591
+FileChecksum: MD5: 7105e6a3e3775494561b003af92f26c0
 LicenseConcluded:
 LicenseRef-Permission-Notice-e736e00b0a92678104529a355e94bce1:
 This file was originally written by Joey Hess and Craig Small.
@@ -701,6 +704,9 @@ This special exception was added by Craig Small in version 0.37 of dh-make.
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/invoke-rc.d:
+FileChecksum: SHA1: 46d3cd6b76016b1b9edaa390d0b7a600f3ee69e7
+FileChecksum: SHA256: 1d389fa6f6297e77b2ba1d2df4a6ec60f4d4d37815b727889f38ba602e713f77
+FileChecksum: MD5: 43d2ad4ef102569eaa304402f81a8131
 FileCopyrightText:
 Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 Copyright (c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
@@ -710,6 +716,9 @@ LicenseRef-GPL-2.0-or-later
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/service:
+FileChecksum: SHA1: 8c4c4716b577792450c9f79ae6ae18bf8a49985a
+FileChecksum: SHA256: 4bf220ca8c715f1b683e00ad02f2da8f25db75a5d269faee144d29bff726ebd6
+FileChecksum: MD5: afe16605a1cc5717c04971deb74d67a0
 FileCopyrightText:
 Copyright (C) 2006 Red Hat, Inc. All rights reserved.
 Copyright (C) 2008 Canonical Ltd. August 2008 - Dustin Kirkland <kirkland@canonical.com>
@@ -720,6 +729,9 @@ LicenseRef-GPL-2.0-or-later
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-helper:
+FileChecksum: SHA1: 4957e5e306db53a3fe7da83b47eaa0c173880767
+FileChecksum: SHA256: a895d5f077651960b6ca4ed9c53f8b36eae422ae170f61c972d0c6579e9f8732
+FileChecksum: MD5: b7de0a06b2b92f3daa66fc4330a46a65
 FileCopyrightText:
 © 2013-2014 Michael Stapelberg <stapelberg@debian.org>
 
@@ -753,6 +765,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/script/deb-systemd-invoke:
+FileChecksum: SHA1: a68dda0cc95447c76cc6ef92b3b9bc01c836e916
+FileChecksum: SHA256: f06db7d1c3440e1e3b4bcc890f22157f837e15992d20517d16c699de4a38bd7a
+FileChecksum: MD5: fc6c86c8342c3abaea0283e3be10b80f
 FileCopyrightText:
 © 2013 Michael Stapelberg <stapelberg@debian.org>
 
@@ -786,6 +801,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/invoke-rc.d.rst:
+FileChecksum: SHA1: c73caf1b4a1e798339f6892e003f7e3aec2b9805
+FileChecksum: SHA256: dfb2013a058192aa9354c305b0de191d38b35028641e7dc7fdcdb824039ab463
+FileChecksum: MD5: 81941d14ca7bc3be926c87fe6831e914
 FileCopyrightText:
 Copyright: 2001 Henrique de Moraes Holschuh
 
@@ -794,6 +812,9 @@ LicenseRef-GPL-2.0-or-later
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/update-rc.d.rst:
+FileChecksum: SHA1: 9df786ee9dba954c66f881457588e0b3a570a4eb
+FileChecksum: SHA256: f485f0ec23b3bea994e14801b6057b588aff3c3bef9ecae8ccad1be36245fcae
+FileChecksum: MD5: 2f07e3b60d748950ca4ac8d0c0e86339
 FileCopyrightText:
 Copyright: 2001 Henrique de Moraes Holschuh
 
@@ -802,6 +823,9 @@ LicenseRef-GPL-2.0-or-later
 
 --------
 FileName: init-system-helpers-debian-1.65.2.tar.gz/init-system-helpers-debian-1.65.2.tar/init-system-helpers-debian-1.65.2/man8/service.rst:
+FileChecksum: SHA1: 9968ab64c460d3c51d12142fd9609bbc059c8d47
+FileChecksum: SHA256: 244638374ea394abf44a8a7bc8f5fc9afaa45fd9b2dde112016e8f68aae1dd93
+FileChecksum: MD5: 7fcd4e2bf1225267ce8058975458b081
 FileCopyrightText:
 Copyright: 2006 Red Hat, Inc., Petter Reinholdtsen <pere@hungry.com>
 
