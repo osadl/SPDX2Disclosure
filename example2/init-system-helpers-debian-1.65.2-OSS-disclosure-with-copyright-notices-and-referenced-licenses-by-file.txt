@@ -216,6 +216,7 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
 signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
 
+--------
 LicenseRef-GPL-2.0-or-later:
 GNU GENERAL PUBLIC LICENSE
 
@@ -339,12 +340,14 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
 < signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
 
+--------
 LicenseRef-Permission-Notice-e736e00b0a92678104529a355e94bce1:
 This file was originally written by Joey Hess and Craig Small.
 As a special exception, when this file is copied by dh-make into a
 dh-make output file, you may use that output file without restriction.
 This special exception was added by Craig Small in version 0.37 of dh-make.
 
+--------
 LicenseRef-BSD-3-Clause-90005cdb54612ecb8538d62c6b6a6f88:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -370,4 +373,3 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-

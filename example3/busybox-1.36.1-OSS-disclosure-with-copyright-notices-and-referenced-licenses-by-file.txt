@@ -9002,9 +9002,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For more information, please refer to <http://unlicense.org/>
 
+--------
 LicenseRef-Public-domain:
 Public domain
 
+--------
 LicenseRef-GPL-1.0-or-later:
 GNU GENERAL PUBLIC LICENSE
 
@@ -9110,6 +9112,7 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
 That's all there is to it!
 
+--------
 LicenseRef-LGPL-2.0-or-later:
 GNU LIBRARY GENERAL PUBLIC LICENSE
 
@@ -9289,10 +9292,12 @@ Ty Coon, President of Vice
 
 That's all there is to it!
 
+--------
 LicenseRef-License-of-GNU-Licenses:
 Everyone is permitted to copy and distribute verbatim copies
 of this license document, but changing it is not allowed.
 
+--------
 LicenseRef-bzip2-1.0.4:
 This program, "bzip2", the associated library "libbzip2", and all
 documentation, are copyright (C) 1996-2006 Julian R Seward. All
@@ -9333,6 +9338,7 @@ Julian Seward, Cambridge, UK.
 jseward@bzip.org
 bzip2/libbzip2 version # 1.0.4 of 20 December 2006
 
+--------
 LicenseRef-CC0-1.0:
 Creative Commons Legal Code
 
@@ -9456,6 +9462,7 @@ d. Affirmer understands and acknowledges that Creative Commons is not a
 party to this document and has no duty or obligation with respect to
 this CC0 or use of the Work.
 
+--------
 LicenseRef-Artistic-1.0-Perl:
 The "Artistic License"
 
@@ -9509,6 +9516,7 @@ d) make other distribution arrangements with the Copyright Holder.
 
 The End
 
+--------
 LicenseRef-GPL-2.0-only:
 GNU GENERAL PUBLIC LICENSE
 Version 2, June 1991
@@ -9628,6 +9636,7 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
 signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
 
+--------
 LicenseRef-LGPL-2.1-or-later:
 GNU LESSER GENERAL PUBLIC LICENSE
 
@@ -9811,6 +9820,7 @@ Ty Coon, President of Vice
 
 That's all there is to it!
 
+--------
 LicenseRef-GPL-2.0-or-later-WITH-Bison-exception:
 GNU GENERAL PUBLIC LICENSE
 Version 2, June 1991
@@ -10116,6 +10126,7 @@ Bison output file, you may use that output file without restriction.
 This special exception was added by the Free Software Foundation
 in version 1.24 of Bison.
 
+--------
 LicenseRef-GPL-2.0-or-later:
 GNU GENERAL PUBLIC LICENSE
 
@@ -10239,6 +10250,7 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 
 < signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
 
+--------
 LicenseRef-BSD-3-Clause-8d8b0539fa1d605c3e5ed913c31623a9:
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -10250,6 +10262,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+--------
 LicenseRef-BSD-4-Clause-UC-f17c37968151a1ebc5364f350370c549:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10279,6 +10292,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-BSD-3-Clause-70579b2ba9812c74d8053570e783ca79:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10304,10 +10318,12 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-Permission-Notice-b79dfa8d57b6aef14cf0aa1e0a5519fa:
 Permission is granted to use, distribute, or modify this source,
 provided that this copyright notice remains intact.
 
+--------
 LicenseRef-ISC-a1a9c92890333752b564a27bf103e3a3:
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -10321,6 +10337,7 @@ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+--------
 LicenseRef-BSD-4-Clause-UC-1b76cce098fcc4300c11cc34db95105b:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10351,6 +10368,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-MIT-8d18be6409468bae48b33b87db85824a:
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -10371,6 +10389,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+--------
 LicenseRef-BSD-4-Clause-UC-60551678019ffd3e8ef6c998e11344d3:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10401,6 +10420,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-NTP-7f10eec1f467df978f19407ba7e11a88:
 Permission to use, copy, modify, and distribute this software and
 its documentation for any purpose with or without fee is hereby
@@ -10413,6 +10433,7 @@ written prior permission. The University of Delaware makes no
 representations about the suitability this software for any
 purpose. It is provided "as is" without express or implied warranty.
 
+--------
 LicenseRef-ISC-4f73758692fd163912b8bc0f34c04999:
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -10426,9 +10447,11 @@ WHATSOEVER RESULTING FROM LOSS OF MIND, USE, DATA OR PROFITS, WHETHER
 IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
 OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+--------
 LicenseRef-Permission-Notice-0d817b028a6ea00943df29f799c59124:
 Netcat and the associated package is a product of Avian Research, and is freely available in full source form with no restrictions save an obligation to give credit where due.
 
+--------
 LicenseRef-BSD-4-Clause-UC-7c55a451060a863d5f328f5ed4ced0bc:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10461,6 +10484,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-MIT-cf197bd5d4094c2d8f76ed82f4786aef:
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -10468,11 +10492,13 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+--------
 LicenseRef-Permission-Notice-69056019a7e11459c6ebbd30becd17b0:
 Permission to use, copy, modify, and distribute this software
 for any purpose and without fee is hereby granted. The author
 disclaims all warranties with regard to this software.
 
+--------
 LicenseRef-BSD-4-Clause-Shortened-fff3043739b167c373ba814e9ead9c3e:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that:
@@ -10489,6 +10515,7 @@ THIS SOFTWARE IS PROVIDED ''AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED
 WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
 MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
+--------
 LicenseRef-BSD-3-Clause-d5773addd714914e924054efc2debc0f:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10514,6 +10541,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-RSA-MD-5d751b4a1eb7895b841b6f94fb57937a:
 License to copy and use this software is granted provided that it
 is identified as the "RSA Data Security, Inc. MD5 Message-Digest
@@ -10533,12 +10561,14 @@ without express or implied warranty of any kind.
 These notices must be retained in any copies of any part of this
 documentation and/or software.
 
+--------
 LicenseRef-Beerware-baeecc03d123343c2ed63ff437bbe123:
 "THE BEER-WARE LICENSE" (Revision 42):
 <phk@login.dknet.dk> wrote this file. As long as you retain this notice you
 can do whatever you want with this stuff. If we meet some day, and you think
 this stuff is worth it, you can buy me a beer in return. Poul-Henning Kamp
 
+--------
 LicenseRef-BSD-3-Clause-14be31d90bba70b383f954eb346ded6b:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10564,6 +10594,7 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+--------
 LicenseRef-BSD-4-Clause-UC-639fd78a1cb82a280f4eb97304fb99bd:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -10583,6 +10614,7 @@ without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS
 
+--------
 LicenseRef-BSD-3-Clause-a7254fc36c8201303ccee60feb188f57:
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -10605,4 +10637,3 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-

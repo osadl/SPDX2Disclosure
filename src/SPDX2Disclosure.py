@@ -170,11 +170,15 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
         print('-'*8,'\n', sep='')
         print('\nReferenced licenses:')
         print('-'*20,'\n', sep='')
+        first = True
         for k in licenses:
             if k in licensesinuse:
+                if first:
+                    first = False
+                else:
+                    print('\n','-'*8, sep='')
                 print(k + ':')
                 print(licenses[k])
-                print('-'*8,'\n', sep='')
     f.close
 
 def main():
