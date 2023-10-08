@@ -228,11 +228,11 @@ def main():
       default = False,
       help = 'show names and texts the program is using')
     parser.add_argument('-w', '--width',
-      metavar = 'N',
+      metavar = '[40..255]',
       type = int,
       default = 0,
       choices = range(40, 256),
-      help = 'limit line length to N characters (40 < N < 256)')
+      help = 'limit line length of output (experimental)')
     args = parser.parse_args()
 
     if args.licensing in ['n', 'none']:

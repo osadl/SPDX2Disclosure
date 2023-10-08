@@ -8,7 +8,7 @@ Create more comprehensive versions of an SPDX disclosure file
 SPDX2Disclosure.py --help
 ```
 ```
-usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-p] [-v] [-w N] SPDX
+usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-c] [-n] [-p] [-v] [-w [40..255]] SPDX
 
 positional arguments:
   SPDX                  file name of an SPDX tag:value input file to process
@@ -21,7 +21,8 @@ options:
   -n, --numbered        files are consecutively numbered
   -p, --preamble        prepend general package data
   -v, --verbose         show names and texts the program is using
-  -w N, --width N       limit line length to N characters (40 < N < 256)
+  -w [40..255], --width [40..255]
+                        limit line length of output (experimental)
 
 Create several more comprehensive versions of the disclosure document from the SPDX tag:value file
 ```
