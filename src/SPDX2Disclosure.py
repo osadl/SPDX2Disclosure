@@ -160,7 +160,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
                     if copyrightnotice != 'NOASSERTION':
                         if licenselevel > 0:
                             print('FileCopyrightText:')
-                        print(copyrightnotice)
+                        wrapprint(copyrightnotice, maxlen)
                     if licenselevel > 0 and haslicense:
                         if len(copyrightnotice) > 0 and copyrightnotice != 'NOASSERTION':
                             print()
