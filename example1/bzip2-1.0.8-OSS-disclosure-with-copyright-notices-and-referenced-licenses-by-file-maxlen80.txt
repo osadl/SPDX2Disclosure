@@ -9,7 +9,8 @@ FileChecksum: SHA1: 7835048e5d54002bbf58b7a742b33e96312cb47c
 FileChecksum: SHA256: f333eb33556218995a79870a1d2c01a06bdaa9994549142cfbeb0c8b96425234
 FileChecksum: MD5: 29f1d21374d68e11ca1f57671be8cc47
 FileCopyrightText:
-copyright Julian Seward Julian Seward. All rights reserved.
+copyright Julian Seward
+Julian Seward. All rights reserved.
 
 LicenseConcluded:
 LicenseRef-bzip2-1.0.8
@@ -226,8 +227,8 @@ FileChecksum: SHA1: a446288b3d20b8b0f565974a60bf572f46893bd8
 FileChecksum: SHA256: 1e83a6afe1018600208d97b80351fa951689204f3fad508bd99ca36dc7e32e88
 FileChecksum: MD5: 23f66348f80345353d5b5b98e299ff15
 FileCopyrightText:
-Copyright (C) 1996-2019 Julian Seward <jseward@acm.org> Copyright (C) 1996-2019
-by Julian Seward.
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+Copyright (C) 1996-2019 by Julian Seward.
 
 LicenseConcluded:
 LicenseRef-bzip2-1.0.8

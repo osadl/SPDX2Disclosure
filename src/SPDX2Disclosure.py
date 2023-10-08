@@ -20,13 +20,17 @@ def hashexsuffix(licensename):
     suffix = parts[len(parts) - 1]
     return ishex(suffix)
 
-def wrapprint(text, maxlen):
+def wrapprint(text, maxlen, keepsections=False):
     if maxlen == 0:
         print(text)
     else:
-        text = re.sub('([^\n])\n([^\n])', '\\1 \\2', text)
+        if not keepsections:
+            text = re.sub('([^\n])\n([^\n])', '\\1 \\2', text)
+            indent = ''
+        else:
+            indent = '  '
         lines = text.split('\n')
-        wrapper = textwrap.TextWrapper(width=maxlen, replace_whitespace=False)
+        wrapper = textwrap.TextWrapper(width=maxlen, replace_whitespace=False, subsequent_indent=indent)
         newtext = ''
         for line in lines:
             newtext += wrapper.fill(line) + '\n'
@@ -160,7 +164,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
                     if copyrightnotice != 'NOASSERTION':
                         if licenselevel > 0:
                             print('FileCopyrightText:')
-                        wrapprint(copyrightnotice, maxlen)
+                        wrapprint(copyrightnotice, maxlen, keepsections=True)
                     if licenselevel > 0 and haslicense:
                         if len(copyrightnotice) > 0 and copyrightnotice != 'NOASSERTION':
                             print()

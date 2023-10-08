@@ -9,8 +9,8 @@ FileChecksum: SHA1: 650a0aa65e5d833f65b64ab092a87f54da5d3185
 FileChecksum: SHA256: 5995e8669fda82a7d6c96dd2457f954936bd34321a6dddb7e1da2312bd56ea62
 FileChecksum: MD5: d796ce15f0a714def17d6bcadd8312ff
 FileCopyrightText:
-Copyright (c) 1986-2003 Vladimir Oleynik <dzo@simtreas.ru> (c) 1995 Erik
-Andersen <andersen@codepoet.org>
+Copyright (c) 1986-2003 Vladimir Oleynik <dzo@simtreas.ru>
+(c) 1995 Erik Andersen <andersen@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -34,7 +34,7 @@ FileChecksum: SHA256: 057d7b368cb9159809b3eb7df6da6687302869b5efd67eee409e3db881
 FileChecksum: MD5: 5848fb61435a35baef75bb78db2d6ebe
 FileCopyrightText:
 Copyright 2005 H. Peter Anvin Busybox'ed (2014) by Pascal Bellard
-<pascal.bellard@ads-lu.com>
+  <pascal.bellard@ads-lu.com>
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -57,11 +57,11 @@ FileChecksum: SHA256: c39945e62a41c36748e124e82ed634c7abd1b9517a9c3abfc6f164f500
 FileChecksum: MD5: 473443ad11322a02d5c8b8868b534269
 FileCopyrightText:
 Copyright Joern Engel <joern@lazybastard.org> Inspired by Linus Torvalds, Keith
-Owens, Arnd Bergmann <arnd@bergmann-dalldorf.de>, Juan Quintela
-<quintela@mandrakesoft.com>, Andreas Dilger Arm, Holger Schurig, Paul Mundt,
-Matt Mackall <mpm@selenic.com>, Geert Uytterhoeven and Andreas Schwab, Alex
-Landau AArch64, Kyle McMartin, Martin Habets <errandir_news@mph.eclipse.co.uk>
-Breno Leitao <leitao@debian.org>
+  Owens, Arnd Bergmann <arnd@bergmann-dalldorf.de>, Juan Quintela
+  <quintela@mandrakesoft.com>, Andreas Dilger Arm, Holger Schurig, Paul Mundt,
+  Matt Mackall <mpm@selenic.com>, Geert Uytterhoeven and Andreas Schwab, Alex
+  Landau AArch64, Kyle McMartin, Martin Habets <errandir_news@mph.eclipse.co.uk>
+  Breno Leitao <leitao@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -73,7 +73,8 @@ FileChecksum: SHA256: 67a8c9ddeddfb9240a67f51024090a598f6c34c38d5c2ba0b64c70c289
 FileChecksum: MD5: ea8cdf4c950e04c2a4bb7eeb28e653c5
 FileCopyrightText:
 Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004 Free Software
-Foundation, Inc. Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org>
+  Foundation, Inc.
+Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -96,8 +97,8 @@ FileChecksum: SHA1: 4a666a9ebb33f8a148d574122f19275ebc317c0b
 FileChecksum: SHA256: 6a6d2eeabfb9bb0e345592b7369c440aed127ef7cb3117536a0fd3450e428af2
 FileChecksum: MD5: 6cbe9a861b6844270434c62b8a50406e
 FileCopyrightText:
-Copyright (C) 2001,2002 by Laurence Anderson Copyright (C) 2001 by Laurence
-Anderson
+Copyright (C) 2001,2002 by Laurence Anderson
+Copyright (C) 2001 by Laurence Anderson
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -130,9 +131,9 @@ FileChecksum: SHA1: b7b5cbc1dbc946e2ffb7d05ae25422435df766f9
 FileChecksum: SHA256: 27d38fd4c4ec5efc2d01a70342ef7c6312b7a1551f4d500cf5dcc36361d45bb5
 FileChecksum: MD5: 6ed0b9b4ece4b6c06cacb51aae5e6bc8
 FileCopyrightText:
-Copyright (c) 2002 Glenn McGrath Copyright (c) 2003-2004 Erik Andersen
-<andersen@codepoet.org> Copyright (c) 1999 Anthony Towns
-<aj@azure.humbug.org.au>
+Copyright (c) 2002 Glenn McGrath
+Copyright (c) 2003-2004 Erik Andersen <andersen@codepoet.org>
+Copyright (c) 1999 Anthony Towns <aj@azure.humbug.org.au>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -144,7 +145,7 @@ FileChecksum: SHA256: e9337b37e386eff6c1e2b4cc0e015873584dd81481beda79869ce34a9b
 FileChecksum: MD5: 4d22ecdbe1b70014ad445187710f1259
 FileCopyrightText:
 Copyright (C) 2000 by Daniel Jacobowitz Written by Daniel Jacobowitz
-<dan@debian.org>
+  <dan@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -156,8 +157,9 @@ FileChecksum: SHA256: 730d258bcbeeef301fc00611d0e325958f3f378576af54c524f9be662b
 FileChecksum: MD5: a03f7cb3090b999bccc667533aaebd26
 FileCopyrightText:
 Copyright (c) 1988, 1993, 1994 The Regents of the University of California. All
-rights reserved. Copyright (c) 1988, 1993, 1994 The Regents of the University of
-California. All rights reserved.
+  rights reserved.
+Copyright (c) 1988, 1993, 1994 The Regents of the University of California. All
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -188,8 +190,8 @@ FileChecksum: SHA1: 65328e42ff3c4625b0bd46d3f0739378fe66fab1
 FileChecksum: SHA256: 76986182f5dcb59b7a9a914c011592586d754a76610405524a9d8b0f25de2d19
 FileChecksum: MD5: 8eab01dffc8efeb9370e9e56fea3258d
 FileCopyrightText:
-Copyright (C) 2003 Manuel Novoa III <mjn3@codepoet.org> Copyright (C) 2006 Rob
-Landley <rob@landley.net>
+Copyright (C) 2003 Manuel Novoa III <mjn3@codepoet.org>
+Copyright (C) 2006 Rob Landley <rob@landley.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -219,8 +221,8 @@ FileChecksum: SHA1: 3798e8cc3c2d743773d382e347d3a48ed13a4f0f
 FileChecksum: SHA256: 2cbfc49e8fe1ea0aeaa5e7567b5c23d75225c8a115da1a11b7e456ba155d0662
 FileChecksum: MD5: 34885eff0ddd6b51804c5b1ecaac5eb0
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2005 by Rob Landley <rob@landley.net>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005 by Rob Landley <rob@landley.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -239,9 +241,11 @@ FileChecksum: SHA1: 9b0eb1ef850db6c360097a99e995b4d0efa289f2
 FileChecksum: SHA256: 9141cd91786fd38b07e903a9c6414e0b6e4fefcaa6ce5c0400b53cb8487cd6fa
 FileChecksum: MD5: d9520660023a11f4abf0e869fb8a4e62
 FileCopyrightText:
-Copyright (C) 2003 by Tito Ragusa <farmatito@tiscali.it> Copyright (C) [2003] by
-[Matteo Croce] <3297627799@wind.it> Copyright (C) 1998-2002 Richard Gooch
-Copyright (C) 1998-2000 Richard Gooch Copyright (C) 1998-2002 Richard Gooch
+Copyright (C) 2003 by Tito Ragusa <farmatito@tiscali.it>
+Copyright (C) [2003] by [Matteo Croce] <3297627799@wind.it>
+Copyright (C) 1998-2002 Richard Gooch
+Copyright (C) 1998-2000 Richard Gooch
+Copyright (C) 1998-2002 Richard Gooch
 Copyright (C) 1997-1999 Richard Gooch
 
 LicenseConcluded:
@@ -286,8 +290,8 @@ FileChecksum: SHA1: bb729edb0b9abce427f80f923a3fb46f70815c4b
 FileChecksum: SHA256: db291cf01ee9a90244607c88a5d88ddf7d2600237eca6f2d7a6894815928cdef
 FileChecksum: MD5: a435420cbfb0efd9f3377e21fe631382
 FileCopyrightText:
-Copyright (C) 91, 1995-2002 Free Software Foundation, Inc. Copyright (C) 2003
-Glenn McGrath
+Copyright (C) 91, 1995-2002 Free Software Foundation, Inc.
+Copyright (C) 2003 Glenn McGrath
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -328,7 +332,8 @@ FileChecksum: SHA1: d88591f92419c06a1b583f3c845f8b612d7ce27d
 FileChecksum: SHA256: 9660443f3cf4df27a74e9e03e2d0b39e1b2877be7612fcc3cd2076eec5535899
 FileChecksum: MD5: 738030e1a8775fe43c5888dfe7e68b1f
 FileCopyrightText:
-Copyright (C) 1998, 1999 Charles P. Wright Copyright (C) 1998 Dave Cinege
+Copyright (C) 1998, 1999 Charles P. Wright
+Copyright (C) 1998 Dave Cinege
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -545,7 +550,7 @@ FileChecksum: SHA256: 1979ed9e0eb61deae9856b45ba43460b064ea7d528d762619b07a8e540
 FileChecksum: MD5: 80fa63a8cb1963be3687ef6bd059b997
 FileCopyrightText:
 Copyright (c) 1980 The Regents of the University of California. All rights
-reserved.
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -589,8 +594,8 @@ FileChecksum: SHA1: 8ed3aa0a2687405cc37f6969252dd7ec826718dc
 FileChecksum: SHA256: fd0d14dfc511b030ead51eb73a0db2d5026bd91a98e24841804b1e6a93a51983
 FileChecksum: MD5: 52d5197bef6d7269a1291249e60b1ce3
 FileCopyrightText:
-Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>. Copyright (C)
-1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -601,8 +606,8 @@ FileChecksum: SHA1: c30acc20c8be7eda344f85f64ead6c1aa4f4d178
 FileChecksum: SHA256: 5d88e870978a44771d4251830b81cdfcf7873c38a7912cdc3647bb717b1aecd6
 FileChecksum: MD5: e273f75fc8be5be154562313df9c6428
 FileCopyrightText:
-Copyright (C) 2006 Aurelien Jacobs <aurel@gnuage.org> Copyright (C) 1999-2005
-Igor Pavlov
+Copyright (C) 2006 Aurelien Jacobs <aurel@gnuage.org>
+Copyright (C) 1999-2005 Igor Pavlov
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -625,7 +630,8 @@ FileChecksum: SHA1: 617f73a3115ad4b4c712b91bdae2551f307f3a53
 FileChecksum: SHA256: a8ca5c917d9172d1fbf0b8247909e66c13e244d908ad43e510dd934ae59b909e
 FileChecksum: MD5: e64ac5410e880ac45e57fb348142a273
 FileCopyrightText:
-Copyright 2003, Glenn McGrath Copyright 2006, Rob Landley <rob@landley.net>
+Copyright 2003, Glenn McGrath
+Copyright 2006, Rob Landley <rob@landley.net>
 Copyright 2010, Denys Vlasenko
 
 LicenseConcluded:
@@ -648,8 +654,8 @@ FileChecksum: SHA1: 1f3c6ee1d8cde27bdb69da19d262cae307377d5b
 FileChecksum: SHA256: c8817476dfed9aa92c673f23f4b4e280b2a80258358e01864868ee555922d526
 FileChecksum: MD5: 10e394e866068ed038dbfd71abc11e39
 FileCopyrightText:
-Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>. Copyright (C)
-1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -660,8 +666,8 @@ FileChecksum: SHA1: b6bc1d4bbc9f860ade8e3d4f3fd1e77746c1d6dd
 FileChecksum: SHA256: 8a4cb9dd4b1db29201f57a41430e747024d5c8193a8b383620db4a94e1f4aa54
 FileChecksum: MD5: c5e2055e6aa25dc0a72a970373464aa5
 FileCopyrightText:
-Copyright (C) 2008 by Bernhard Reutner-Fischer Copyright (C) 2000 Lennert
-Buytenhek
+Copyright (C) 2008 by Bernhard Reutner-Fischer
+Copyright (C) 2000 Lennert Buytenhek
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -683,8 +689,8 @@ FileChecksum: SHA1: 6d9e481329b29c7d52a38187007302a8878db18b
 FileChecksum: SHA256: f81ea8f5e4940df6853f708daf2e6a4b06d09958b06cc1b3fc7c2567ae1101e8
 FileChecksum: MD5: 673b95641141029b94ffdf5f6e9fceb5
 FileCopyrightText:
-Copyright (C) 2003 by Tito Ragusa <farmatito@tiscali.it> Copyright (C) 1999-2004
-by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2003 by Tito Ragusa <farmatito@tiscali.it>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -695,8 +701,8 @@ FileChecksum: SHA1: 7b61563918b1a7c0a3384b2341c49c0a0a997201
 FileChecksum: SHA256: 605ed5339249b8488cac8b8e8aab50f4f7532af4aa9041860c25f7e4aedbd788
 FileChecksum: MD5: d345a9ef51cda44ffe04c9c06e158a99
 FileCopyrightText:
-Copyright (C) 1992-1993 Jean-loup Gailly. Copyright (C) 1992-1993 Jean-loup
-Gailly
+Copyright (C) 1992-1993 Jean-loup Gailly.
+Copyright (C) 1992-1993 Jean-loup Gailly
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -768,7 +774,7 @@ FileChecksum: SHA256: 0c1b5374258781e2448db696eb21ce341aa7d8198fe843f16b962308ec
 FileChecksum: MD5: b3d08c5a7d8b59e1a2847247e1cab6b1
 FileCopyrightText:
 Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Bruce Perens
-<bruce@pixar.com>.
+  <bruce@pixar.com>.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -779,8 +785,8 @@ FileChecksum: SHA1: bfb364d6b11291dc898f6e1c730ded99b10d9b6d
 FileChecksum: SHA256: 8bf5ad08269b2b7cd35853ef6d05948a834eb52b392e45b60b4bc47588f00e9e
 FileChecksum: MD5: d20ae3f9bfb1702b3c2732ea9d9e1966
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2006 Gabriel Somlo <somlo at cmu.edu>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2006 Gabriel Somlo <somlo at cmu.edu>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -810,9 +816,9 @@ FileChecksum: SHA1: 2dcd06883475bba2e004739bb89a4b5d505c2d43
 FileChecksum: SHA256: 57e91f54f295982e2ec769cb615372c2093a948599bc31ed91bc7f83b3d2af50
 FileChecksum: MD5: 66c79bf80dd4cfa225003ae796b96886
 FileCopyrightText:
-Copyright (C) 86, 1991-1997, 1999 Free Software Foundation, Inc. Copyright (c)
-2000 Edward Betts <edward@debian.org>. Copyright (C) 2003-2005 Vladimir Oleynik
-<dzo@simtreas.ru>
+Copyright (C) 86, 1991-1997, 1999 Free Software Foundation, Inc.
+Copyright (c) 2000 Edward Betts <edward@debian.org>.
+Copyright (C) 2003-2005 Vladimir Oleynik <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -883,10 +889,13 @@ FileChecksum: SHA1: 3a69402ca5fcd6c41a3f23d0b4ec4fce5dc5eda5
 FileChecksum: SHA256: 65dba16216f7f72b562b229c30efe3ffaa6a8d6ff8ae96044394b25adaef0217
 FileChecksum: MD5: e93b234cd6e82f4e6591f90058a706f3
 FileCopyrightText:
-Copyright (C) 2010 Denys Vlasenko Copyright (C) 1995-1999 Free Software
-Foundation, Inc. Copyright (C) 2001 Manuel Novoa III Copyright (C) 2003 Glenn L.
-McGrath Copyright (C) 2003 Erik Andersen Copyright 2007 Rob Landley
-<rob@landley.net> (C) Lauri Kasanen
+Copyright (C) 2010 Denys Vlasenko
+Copyright (C) 1995-1999 Free Software Foundation, Inc.
+Copyright (C) 2001 Manuel Novoa III
+Copyright (C) 2003 Glenn L. McGrath
+Copyright (C) 2003 Erik Andersen
+Copyright 2007 Rob Landley <rob@landley.net>
+(C) Lauri Kasanen
 
 LicenseConcluded:
 LicenseRef-CC0-1.0
@@ -900,7 +909,7 @@ FileChecksum: SHA256: 3af1bf600c252eea8ee9316268065047e218a77446295cc6c2784d538e
 FileChecksum: MD5: 2a6a8ee27019fdcbd4355cfe0989e4d6
 FileCopyrightText:
 Copyright (C) 2000 by spoon <spoon@ix.netcom.com> Written by spoon
-<spon@ix.netcom.com>
+  <spon@ix.netcom.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -942,7 +951,7 @@ FileChecksum: SHA256: 289d38d00e9e88e7e56e6f3e3b4b68493696d11a8d7c196858803f4eae
 FileChecksum: MD5: ab7e3dd410cc4e96f69653dd89cef13f
 FileCopyrightText:
 Copyright (C) 2000 by Matt Kraai <kraai@alumni.carnegiemellon.edu> Yuichi
-Nakamura <ynakam@hitachisoft.jp>
+  Nakamura <ynakam@hitachisoft.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -954,7 +963,7 @@ FileChecksum: SHA256: f8d3456bfaa560abb4a653d001d66eb06acb5387242a54d908d894529a
 FileChecksum: MD5: 0f45143bcba54eef20f0fddbe99b5ca8
 FileCopyrightText:
 Copyright (C) 2001 by Matt Kraai <kraai@alumni.carnegiemellon.edu>, Yuichi
-Nakamura <ynakam@hitachisoft.jp>
+  Nakamura <ynakam@hitachisoft.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -987,8 +996,8 @@ FileChecksum: SHA1: b917fa70940f7f2646d24b4fa3bfa9f3319d6f67
 FileChecksum: SHA256: 621f8bd7289cfc3a4febf78c9065135a610a43f1a865254cfa083a6e8b44adf1
 FileChecksum: MD5: c09fe7ec8ec6ceab34d999560a12a92d
 FileCopyrightText:
-Copyright (C) 1999 by Randolph Chung <tausq@debian.org> (c) 1995-1999 by: Geert
-Uytterhoeven (Geert.Uytterhoeven@cs.kuleuven.ac.be)
+Copyright (C) 1999 by Randolph Chung <tausq@debian.org>
+(c) 1995-1999 by: Geert Uytterhoeven (Geert.Uytterhoeven@cs.kuleuven.ac.be)
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1000,7 +1009,7 @@ FileChecksum: SHA256: 7fa39b5204486d13765f63cbeab0b4a482b89c6c85868553857df299d7
 FileChecksum: MD5: 2d711f8b74046ed0ef647651091ca206
 FileCopyrightText:
 Copyright (c) Erik Baalbergen, Eric Gisin, Arnold Robbins, J.T. Conklin, Herbert
-Xu, Erik Andersen <andersen@codepoet.org>, Bernhard Reutner-Fischer
+  Xu, Erik Andersen <andersen@codepoet.org>, Bernhard Reutner-Fischer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1012,8 +1021,8 @@ FileChecksum: SHA1: f03ed3871ad24c05d8780037b697a7aca05cb082
 FileChecksum: SHA256: 70d730b17ab0d745992636801fc775a7def698380ad1be23339dbcb5fa07f768
 FileChecksum: MD5: 4bcbfcfb8cf008e4bc24ead047a88877
 FileCopyrightText:
-Copyright 1999 Dave Cinege copyright (C) 1990-1996 Free Software Foundation,
-Inc.
+Copyright 1999 Dave Cinege
+copyright (C) 1990-1996 Free Software Foundation, Inc.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1046,10 +1055,12 @@ FileChecksum: SHA1: 2ec56ba14323443b7486d43c453cb9f3977e519d
 FileChecksum: SHA256: c8a5db572c48f33b4554841e5157b7fbe41764b2e8db114201b3dfdfef5ea7e5
 FileChecksum: MD5: 1558c4933bfd66607e26adcbab619dc3
 FileCopyrightText:
-(c) 2002 Glenn McGrath Copyright (C) 1992-1993 Jean-loup Gailly. Copyright (C)
-1992-1993 Jean-loup Gailly Mark Adler. Spencer Thomas, Joe Orost, James Woods,
-Jim McKie, Steve Davies, Ken Turkowski, Dave Mack and Peter Jannesen. Copyright
-(C) 2006 Aurelien Jacobs <aurel@gnuage.org>
+(c) 2002 Glenn McGrath
+Copyright (C) 1992-1993 Jean-loup Gailly.
+Copyright (C) 1992-1993 Jean-loup Gailly Mark Adler. Spencer Thomas, Joe Orost,
+  James Woods, Jim McKie, Steve Davies, Ken Turkowski, Dave Mack and Peter
+  Jannesen.
+Copyright (C) 2006 Aurelien Jacobs <aurel@gnuage.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1094,8 +1105,8 @@ FileChecksum: SHA1: 76aa7be109dd6268f930c84e276a32599f35f420
 FileChecksum: SHA256: 9ac9d25b36f1eeced40c8b445c20a70d310facd0dc5f54b01f467daadfdd5185
 FileChecksum: MD5: ae5a55d2447058f101fa254257dd6f10
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2008 Timo Teras <timo.teras@iki.fi>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2008 Timo Teras <timo.teras@iki.fi>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1137,11 +1148,12 @@ FileChecksum: SHA256: ca769312d3c0bf0592c6bc5a810d3328b6d95bdb82fbe2fc7542b0936c
 FileChecksum: MD5: ac27f941de1b9b05b8713e7157a8f874
 FileCopyrightText:
 Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
-California. All rights reserved. Copyright (c) 1997-2005 Herbert Xu
-<herbert@gondor.apana.org.au> Copyright (C) 1987, 1989, 1991 Free Software
-Foundation, Inc. Copyright (C) 2003 Vladimir Oleynik <dzo@simtreas.ru> Copyright
-(c) 1989, 1991, 1993, 1994 The Regents of the University of California. All
-rights reserved.
+  California. All rights reserved.
+Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
+Copyright (C) 1987, 1989, 1991 Free Software Foundation, Inc.
+Copyright (C) 2003 Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
+  California. All rights reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1164,9 +1176,9 @@ FileChecksum: SHA1: 419fbbc58e5f75a8882ea5d6dcf33437b8b2c14a
 FileChecksum: SHA256: 14dc4e7d94500c62d059e18de2286e21df0038ea8fd9ade060c7aad609216416
 FileChecksum: MD5: 4eecc9b3b65290875846a5df53b00709
 FileCopyrightText:
-Copyright (C) 2003 Paul Mundt <lethal@linux-sh.org> Copyright (C) 2006 Bernhard
-Reutner-Fischer <busybox@busybox.net> Copyright (C) 2008 Darius Augulis
-<augulis.darius@gmail.com>
+Copyright (C) 2003 Paul Mundt <lethal@linux-sh.org>
+Copyright (C) 2006 Bernhard Reutner-Fischer <busybox@busybox.net>
+Copyright (C) 2008 Darius Augulis <augulis.darius@gmail.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1234,8 +1246,9 @@ FileChecksum: SHA1: 389710ca62295d1f65638f99f25bb9aaeb25169a
 FileChecksum: SHA256: 498bd41168d1297603b731df2a1d71dc5c2986f97febbedfeb85dc23cf5b504c
 FileChecksum: MD5: 5d4d781351b430a3cf2521fc3750200d
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (c)
-1999 by David I. Bell Copyright (C) 1995 Bruce Perens
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (c) 1999 by David I. Bell
+Copyright (C) 1995 Bruce Perens
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1248,7 +1261,7 @@ FileChecksum: SHA256: 39798fa68229dcb25817d906ac1990cc147fd84065918a1404b56263d7
 FileChecksum: MD5: cc11c5d27e69e5e543b952adaba293c8
 FileCopyrightText:
 Copyright (c) 1989, 1993, 1994 The Regents of the University of California. All
-rights reserved.
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1283,7 +1296,7 @@ FileChecksum: SHA256: 7cbd40c6cdf263a380407b107c4597b0e981b728545c480d837e544226
 FileChecksum: MD5: e529ff22eea2f3c1c7b0e1a0c378a45c
 FileCopyrightText:
 Copyright (C) 2007 Loic Grenie <loic.grenie@gmail.com> Andries Brouwer
-<aeb@cwi.nl>
+  <aeb@cwi.nl>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1294,8 +1307,8 @@ FileChecksum: SHA1: 5f4bb2493a73c76e9324d281e8be273826caa22c
 FileChecksum: SHA256: 5f125684599e6c446d0a7c44f795ae1fd714bd8710e3c3c6b9898f4974b851b4
 FileChecksum: MD5: 911cac3422b604695272b1d289384ff2
 FileCopyrightText:
-Copyright (c) 2011 Pere Orga <gotrunks@gmail.com> Copyright (C) 1999-2007 Free
-Software Foundation, Inc.
+Copyright (c) 2011 Pere Orga <gotrunks@gmail.com>
+Copyright (C) 1999-2007 Free Software Foundation, Inc.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1351,7 +1364,8 @@ FileChecksum: SHA256: 88ac02ac71ed77c83e9aa614e9d32c6c025a060d79f76e05397a69b4e6
 FileChecksum: MD5: 702077710dcea6c5fbc660efe27b6541
 FileCopyrightText:
 Copyright (C) 2003 by Matteo Croce <3297627799@wind.it> Tito
-<farmatito@tiscali.it> (C) 1994-2002 by Mark Lord
+  <farmatito@tiscali.it>
+(C) 1994-2002 by Mark Lord
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1381,8 +1395,8 @@ FileChecksum: SHA1: 366a97dacff8e0cc494974211e143358369bded1
 FileChecksum: SHA256: 66296875f04016bba0721d4fa80393317ffca014e4b4722ed8e7e7fb1c882802
 FileChecksum: MD5: 12c03fc7f4e174892aaac0c0f53dc2f7
 FileCopyrightText:
-Copyright (C) 89, 91, 1995-2006 Free Software Foundation, Inc. (C) 2007 by Tito
-Ragusa <farmatito@tiscali.it>
+Copyright (C) 89, 91, 1995-2006 Free Software Foundation, Inc.
+(C) 2007 by Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1393,9 +1407,10 @@ FileChecksum: SHA1: f1ae9b0d309c05e188d44fc159a331469dbf2730
 FileChecksum: SHA256: dc548056af21aea7bba5fcd300439e4ac02019d585b4b4434c7a745445216155
 FileChecksum: MD5: 617e765e44e7f1d7a6c7886e181114b6
 FileCopyrightText:
-Copyright (C) 2007 Bernhard Reutner-Fischer Copyright (C) 2001 by Emanuele Aina
-<emanuele.aina@tiscali.it> Copyright (C) 1996 Jeff Noxon
-<jeff@router.patch.net>, Copyright (C) 1996-1999 Guy Maor <maor@debian.org>
+Copyright (C) 2007 Bernhard Reutner-Fischer
+Copyright (C) 2001 by Emanuele Aina <emanuele.aina@tiscali.it>
+Copyright (C) 1996 Jeff Noxon <jeff@router.patch.net>,
+Copyright (C) 1996-1999 Guy Maor <maor@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1467,7 +1482,7 @@ FileChecksum: SHA256: c0f99442f5fde29e4fc4e90f12c8cb57c6def2c4e42d43c0526bbbbbf2
 FileChecksum: MD5: 0912f8008a7121bdc42e030dbb4557bd
 FileCopyrightText:
 Copyright (C) Manuel Novoa III <mjn3@codepoet.org> and Vladimir Oleynik
-<dzo@simtreas.ru>
+  <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1511,8 +1526,9 @@ FileChecksum: SHA1: 16543c0c3169c00c455ed4fb3ed35d58cb9dd767
 FileChecksum: SHA256: 183410e8b1bbf9e07397d6ccf9eb20fa13c2644b8fffb4a40b94855f1d3b7044
 FileChecksum: MD5: a8f4129d93118355fe68ada87e5620ba
 FileCopyrightText:
-Copyright (C) 2001 Magnus Damm <damm@opensource.se> Copyright (C) 2000 Jean-
-Pierre Lefebvre <helix@step.polymtl.ca> and Remi Lefebvre <remi@debian.org>
+Copyright (C) 2001 Magnus Damm <damm@opensource.se>
+Copyright (C) 2000 Jean-Pierre Lefebvre <helix@step.polymtl.ca> and Remi
+  Lefebvre <remi@debian.org>
 Copyright (C) 1999 Uwe Ohse <uwe@ohse.de>
 
 LicenseConcluded:
@@ -1562,8 +1578,8 @@ FileChecksum: SHA1: bf096432e419abd6b0dbaa95888b0ee89673423c
 FileChecksum: SHA256: 09ebf3068a017f3ac4f4e7a6d5fa844650958400f7f43283d29a25ca338a6d56
 FileChecksum: MD5: e53fc64b6d69c45511a9e9d84030545c
 FileCopyrightText:
-Copyright 2006 Rob Landley <rob@landley.net> Copyright 2006 Bernhard Reutner-
-Fischer
+Copyright 2006 Rob Landley <rob@landley.net>
+Copyright 2006 Bernhard Reutner-Fischer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1601,9 +1617,9 @@ FileChecksum: SHA1: 4c2e0c44f737076d7b18d7a57ab91d1950903d69
 FileChecksum: SHA256: 655760926c4e2d4959a56710452fbefcfac1d75ed5fea320c55a4985b20c5a9d
 FileChecksum: MD5: 0a2253deed034f2846d3c137df464ca4
 FileCopyrightText:
-Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>. Copyright (C) 2015
-by Ari Sundholm <ari@tuxera.com> Copyright (C) 2008 Nokia Corporation. All
-rights reserved.
+Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Copyright (C) 2015 by Ari Sundholm <ari@tuxera.com>
+Copyright (C) 2008 Nokia Corporation. All rights reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1636,9 +1652,10 @@ FileChecksum: SHA1: 4703ed7ddbe42420e030c57b67052a74f1a383d6
 FileChecksum: SHA256: 3e99ea1b3db694d321093860407ee9320f7c54441301e6c2b42578532c72498c
 FileChecksum: MD5: 516a9c9523975b6dfbcc21ccbfd2d26e
 FileCopyrightText:
-Copyright (C) 2003 Glenn McGrath Copyright (C) 2005 Vladimir Oleynik Copyright
-(C) 2005 Bernhard Reutner-Fischer Copyright (C) 2006 Rob Landley
-<rob@landley.net>
+Copyright (C) 2003 Glenn McGrath
+Copyright (C) 2005 Vladimir Oleynik
+Copyright (C) 2005 Bernhard Reutner-Fischer
+Copyright (C) 2006 Rob Landley <rob@landley.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1669,11 +1686,14 @@ FileChecksum: SHA256: c34345620fff678ef68c997fb40e79610549f9d6de0e887e3e1637f91c
 FileChecksum: MD5: 95e6e669b0a12c9cf1ec50e25b906177
 FileCopyrightText:
 Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> and Ron Alder
-<alder@lineo.com> Copyright 1996, 1997 Linux International. Copyright 1996, 1997
-Linux International. Contributed by Ralf Baechle <ralf@gnu.ai.mit.edu> Copyright
-1996, 1997 Linux International. Richard Henderson <rth@tamu.edu> Bjorn Ekwall
-<bj0rn@blox.se>, Björn Ekwall <bj0rn@blox.se> February 1999 Copyright 1996, 1997
-Linux International. Copyright 1996, 1997 Linux International.
+  <alder@lineo.com>
+Copyright 1996, 1997 Linux International.
+Copyright 1996, 1997 Linux International. Contributed by Ralf Baechle
+  <ralf@gnu.ai.mit.edu>
+Copyright 1996, 1997 Linux International. Richard Henderson <rth@tamu.edu> Bjorn
+  Ekwall <bj0rn@blox.se>, Björn Ekwall <bj0rn@blox.se> February 1999
+Copyright 1996, 1997 Linux International.
+Copyright 1996, 1997 Linux International.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1706,8 +1726,8 @@ FileChecksum: SHA1: 3927fe61501c52e0192ebc5481730df73ed7aa97
 FileChecksum: SHA256: ee712f9269d1ab659891ce0c0caac8d95630f84d6d9b3acaf4d71b65408adee2
 FileChecksum: MD5: 8b5d0e740cbb734f7a58226f1d5598c5
 FileCopyrightText:
-Copyright (C) 1999 by Lineo, inc. and John Beppu Copyright (C) 1999,2000,2001 by
-John Beppu <beppu@codepoet.org>
+Copyright (C) 1999 by Lineo, inc. and John Beppu
+Copyright (C) 1999,2000,2001 by John Beppu <beppu@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1751,8 +1771,8 @@ FileChecksum: SHA1: ad44dda21904f07d7b24e68f476682071a0b7f93
 FileChecksum: SHA256: 02166da3716b945a8b2028bbfa77fea8c2d38ec627dfc1bf0f5a40f60aafbc7e
 FileChecksum: MD5: 05c6a2716d4705316a0d0f5ca374dd6a
 FileCopyrightText:
-Copyright (c) 2008 Timo Teras <timo.teras@iki.fi> Copyright (c) 2008 Vladimir
-Dronnikov
+Copyright (c) 2008 Timo Teras <timo.teras@iki.fi>
+Copyright (c) 2008 Vladimir Dronnikov
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1819,8 +1839,8 @@ FileChecksum: SHA256: 80b377780171143d944c3a931449e0664f80a0af893a8d5266ef6720f1
 FileChecksum: MD5: 0aa133bca14ee4da1c3f7144d4541131
 FileCopyrightText:
 Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
-California. All rights reserved. Copyright (c) 1997-2005 Herbert Xu
-<herbert@gondor.apana.org.au>
+  California. All rights reserved.
+Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1861,10 +1881,10 @@ FileChecksum: SHA1: 488510370fcdf6c657b0225a34063098d052d24c
 FileChecksum: SHA256: 024f72ba3e6a613b7f073b75e527c4127a8694e1a2246e638d4973200d1cdc19
 FileChecksum: MD5: 96fdfd66ddd993eee3bcab52481d81f7
 FileCopyrightText:
-Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation. Copyright
-(C) 2005 by Erik Andersen <andersen@codepoet.org> Copyright (C) 2005 by Mike
-Frysinger <vapier@gentoo.org> Copyright (C) 2006 by Yoshinori Sato
-<ysato@users.sourceforge.jp>
+Copyright (C) 2001, 2002, 2003, 2004, 2005 Free Software Foundation.
+Copyright (C) 2005 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005 by Mike Frysinger <vapier@gentoo.org>
+Copyright (C) 2006 by Yoshinori Sato <ysato@users.sourceforge.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1957,9 +1977,9 @@ FileChecksum: SHA1: 8dcd85a394a395763c38372c5433f958ed75b249
 FileChecksum: SHA256: 8bb02a2d9f34208226357b02c919ff9c96398813d72f5450244dfe6d46eed8ec
 FileChecksum: MD5: bac44c4d2d4bba6d2980f83488aab7e9
 FileCopyrightText:
-Copyright (C) 1999,2000 by Lineo, inc. and John Beppu Copyright (C)
-1999,2000,2001 by John Beppu <beppu@codepoet.org> Copyright (C) 2017 Jo-Philipp
-Wich <jo@mein.io>
+Copyright (C) 1999,2000 by Lineo, inc. and John Beppu
+Copyright (C) 1999,2000,2001 by John Beppu <beppu@codepoet.org>
+Copyright (C) 2017 Jo-Philipp Wich <jo@mein.io>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -1971,8 +1991,8 @@ FileChecksum: SHA1: ed9bfbb51745c3927386f817990a6c8aff2b7552
 FileChecksum: SHA256: eb592d639c9d656ac1c7561d96a97c94c77b2462edd3c0f07cce777b86cd3e2f
 FileChecksum: MD5: 21febb2167216586b076d7d71837556b
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> (C) 2002
-Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+(C) 2002 Vladimir Oleynik <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2057,8 +2077,9 @@ FileChecksum: SHA1: 42c740238c983e09a97e54f813c4759cf58a1bfd
 FileChecksum: SHA256: d6d0c6650f8003a4cb6db044230ec718c7f7f15faf20d47a1aa50c9a30533264
 FileChecksum: MD5: 5a9719d352bee59ee568912ffb438424
 FileCopyrightText:
-Copyright (C) 2005, 2006 Rob Landley <rob@landley.net> Copyright (C) 2004 Erik
-Andersen <andersen@codepoet.org> Copyright (C) 2001 Matt Krai
+Copyright (C) 2005, 2006 Rob Landley <rob@landley.net>
+Copyright (C) 2004 Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2001 Matt Krai
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2103,8 +2124,9 @@ FileChecksum: SHA256: fcdd9f96dc44bc1b813d478725911054948da20e4d929282b35722c289
 FileChecksum: MD5: afe5d42f8596043d885f37e708b3d688
 FileCopyrightText:
 Copyright (c) 1991, 1993 The Regents of the University of California. All rights
-reserved. Copyright (c) 1991, 1993 The Regents of the University of California.
-All rights reserved.
+  reserved.
+Copyright (c) 1991, 1993 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2127,8 +2149,8 @@ FileChecksum: SHA1: ac34a617fe0ce00ebb7401bda1fee42ceea5365c
 FileChecksum: SHA256: 390e7cda7547045c861c841611c9b36f6ab55692a8354b4b29f30cb536b2575c
 FileChecksum: MD5: aacfb86e5f6a4eef5564badcc825c8cc
 FileCopyrightText:
-Copyright (C) 2004 Peter Willis <psyphreak@phreaker.net> Copyright (C) 2005 Tito
-Ragusa <farmatito@tiscali.it>
+Copyright (C) 2004 Peter Willis <psyphreak@phreaker.net>
+Copyright (C) 2005 Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2210,9 +2232,10 @@ FileChecksum: SHA1: 890e2d14865bde50c813ef92d8a477e99a5e5cdc
 FileChecksum: SHA256: a754155eab527a4bb038722218234371837e013f5092e77631e57ee12df1398c
 FileChecksum: MD5: 7d1bd5045dda191719593b8ac8d958ff
 FileCopyrightText:
-Copyright (C) Vladimir N. Oleynik <dzo@simtreas.ru> Copyright (C) 2003 Russ Dill
-<Russ.Dill@asu.edu> Copyright (c) 1991, 1993 The Regents of the University of
-California. All rights reserved.
+Copyright (C) Vladimir N. Oleynik <dzo@simtreas.ru>
+Copyright (C) 2003 Russ Dill <Russ.Dill@asu.edu>
+Copyright (c) 1991, 1993 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2246,8 +2269,9 @@ FileChecksum: SHA1: 2db35170b8adb297e0352593e98daa8f9bd99ed7
 FileChecksum: SHA256: d65028742ffa881047fcc0dab7f397202f3dcef11ed7a18346726b0defded681
 FileChecksum: MD5: b42739c020ccf225d8bf017a61db517c
 FileCopyrightText:
-Copyright (C) 2005 Roberto A. Foglietta (me@roberto.foglietta.name) Copyright
-(C) 2005 Odd Arild Olsen (oao at fibula dot no) Copyright (C) 2003 Paul Sheer
+Copyright (C) 2005 Roberto A. Foglietta (me@roberto.foglietta.name)
+Copyright (C) 2005 Odd Arild Olsen (oao at fibula dot no)
+Copyright (C) 2003 Paul Sheer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2365,8 +2389,8 @@ FileChecksum: SHA256: 48fccad0369f92f96b0befe0ee90cef87cf1a2e4358ddee0037fcfb583
 FileChecksum: MD5: f18a8bc97e89bba7a199fbc358b48e1d
 FileCopyrightText:
 Copyright (C) 86, 89, 91, 1995-2002, 2004 Free Software Foundation, Inc.
-Copyright (C) 2005 by Erik Andersen <andersen@codepoet.org> Copyright (C) 2005
-by Mike Frysinger <vapier@gentoo.org>
+Copyright (C) 2005 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005 by Mike Frysinger <vapier@gentoo.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2388,8 +2412,8 @@ FileChecksum: SHA1: c72af155b08d19e5568fae52e78ab143877423a7
 FileChecksum: SHA256: 4a114321b2bec175262a5825b6c384ff89c072f340f97252a6bb1833bfb16820
 FileChecksum: MD5: 35db5c47b29c2f926862d5c53bfd1fcf
 FileCopyrightText:
-copyright (c) 2018 Gavin D. Howard and contributors. (c) 2018 Gavin D. Howard
-and contributors
+copyright (c) 2018 Gavin D. Howard and contributors.
+(c) 2018 Gavin D. Howard and contributors
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2419,9 +2443,9 @@ FileChecksum: SHA1: 27d1c7167e63971bcc7e6a55df9cbf6e07cdbda2
 FileChecksum: SHA256: ea49c64877dc547a7fa13145f9ba4c92c78e5aff56bca2d9d414571224afd193
 FileChecksum: MD5: 7b932fd748a4c87fc5e9f99cafadde8a
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2000 by Karl M. Hegbloom <karlheg@debian.org> Copyright (C) 2001 by Gennady
-Feldman <gfeldman@gena01.com>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2000 by Karl M. Hegbloom <karlheg@debian.org>
+Copyright (C) 2001 by Gennady Feldman <gfeldman@gena01.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2454,9 +2478,10 @@ FileChecksum: SHA1: 173a96177fdcb8ba564451c309751cbcd523ad74
 FileChecksum: SHA256: 0af93d14ec9f29c4e969f31e441d89573344745740eeee33cd02ff3bfe6defef
 FileChecksum: MD5: 6505d0fb4c3340b1c6fbc3567d6a0b63
 FileCopyrightText:
-Copyright (C) 2000 by Randolph Chung <tausq@debian.org> Copyright (C) 2008 by
-Tito Ragusa <farmatito@tiscali.it> (C) 2004 Yuichi Nakamura
-<ynakam@hitachisoft.jp> (C) 2008 for SUSv3.
+Copyright (C) 2000 by Randolph Chung <tausq@debian.org>
+Copyright (C) 2008 by Tito Ragusa <farmatito@tiscali.it>
+(C) 2004 Yuichi Nakamura <ynakam@hitachisoft.jp>
+(C) 2008 for SUSv3.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2501,13 +2526,15 @@ FileChecksum: SHA256: 8f2d57454d233b67662047cd3411c77ecde7e428ef1f6652d66f177b1d
 FileChecksum: MD5: 76124a8b464a73e219ab5451ac107c47
 FileCopyrightText:
 Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
-California. All rights reserved. Copyright (c) 1997-2005 Herbert Xu
-<herbert@gondor.apana.org.au> Copyright (c) 2001 Aaron Lehmann
-<aaronl@vitelus.com> (c) 2004 Paul Mundt <lethal@linux-sh.org> (c) 2001-2005
-Vladimir Oleynik <dzo@simtreas.ru> Copyright (c) 2001 Aaron Lehmann
-<aaronl@vitelus.com> (C) 2003 Vladimir Oleynik <dzo@simtreas.ru> Copyright (c)
-1989, 1991, 1993, 1994 The Regents of the University of California. All rights
-reserved.
+  California. All rights reserved.
+Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
+Copyright (c) 2001 Aaron Lehmann <aaronl@vitelus.com>
+(c) 2004 Paul Mundt <lethal@linux-sh.org>
+(c) 2001-2005 Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (c) 2001 Aaron Lehmann <aaronl@vitelus.com>
+(C) 2003 Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
+  California. All rights reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2520,8 +2547,9 @@ FileChecksum: SHA1: 1254b28d76374dea83d512f040a033e5429966dd
 FileChecksum: SHA256: 2a730bca6ed648b54e0c5d65517145ce3a63b4bb5564841b6b63d12d91d28ccb
 FileChecksum: MD5: 698c0a59c2f72ddbd858d28e603b69de
 FileCopyrightText:
-Copyright (C) 2002 Khalid Aziz <khalid_aziz at hp.com> Copyright (C) 2002 Randy
-Dunlap <rddunlap at osdl.org> Copyright (C) 2002 Al Stone <ahs3 at fc.hp.com>
+Copyright (C) 2002 Khalid Aziz <khalid_aziz at hp.com>
+Copyright (C) 2002 Randy Dunlap <rddunlap at osdl.org>
+Copyright (C) 2002 Al Stone <ahs3 at fc.hp.com>
 Copyright (C) 2002 Hewlett-Packard Company
 
 LicenseConcluded:
@@ -2541,8 +2569,8 @@ FileChecksum: SHA1: 90f6b1b4f51e1f6f17533c260b127148daff79ac
 FileChecksum: SHA256: 5bcb098ccb469dc7b4373c4c4a1cf13bb336e5f3117ae6ee1443d5561ddb07e2
 FileChecksum: MD5: c32404000e50e7e6e5958069fa9e8bc7
 FileCopyrightText:
-Copyright 1994 Matthew Dillon (dillon@apollo.west.oic.com) Vladimir Oleynik
-<dzo@simtreas.ru> (C) 2002
+Copyright 1994 Matthew Dillon (dillon@apollo.west.oic.com)
+Vladimir Oleynik <dzo@simtreas.ru> (C) 2002
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2608,8 +2636,8 @@ FileChecksum: SHA1: d34282ed3c62b6af4401f1c2b8054c84723858a1
 FileChecksum: SHA256: 04034fdc5e1575fb2006adc7e50b9078dd748a6fe5a74c763e6560950167dbbb
 FileChecksum: MD5: a0c4750bd24eb83c1844ebafd8b584c1
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2008 by Vladimir Dronnikov <dronnikov@gmail.com>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2008 by Vladimir Dronnikov <dronnikov@gmail.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2620,9 +2648,9 @@ FileChecksum: SHA1: 3ec033795d8d909ba21fa844e11eb5ea3a4e8552
 FileChecksum: SHA256: afe82bbafbf04bdec5ebeca474f982420621b2e6967339803f8e174c1c025943
 FileChecksum: MD5: f412e7cc09df4a339f81518baafb60a9
 FileCopyrightText:
-Copyright (C) 1999 by Lineo, inc. and John Beppu Copyright (C) 1999,2000,2001 by
-John Beppu <beppu@codepoet.org> Copyright (C) 2007 by Tito Ragusa
-<farmatito@tiscali.it>
+Copyright (C) 1999 by Lineo, inc. and John Beppu
+Copyright (C) 1999,2000,2001 by John Beppu <beppu@codepoet.org>
+Copyright (C) 2007 by Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2664,8 +2692,9 @@ FileChecksum: SHA256: 398624fe39005d35791a0fb5747dff05bbb36c2f263c72c6ef049494bd
 FileChecksum: MD5: 131b22075615fb77e0e7577b56b67e87
 FileCopyrightText:
 Copyright (c) 1991, 1993 The Regents of the University of California. All rights
-reserved. Copyright (c) 1991, 1993 The Regents of the University of California.
-All rights reserved.
+  reserved.
+Copyright (c) 1991, 1993 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2677,8 +2706,8 @@ FileChecksum: SHA1: d331b725dfc6b0a0be07b87b50484c73bff89750
 FileChecksum: SHA256: b836164368fa2c42e484f3cc5bb641edae8bd828ac48b70d637981a27b8714f6
 FileChecksum: MD5: 128efb1c739651818f2f5902e43d8b7c
 FileCopyrightText:
-Copyright (C) 2002,2003 Glenn Engel <glenne@engel.org> Copyright (C) 2003-2006
-Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (C) 2002,2003 Glenn Engel <glenne@engel.org>
+Copyright (C) 2003-2006 Vladimir Oleynik <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2690,7 +2719,7 @@ FileChecksum: SHA256: bfae86e174a6c51c7fbfee90fd8a5e2901286940378e576e141690bfa5
 FileChecksum: MD5: 568946141b39e7cc0e305c61b920835f
 FileCopyrightText:
 Copyright (C) 1999,2000,2001 by Lineo, inc. Written by Mark Whitley
-<markw@codepoet.org> Bernhard Reutner-Fischer
+  <markw@codepoet.org> Bernhard Reutner-Fischer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2701,8 +2730,8 @@ FileChecksum: SHA1: 2dfff0625a6cc015547393a1cd2d23677850040f
 FileChecksum: SHA256: 3d2b8fa1b156e867b13054e2755b1447ce587dacc8a761bbc07dbc33f44c0d82
 FileChecksum: MD5: 92ed1d313b00bcdf50f7f71fad0bdc9d
 FileCopyrightText:
-Copyright (C) 2004,2005 Enrik Berkhan <Enrik.Berkhan@inka.de> Copyright (C) 2008
-Bernhard Reutner-Fischer
+Copyright (C) 2004,2005 Enrik Berkhan <Enrik.Berkhan@inka.de>
+Copyright (C) 2008 Bernhard Reutner-Fischer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2713,8 +2742,8 @@ FileChecksum: SHA1: 877cb0c39240980b9d0631d0b618982f466a7b10
 FileChecksum: SHA256: 4c8fcb54cc7444e0c61f3f1703b566d70bb2b5bc827128218f9b20daaa05801e
 FileChecksum: MD5: 4d4ee4c71a4a4b3e77beaf9274b23a6c
 FileCopyrightText:
-Copyright (C) 2003 by Arthur van Hoff (avh@strangeberry.com) Copyright (C) 2004
-by David Brownell
+Copyright (C) 2003 by Arthur van Hoff (avh@strangeberry.com)
+Copyright (C) 2004 by David Brownell
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2725,9 +2754,9 @@ FileChecksum: SHA1: 22d5321d29a9577e5330f3fb3aace6746d8c2407
 FileChecksum: SHA256: 55afc3221da3628f7e8fa6496f3e0bd5f05fe9d7e689d2e236c02954ad5c655e
 FileChecksum: MD5: db6b5e779c37a30999437553a8291442
 FileCopyrightText:
-Copyright (C) 1999,2000,2001 by Lineo, inc. and John Beppu Copyright (C)
-1999,2000,2001 by John Beppu <beppu@codepoet.org> Copyright (C) 2002 Edward
-Betts <edward@debian.org>
+Copyright (C) 1999,2000,2001 by Lineo, inc. and John Beppu
+Copyright (C) 1999,2000,2001 by John Beppu <beppu@codepoet.org>
+Copyright (C) 2002 Edward Betts <edward@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2779,8 +2808,8 @@ FileChecksum: SHA1: 851d4c492c5ddb2e78168de4efb7bd94b4264d06
 FileChecksum: SHA256: 450aac3baa380f80df0b081c28f36cf23424308741f2be5958052744ef658d71
 FileChecksum: MD5: bd4bbd3b26b5c1b94f0888f17db8f8dc
 FileCopyrightText:
-copyright (c) 2001 by glenn mcgrath copyright (c) 1995 Ian Jackson
-<ian@chiark.greenend.org.uk>
+copyright (c) 2001 by glenn mcgrath
+copyright (c) 1995 Ian Jackson <ian@chiark.greenend.org.uk>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2802,7 +2831,8 @@ FileChecksum: SHA1: 7eca4c2c2d109de43eb0a507634f0af6e91efb1f
 FileChecksum: SHA256: 1092aaad1c36ef7e12863c35b0c71b4467529d4700a87d36ac552f6d1e9004cb
 FileChecksum: MD5: 37520f34e724790349242f717782b571
 FileCopyrightText:
-Copyright (C) 2003 Glenn L. McGrath Copyright (C) 2003-2004 Erik Andersen
+Copyright (C) 2003 Glenn L. McGrath
+Copyright (C) 2003-2004 Erik Andersen
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2813,9 +2843,9 @@ FileChecksum: SHA1: c1fb6481cbf399cbb87b0596a15ffd8de47762ed
 FileChecksum: SHA256: 8d29360abb8d8332193ffb89cd9655c61b98efbfe823fb8b8bb625f92b1c14b5
 FileChecksum: MD5: 94a586e5c6625a53b7e84b3001a10555
 FileCopyrightText:
-Copyright (C) 2010 by Matheus Izvekov <mizvekov@gmail.com> Copyright (C) 2006 by
-Robert Sullivan <cogito.ergo.cogito@hotmail.com> Copyright (c) 2003 Todd C.
-Miller <Todd.Miller@courtesan.com>
+Copyright (C) 2010 by Matheus Izvekov <mizvekov@gmail.com>
+Copyright (C) 2006 by Robert Sullivan <cogito.ergo.cogito@hotmail.com>
+Copyright (c) 2003 Todd C. Miller <Todd.Miller@courtesan.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2889,8 +2919,8 @@ FileChecksum: SHA1: 5e0acf336066b4452720a631fc0e4047b1067ecf
 FileChecksum: SHA256: 1baee8f353e9a82d6a04752fce42c175c6a1db40f1e4ee101e59a33a95cf93f3
 FileChecksum: MD5: e63a91f53392a87f5c90793799acdb1b
 FileCopyrightText:
-Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>. Copyright (C)
-1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2980,10 +3010,10 @@ FileChecksum: SHA1: 5e3edfe2f0a672b115e5b46efe239fea5d6e2e6d
 FileChecksum: SHA256: d48943daa7ccabcae7113074c83246daa6581ea7d687aaea87acf66319181c30
 FileChecksum: MD5: 4d2597269d3dd89d385394f0b9fcd4b0
 FileCopyrightText:
-Copyright (C) 2000,2001 Larry Doolittle <larry@doolittle.boa.org> Copyright (C)
-2008,2009 Denys Vlasenko <vda.linux@googlemail.com> Copyright (C) 1999-2004 by
-Erik Andersen <andersen@codepoet.org> written by Erik Andersen
-<andersen@codepoet.org>. Michael K. Johnson and Erik W. Troan
+Copyright (C) 2000,2001 Larry Doolittle <larry@doolittle.boa.org>
+Copyright (C) 2008,2009 Denys Vlasenko <vda.linux@googlemail.com>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> written by Erik
+  Andersen <andersen@codepoet.org>. Michael K. Johnson and Erik W. Troan
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -2995,8 +3025,8 @@ FileChecksum: SHA1: 48a63a7d2fd2d3a6f1285473fe761e656bf8363f
 FileChecksum: SHA256: 42cf5c08384317d7d83467e5b942222c51b62bf2eed15ff08e0a88a9bb1f1ad2
 FileChecksum: MD5: c7616ec1710f1b4facd812696af5defe
 FileCopyrightText:
-Copyright 1994 Matthew Dillon (dillon@apollo.west.oic.com) Vladimir Oleynik
-<dzo@simtreas.ru> (C) 2002
+Copyright 1994 Matthew Dillon (dillon@apollo.west.oic.com)
+Vladimir Oleynik <dzo@simtreas.ru> (C) 2002
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3008,7 +3038,7 @@ FileChecksum: SHA256: dd9b6d5efaab4bb87632d4cb04b7112d1573f66cd2c82b25952e5cffcd
 FileChecksum: MD5: 9096d1223a1920f15c26131edb350ffd
 FileCopyrightText:
 Copyright (C) 2000 by Matt Kraai <kraai@alumni.carnegiemellon.edu> Yuichi
-Nakamura <ynakam@hitachisoft.jp>
+  Nakamura <ynakam@hitachisoft.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3071,8 +3101,8 @@ FileChecksum: SHA1: 6d9970cef9e0bb92d59d64463139521dd3694a9c
 FileChecksum: SHA256: 277623a4e7f2b2a981541bb9ca3a046108aeb8e1847fdc5af0527889600b7d0c
 FileChecksum: MD5: 3beff2e48d5479578933948a99f49a8c
 FileCopyrightText:
-Copyright (C) 2005 by Erik Andersen <andersen@codepoet.org> Copyright (C) 2005
-by Mike Frysinger <vapier@gentoo.org>
+Copyright (C) 2005 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005 by Mike Frysinger <vapier@gentoo.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3094,8 +3124,8 @@ FileChecksum: SHA1: 2d0e73ecd37ef4a5130c2a49ac3115c46ef471fc
 FileChecksum: SHA256: 93b0503da79cf6d577727c227033f70b6286a72ca5c8007d46e9d3e908fecb5f
 FileChecksum: MD5: 85e52d9b983bac4dac446bb2f67d5d9c
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2008 by Tito Ragusa <farmatito@tiscali.it>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2008 by Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3118,7 +3148,7 @@ FileChecksum: SHA256: 97e49fc1c02560fd65443a7eafbcfbeab44267f3146e0efa1738ae902d
 FileChecksum: MD5: 5370c548354aed6171baaee42a0781b9
 FileCopyrightText:
 Copyright (c) 1989 The Regents of the University of California. All rights
-reserved.
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3129,8 +3159,8 @@ FileChecksum: SHA1: dc7e292a20aa194b7c8ec79e8ba885d23b0efadd
 FileChecksum: SHA256: 2ef65acc4a2aef04cc240aca2f3224268ab78ac1300e475c6ccf368dccecbc14
 FileChecksum: MD5: 09c11422596b0d5841b47b54a58ed3f3
 FileCopyrightText:
-Copyright (C) 2000, Jan-Derk Bakker (J.D.Bakker@its.tudelft.nl) Copyright (C)
-2008, BusyBox Team. -solar 4/26/08
+Copyright (C) 2000, Jan-Derk Bakker (J.D.Bakker@its.tudelft.nl)
+Copyright (C) 2008, BusyBox Team. -solar 4/26/08
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3141,8 +3171,8 @@ FileChecksum: SHA1: d80fb2cbf7f5a0812003010522cb5db78cda45d4
 FileChecksum: SHA256: cd3aed10e926c35777b8457d7f986ba6e3f75021405a325a213b6b39ec430c91
 FileChecksum: MD5: 3f917982ceb79d417596ca479c014f6a
 FileCopyrightText:
-Copyright (C) 2000 by Glenn McGrath Copyright (C) 1995, 1996, 1997, 1998, 2000
-Free Software Foundation, Inc.
+Copyright (C) 2000 by Glenn McGrath
+Copyright (C) 1995, 1996, 1997, 1998, 2000 Free Software Foundation, Inc.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3153,10 +3183,10 @@ FileChecksum: SHA1: d87c02875a06dece6c2bd8f7701af34dfe7c764e
 FileChecksum: SHA256: e698f2c1ebf87c2db5ecba2aa69e50c29170a1de7d39e5296769dba25a89eec9
 FileChecksum: MD5: 0942bb4dd831866aad406deee5221dba
 FileCopyrightText:
-Copyright (C) 2001 by Gennady Feldman <gfeldman@gena01.com>. Copyright (C)
-1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C) 2000 by Karl M.
-Hegbloom <karlheg@debian.org> Copyright (C) 2000 by Gennady Feldman
-<gfeldman@gena01.com>
+Copyright (C) 2001 by Gennady Feldman <gfeldman@gena01.com>.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2000 by Karl M. Hegbloom <karlheg@debian.org>
+Copyright (C) 2000 by Gennady Feldman <gfeldman@gena01.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3205,8 +3235,8 @@ FileChecksum: SHA1: 985ac71c3ce67eccf17a1076018bacff3f2d580e
 FileChecksum: SHA256: 5e0e51da2636151b97f5bd905716c484a9759b055b90b27488437c945d4be6e3
 FileChecksum: MD5: 84982dbbdb6796dae739fbb55e7726d5
 FileCopyrightText:
-Copyright (c) 1987,1997, Prentice Hall All rights reserved. Copyright (c)
-Michiel Huisjes
+Copyright (c) 1987,1997, Prentice Hall All rights reserved.
+Copyright (c) Michiel Huisjes
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3251,8 +3281,9 @@ FileChecksum: SHA256: a1c705a48bd6eb43b4cb9cfb74d61f47f8500b601ebd9d3502906093f7
 FileChecksum: MD5: 46dda3bbee127182ed60f714c185b65b
 FileCopyrightText:
 Copyright (c) 1989 The Regents of the University of California. All rights
-reserved. Copyright (c) 1989 The Regents of the University of California. All
-rights reserved.
+  reserved.
+Copyright (c) 1989 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3286,10 +3317,12 @@ FileChecksum: SHA1: 6eb67046883215018c9ae80b5536f855fd7a05e2
 FileChecksum: SHA256: f5500d03eb8c681589cd99a861ce57bec208bfdded726b5529c61967e738a205
 FileChecksum: MD5: a004f4ba95dd637b640cf0dda45142d3
 FileCopyrightText:
-Copyright (C) 1999 by Randolph Chung <tausq@debian.org> Copyright (c) 1989 The
-Regents of the University of California. All rights reserved. Copyright (C) 1999
-by Randolph Chung <tausq@debian.org> Copyright (c) 1989 The Regents of the
-University of California. All rights reserved.
+Copyright (C) 1999 by Randolph Chung <tausq@debian.org>
+Copyright (c) 1989 The Regents of the University of California. All rights
+  reserved.
+Copyright (C) 1999 by Randolph Chung <tausq@debian.org>
+Copyright (c) 1989 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3313,8 +3346,9 @@ FileChecksum: SHA1: 9d077cb2603a99ba1f2aad12749d07c70bffdc79
 FileChecksum: SHA256: f6232f27467ec8e01bfcb849ec87c5a22298dec4f7eb79f10b2e80a8e025b315
 FileChecksum: MD5: b2e582961a5d298d9d08bafb7c345c5a
 FileCopyrightText:
-Copyright (c) 2008 Bernhard Reutner-Fischer (c) 2008 Timo Teras
-<timo.teras@iki.fi> Copyright (c) 2008 Vladimir Dronnikov
+Copyright (c) 2008 Bernhard Reutner-Fischer
+(c) 2008 Timo Teras <timo.teras@iki.fi>
+Copyright (c) 2008 Vladimir Dronnikov
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3389,7 +3423,7 @@ FileChecksum: SHA256: af60ce78c6588fdf557098588551e78da20b75220d609c36ec827265ef
 FileChecksum: MD5: f1aa1e463aeb8f7cf8170089a7dccbee
 FileCopyrightText:
 Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Written by Erik
-Andersen and Kent Robotti <robotti@metconnect.com>
+  Andersen and Kent Robotti <robotti@metconnect.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3408,8 +3442,9 @@ FileChecksum: SHA1: 236712c55a93ca115fa92156d7bd895a8165685f
 FileChecksum: SHA256: dfb3c6b3fd6a39c6514e537e0f46cffa4212f71640abf2bdb8c928942b34e08c
 FileChecksum: MD5: dca29d7bc098c713c366719db371100b
 FileCopyrightText:
-Copyright (C) 2000 by Glenn McGrath Copyright (C) 2010 Nokia Corporation. All
-rights reserved. Written by Alexander Shishkin.
+Copyright (C) 2000 by Glenn McGrath
+Copyright (C) 2010 Nokia Corporation. All rights reserved. Written by Alexander
+  Shishkin.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3440,8 +3475,9 @@ FileChecksum: SHA256: 8536f85598a87c49db70a583d9c40004719e64b4939e1d58bcbe30e1e8
 FileChecksum: MD5: ebf84c43adf83652c8904255c8dbe62f
 FileCopyrightText:
 Copyright (c) 1990 The Regents of the University of California. All rights
-reserved. Copyright (c) 1990 The Regents of the University of California. All
-rights reserved.
+  reserved.
+Copyright (c) 1990 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3472,8 +3508,8 @@ FileChecksum: SHA1: cdb07ff75bb8a473e7caac9ef460b2c94239dd92
 FileChecksum: SHA256: 22a75d4c06d4696182ab6c83b625843f0dc2f1c304da4f6b83bd3248c678bf68
 FileChecksum: MD5: 948f9bf5690d5183a59332b693a50e36
 FileCopyrightText:
-Copyright (C) 2001 by Michael Habermann <mhabermann@gmx.de> (C) Mar 16, 2003
-Manuel Novoa III (mjn3@codepoet.org)
+Copyright (C) 2001 by Michael Habermann <mhabermann@gmx.de>
+(C) Mar 16, 2003 Manuel Novoa III (mjn3@codepoet.org)
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3539,8 +3575,9 @@ FileChecksum: SHA256: 6d0589523721f9a41f9db5d0d88035bccb086f5055b8709b22c9310004
 FileChecksum: MD5: bee778c196f55b1cd2f144997f76fe40
 FileCopyrightText:
 Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
-California. All rights reserved. Copyright (c) 1997-2005 Herbert Xu
-<herbert@gondor.apana.org.au> Copyright (c) 2010 Denys Vlasenko
+  California. All rights reserved.
+Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
+Copyright (c) 2010 Denys Vlasenko
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3660,9 +3697,9 @@ FileChecksum: SHA1: 67a0ec300e2b83ebcffdd76b9671e22af89d8c59
 FileChecksum: SHA256: 070633eba0b4dfe7f9ee29f02dd1ace6f368acdbe5802c7b1ea570aa2873e70c
 FileChecksum: MD5: edc1f05d03e5d612828f109e1c4f1b60
 FileCopyrightText:
-Copyright 1998 by Albert Cahalan; all rights reserved. Copyright (C) 2002 by
-Vladimir Oleynik <dzo@simtreas.ru> (c) 2007 by Yuichi Nakamura
-<ynakam@hitachisoft.jp>
+Copyright 1998 by Albert Cahalan; all rights reserved.
+Copyright (C) 2002 by Vladimir Oleynik <dzo@simtreas.ru>
+(c) 2007 by Yuichi Nakamura <ynakam@hitachisoft.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3825,8 +3862,9 @@ FileChecksum: SHA256: 090601269e1bc01a1558a56a4192a92bc133ab374bf9096fc930c2a6ee
 FileChecksum: MD5: 09defca5e9b656b20671199aa52b84bf
 FileCopyrightText:
 Copyright (c) 1989, 1991, 1993, 1994 The Regents of the University of
-California. All rights reserved. Copyright (c) 1997-2005 Herbert Xu
-<herbert@gondor.apana.org.au> Copyright (c) 2010 Denys Vlasenko
+  California. All rights reserved.
+Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
+Copyright (c) 2010 Denys Vlasenko
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3919,10 +3957,10 @@ FileChecksum: SHA1: 774b9feb5e550e7c151627b9de18aca7431def6d
 FileChecksum: SHA256: 7c77f2d25fab0dfc880add7d8ec5837be8e32ff3a9b8077c4e95bb6577271477
 FileChecksum: MD5: 21a733d29709533f1304c00810857f8e
 FileCopyrightText:
-Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>. Copyright (C)
-1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C) 2005-2006 by
-Rob Landley <rob@landley.net> Copyright (C) 1993 Rick Sladkey
-<jrs@world.std.com>
+Copyright (C) 1995, 1996 by Bruce Perens <bruce@pixar.com>.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005-2006 by Rob Landley <rob@landley.net>
+Copyright (C) 1993 Rick Sladkey <jrs@world.std.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3933,8 +3971,8 @@ FileChecksum: SHA1: 3268609adb2ddac78bb70de97ca1eb504c50f970
 FileChecksum: SHA256: a307e20c8d466ab0a04965a3b4a8611fbccda1eddaef973a485239b9a33abdee
 FileChecksum: MD5: 5a1a12c85ae8ccd14faca0c4cedaed0e
 FileCopyrightText:
-Copyright (C) 1992 A. V. Le Blanc (LeBlanc@mcc.ac.uk) Copyright (C) 2001,2002
-Vladimir Oleynik <dzo@simtreas.ru>
+Copyright (C) 1992 A. V. Le Blanc (LeBlanc@mcc.ac.uk)
+Copyright (C) 2001,2002 Vladimir Oleynik <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3945,9 +3983,10 @@ FileChecksum: SHA1: d122cfb7541138c46648e9116e0da7be8cb9ef85
 FileChecksum: SHA256: 962c7b9b1984dbbb8049c375850f253ef7bdf4064ba25ec8c1836cab693a580d
 FileChecksum: MD5: 54ba991ae9c44f5729cdf45d1ea69666
 FileCopyrightText:
-Copyright (C) 1999,2000,2001 by Lineo, inc. and Mark Whitley Copyright (C)
-1999,2000,2001 by Mark Whitley <markw@codepoet.org> (C) Vladimir Oleynik
-<dzo@simtreas.ru> (C) 2006 Jac Goudsmit
+Copyright (C) 1999,2000,2001 by Lineo, inc. and Mark Whitley
+Copyright (C) 1999,2000,2001 by Mark Whitley <markw@codepoet.org>
+(C) Vladimir Oleynik <dzo@simtreas.ru>
+(C) 2006 Jac Goudsmit
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -3970,7 +4009,7 @@ FileChecksum: SHA256: 2fe2605a5150c8ee707a1be78671f647a6e502491c252d91b87b28789f
 FileChecksum: MD5: e65a59569b9bff4ff9b2372361be35d9
 FileCopyrightText:
 Authors: Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru> Patrick McHardy
-<kaber@trash.net>
+  <kaber@trash.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4060,11 +4099,13 @@ FileChecksum: SHA1: 8521610c65b4c1e3f19740d876085ea1a9e6337d
 FileChecksum: SHA256: 77d22f4c54824cd8bc8ede513693d9f4eb6977302908daac3797f3ee4573e611
 FileChecksum: MD5: feb2719620cea00c203bd0d22c7f3fb0
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (c)
-1983, 1993 The Regents of the University of California. All rights reserved.
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
 Copyright (c) 1983, 1993 The Regents of the University of California. All rights
-reserved. Copyright (c) 1983, 1993 The Regents of the University of California.
-All rights reserved.
+  reserved.
+Copyright (c) 1983, 1993 The Regents of the University of California. All rights
+  reserved.
+Copyright (c) 1983, 1993 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4076,9 +4117,10 @@ FileChecksum: SHA1: 433690e07be974fe4dfb986ba1c409b5e50e5ebf
 FileChecksum: SHA256: 2346dd2b227d6305bbe580b50e077e52da9441881c674ad2a6a2960a1f75fa8b
 FileChecksum: MD5: e67c71bcb3c789abad4aadcb3d6ca6d5
 FileCopyrightText:
-Copyright (C) 1992-1993 Jean-loup Gailly. Copyright (C) 1992-1993 Jean-loup
-Gailly Mark Adler. Spencer Thomas, Joe Orost, James Woods, Jim McKie, Steve
-Davies, Ken Turkowski, Dave Mack and Peter Jannesen.
+Copyright (C) 1992-1993 Jean-loup Gailly.
+Copyright (C) 1992-1993 Jean-loup Gailly Mark Adler. Spencer Thomas, Joe Orost,
+  James Woods, Jim McKie, Steve Davies, Ken Turkowski, Dave Mack and Peter
+  Jannesen.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4091,7 +4133,8 @@ FileChecksum: SHA256: a13ed825e04dfd0bd8fc5751ca9e5aefdacc88b3a0d5baacc472ce4cd6
 FileChecksum: MD5: 79e1b1a876d35f9b5880a913e5c2ab25
 FileCopyrightText:
 Copyright (C) 2001, Hewlett-Packard Company Author: Christopher Hoover
-<ch@hpl.hp.com> Copyright (C) 2001 Hewlett-Packard Laboratories
+  <ch@hpl.hp.com>
+Copyright (C) 2001 Hewlett-Packard Laboratories
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4146,9 +4189,10 @@ FileChecksum: SHA1: b5a8f51457bb862f5aa613023c34697b2a1c349d
 FileChecksum: SHA256: 3211d1fda5f9db5ee86afab2512f123bb000da369dc9a56fdc2cd517a6977ff6
 FileChecksum: MD5: 10999d242f0162503b726769aa68eaff
 FileCopyrightText:
-(C) 2009 <vonsch@gmail.com> Copyright (c) 2003, 2004 Henning Brauer
-<henning@openbsd.org> Copyright (c) 2004 Alexander Guy
-<alexander.guy@andern.org> Copyright (c) University of Delaware 1992-2009
+(C) 2009 <vonsch@gmail.com>
+Copyright (c) 2003, 2004 Henning Brauer <henning@openbsd.org>
+Copyright (c) 2004 Alexander Guy <alexander.guy@andern.org>
+Copyright (c) University of Delaware 1992-2009
 
 LicenseConcluded:
 LicenseRef-ISC-4f73758692fd163912b8bc0f34c04999
@@ -4173,8 +4217,10 @@ FileChecksum: SHA1: 1845dc664e30cb0078f215d34b64cb7294ac299f
 FileChecksum: SHA256: 85fd511e5fe8576c862f9cc566e09cc5959cb8e8a004ffb784b974c188e9c595
 FileChecksum: MD5: f79b9865cb1fab7c6c4db45ffa1f83a0
 FileCopyrightText:
-(C) 2001-2005 <dzo@simtreas.ru> (c) 2008 by Denys Vlasenko Copyright (c)
-1983,1991 The Regents of the University of California. All rights reserved.
+(C) 2001-2005 <dzo@simtreas.ru>
+(c) 2008 by Denys Vlasenko
+Copyright (c) 1983,1991 The Regents of the University of California. All rights
+  reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-4-Clause-UC-7c55a451060a863d5f328f5ed4ced0bc
@@ -4185,8 +4231,8 @@ FileChecksum: SHA1: eed3aaa53b42f56704414c72be545ab27ed2ef03
 FileChecksum: SHA256: ebde8cb2e3451e8f2ea7be0110c03282c48c2876fe73fd4ed53589d234396a69
 FileChecksum: MD5: e8713dbe909ea6a84e6851bea505ea17
 FileCopyrightText:
-Copyright (C) 2005 by Marc Leeman <marc.leeman@barco.com> Copyright 1994-1996
-Donald Becker
+Copyright (C) 2005 by Marc Leeman <marc.leeman@barco.com>
+Copyright 1994-1996 Donald Becker
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -4351,7 +4397,7 @@ FileChecksum: SHA256: e8958db537038c2b0436e1771913f915b499befa675773221bc8736f14
 FileChecksum: MD5: f9b1aa495a63f2772470f495de3336ad
 FileCopyrightText:
 Copyright (C) 1993, 1994 Remy Card <card@masi.ibp.fr> Laboratoire MASI, Institut
-Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
+  Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -4363,7 +4409,7 @@ FileChecksum: SHA256: f76d67b88671f0aad9a93e8348fb308b76bafda268ffde67472762b1f9
 FileChecksum: MD5: 5ae548d9b22c76060b65054256d27f9f
 FileCopyrightText:
 Copyright (C) 1993, 1994 Remy Card <card@masi.ibp.fr> Laboratoire MASI, Institut
-Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
+  Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -4374,14 +4420,16 @@ FileChecksum: SHA1: e1e52fc4bbca6e36ab09afc23da0e0c0c1cd3dff
 FileChecksum: SHA256: 19c98d50401c3ee0b8b124c9f08f1a1dac1b3f3bb5b9ee2f6d8cbead3a396e5d
 FileChecksum: MD5: 424d9fac22d98619579687d0cf2c02e3
 FileCopyrightText:
-Copyright (c) 2001 David Schleef <ds@schleef.org> Copyright (c) 2001 Erik
-Andersen <andersen@codepoet.org> Copyright (c) 2001 Stuart Hughes <seh@zee2.com>
-Copyright (c) 2002 Steven J. Hill <shill@broadcom.com> Copyright (c) 2006
-Freescale Semiconductor, Inc <stuarth@freescale.com> Copyright (c) 2001 David
-Schleef <ds@schleef.org> Copyright (c) 2001 Erik Andersen
-<andersen@codepoet.org> Copyright (c) 2001 Stuart Hughes <seh@zee2.com>
-Copyright (c) 2002 Steven J. Hill <shill@broadcom.com> Copyright (c) 2006
-Freescale Semiconductor, Inc <stuarth@freescale.com>
+Copyright (c) 2001 David Schleef <ds@schleef.org>
+Copyright (c) 2001 Erik Andersen <andersen@codepoet.org>
+Copyright (c) 2001 Stuart Hughes <seh@zee2.com>
+Copyright (c) 2002 Steven J. Hill <shill@broadcom.com>
+Copyright (c) 2006 Freescale Semiconductor, Inc <stuarth@freescale.com>
+Copyright (c) 2001 David Schleef <ds@schleef.org>
+Copyright (c) 2001 Erik Andersen <andersen@codepoet.org>
+Copyright (c) 2001 Stuart Hughes <seh@zee2.com>
+Copyright (c) 2002 Steven J. Hill <shill@broadcom.com>
+Copyright (c) 2006 Freescale Semiconductor, Inc <stuarth@freescale.com>
 
 LicenseConcluded:
 LicenseRef-Artistic-1.0-Perl
@@ -4416,8 +4464,8 @@ FileChecksum: SHA1: 527e225302be92e30adc23602da8bfccbb8b936d
 FileChecksum: SHA256: ed6b406de818e49c3a38914774def718ef5621afb9364bb4c030a806cb08d4ec
 FileChecksum: MD5: d60e06911920c500d56d6c7bebd86310
 FileCopyrightText:
-Copyright (C) 2011-2017 Denys Vlasenko. Copyright: 2006, 2007 Stefan Rompf
-<sux@loplof.de>.
+Copyright (C) 2011-2017 Denys Vlasenko.
+Copyright: 2006, 2007 Stefan Rompf <sux@loplof.de>.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -4490,8 +4538,8 @@ FileChecksum: SHA256: c75965e8ad6670e92ed1c4c116141a51cb78d77e3e47286e4527514bf8
 FileChecksum: MD5: 07cc39483c9d9f0228ce7bf53d6ce1b5
 FileCopyrightText:
 Copyright (c) 1988, 1989, 1991, 1994, 1995, 1996, 1997, 1998, 1999, 2000 The
-Regents of the University of California. All rights reserved. (C) 2005
-<dzo@simtreas.ru>
+  Regents of the University of California. All rights reserved.
+(C) 2005 <dzo@simtreas.ru>
 
 LicenseConcluded:
 LicenseRef-BSD-4-Clause-Shortened-fff3043739b167c373ba814e9ead9c3e
@@ -4502,7 +4550,8 @@ FileChecksum: SHA1: 4184c3f8ce2d84f98c46d1ad823d619c26a0be21
 FileChecksum: SHA256: eb621429ec7a47c27f2fadb445999cabaa7c8450299894b71c4cd19836887715
 FileChecksum: MD5: a1c956c9ff75ff372b5398da3578bf58
 FileCopyrightText:
-Copyright (C) Andreas Neuper, Sep 1998. Copyright (C) Andreas Neuper, Sep 1998.
+Copyright (C) Andreas Neuper, Sep 1998.
+Copyright (C) Andreas Neuper, Sep 1998.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -4521,7 +4570,8 @@ FileChecksum: SHA1: 171df076bbc6a74dfd14e18a1ac350d4e8b8d4f0
 FileChecksum: SHA256: caad01a06310b2a4024460a344480f66d99b35b2df977898a121ff465d9ca27f
 FileChecksum: MD5: 815f8eea81a6092ef5fb8a9b933b119e
 FileCopyrightText:
-(C) 1991, 1992 Linus Torvalds. Copyright (C) 1993, 1994 Theodore Ts'o.
+(C) 1991, 1992 Linus Torvalds.
+Copyright (C) 1993, 1994 Theodore Ts'o.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -4566,7 +4616,8 @@ FileChecksum: SHA1: 1ba8d679080c1072d6687a9f4bfa4cb7ca91878c
 FileChecksum: SHA256: 3cfe8961cb56c3ea2b8dd98422f5a7fb8ff8317496e15ef44b83887214ca2f41
 FileChecksum: MD5: b24b3cf137a54493a5d683847c97d972
 FileCopyrightText:
-Copyright 2004 Matt Mackall <mpm@selenic.com> (c) 1997 by Andi Kleen
+Copyright 2004 Matt Mackall <mpm@selenic.com>
+(c) 1997 by Andi Kleen
 
 LicenseConcluded:
 LicenseRef-GPL-1.0-or-later
@@ -4637,7 +4688,7 @@ FileChecksum: SHA256: 4e2f6100a44e922c5c7b154e3044c656b7edfae966b2f83c8845248674
 FileChecksum: MD5: 083dbbd66f75ab30861450c96b334339
 FileCopyrightText:
 Copyright 1989 - 1991, Julianne Frances Haugh <jockgrrl@austin.rr.com> All
-rights reserved.
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-3-Clause-14be31d90bba70b383f954eb346ded6b
@@ -4649,7 +4700,7 @@ FileChecksum: SHA256: f551208951ef58f131fe2a49425d51b191b6ac25b7b95905125b63eb2e
 FileChecksum: MD5: fdf4101d9e970031fa9aace23cd530f5
 FileCopyrightText:
 Copyright 1989 - 1991, Julianne Frances Haugh <jockgrrl@austin.rr.com> All
-rights reserved.
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-3-Clause-14be31d90bba70b383f954eb346ded6b
@@ -4661,7 +4712,7 @@ FileChecksum: SHA256: 7f119ea757548393aed188e783fa58dbc240a35fc598acdc727295fea6
 FileChecksum: MD5: cf0b9555f4ed332a3d2ef8c99b741323
 FileCopyrightText:
 Copyright 1989 - 1991, Julianne Frances Haugh <jockgrrl@austin.rr.com> All
-rights reserved.
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-3-Clause-14be31d90bba70b383f954eb346ded6b
@@ -4673,7 +4724,7 @@ FileChecksum: SHA256: c8aef5e372ff6b742f18f8cfa9355e3d28d436d4be279fae5730706370
 FileChecksum: MD5: b213f77810307328f40e02639b7f165b
 FileCopyrightText:
 Copyright 1989 - 1991, Julianne Frances Haugh <jockgrrl@austin.rr.com> All
-rights reserved.
+  rights reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-3-Clause-14be31d90bba70b383f954eb346ded6b
@@ -4704,7 +4755,7 @@ FileChecksum: SHA256: fc3db3f961b24eeed7413ca219de4d4520d041507485628e1a103f234f
 FileChecksum: MD5: 8852ce6341c1c53939c5af59e0616f3e
 FileCopyrightText:
 Copyright (c) 1992, 1993 The Regents of the University of California. All rights
-reserved.
+  reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-4-Clause-UC-f17c37968151a1ebc5364f350370c549
@@ -4760,7 +4811,7 @@ FileChecksum: SHA256: 1550c6e6e812a7168e54c7df7ed3bba72fa4773ac4a292d36a9067f744
 FileChecksum: MD5: 3ded8c87dfc242766f7f55dcc13d2eaa
 FileCopyrightText:
 Copyright (C) 2003,2004 Free Software Foundation, Inc. Kelley Cook, June 2004.
-Neil Booth, May 2003.
+  Neil Booth, May 2003.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4772,7 +4823,7 @@ FileChecksum: SHA256: 08dcbc0b5623931345000e136ccbbaa21b37ebc2c89e34563831eb484a
 FileChecksum: MD5: cab71a960418f977429bb77a4400252a
 FileCopyrightText:
 Copyright (C) 2003,2004 Free Software Foundation, Inc. Kelley Cook, June 2004.
-Neil Booth, May 2003.
+  Neil Booth, May 2003.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -4846,8 +4897,8 @@ FileChecksum: SHA1: aa90b19a3736f50dc7a1f1e88376134e3718e58e
 FileChecksum: SHA256: 1417e2b39c42bc5a001a3339f968531cea3fe42b821875f4b488af7c8fb47c74
 FileChecksum: MD5: 787a6aea0a2d45a75507e3a85672b369
 FileCopyrightText:
-Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org> Copyright (C) 2012 S-G
-Bergh <sgb@systemasis.org>
+Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org>
+Copyright (C) 2012 S-G Bergh <sgb@systemasis.org>
 
 LicenseConcluded:
 LicenseRef-LGPL-2.1-or-later
@@ -5188,8 +5239,8 @@ FileChecksum: SHA1: b1a34a3041305ee5645c6b970a2f0eb10edca401
 FileChecksum: SHA256: 9aec9a6f11f524972b85601b15e97f1b36b35abd018ac9c519838f6cd9627d3d
 FileChecksum: MD5: c2e65699ee1f5c61628b6656ac1f8f2e
 FileCopyrightText:
-Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org> Copyright (C) 2009
-Vladimir Dronnikov <dronnikov@gmail.com>
+Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org>
+Copyright (C) 2009 Vladimir Dronnikov <dronnikov@gmail.com>
 
 LicenseConcluded:
 LicenseRef-LGPL-2.1-or-later
@@ -5200,8 +5251,8 @@ FileChecksum: SHA1: 762c7bbe229a20da80c9fff6250879d4adfdddd2
 FileChecksum: SHA256: 0297e337305f158fe145502309d8e775f5aaca34ee0bf696a0e63facc0efa6ee
 FileChecksum: MD5: 5d390bd77b26ee974f2e75580e2df5f1
 FileCopyrightText:
-Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org> Copyright (C) 2005 Tobias
-Klauser <tklauser@access.unizh.ch>
+Copyright (C) 2004 Kay Sievers <kay.sievers@vrfy.org>
+Copyright (C) 2005 Tobias Klauser <tklauser@access.unizh.ch>
 
 LicenseConcluded:
 LicenseRef-LGPL-2.1-or-later
@@ -5246,7 +5297,7 @@ FileChecksum: SHA256: d66020e2f68456ad1f7fda40458ee37126dea42c8e0057970d3fcdb591
 FileChecksum: MD5: c4e7888e596be7b7f47e86e7f92db2f5
 FileCopyrightText:
 Copyright (c) 1987, 1988 Regents of the University of California. All rights
-reserved.
+  reserved.
 
 LicenseConcluded:
 LicenseRef-BSD-4-Clause-UC-639fd78a1cb82a280f4eb97304fb99bd
@@ -5257,7 +5308,8 @@ FileChecksum: SHA1: 3ec5228d404d1046f509b9c0e290ff2e88a8151e
 FileChecksum: SHA256: 95020f22f0a635257497d75dfc0a0e7875d13d0a16b4b99b51fbbd89a9279d3d
 FileChecksum: MD5: 369bf39521640fdfe67a80e80297ded5
 FileCopyrightText:
-Copyright (C) 2018 Denys Vlasenko Copyright (C) 2006-2017 wolfSSL Inc.
+Copyright (C) 2018 Denys Vlasenko
+Copyright (C) 2006-2017 wolfSSL Inc.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5270,8 +5322,9 @@ FileChecksum: SHA1: 377c657e23800876117aed5a155907916f637a9a
 FileChecksum: SHA256: 88034b5ba080ea74aed2aada25f49cfdea5a452154f627a216993aae2671b11a
 FileChecksum: MD5: ce8e445b1509b684c7259792943206b6
 FileCopyrightText:
-Copyright (C) 2017 Denys Vlasenko Copyright (c) 2013-2015 INSIDE Secure
-Corporation Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
+Copyright (C) 2017 Denys Vlasenko
+Copyright (c) 2013-2015 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5283,8 +5336,9 @@ FileChecksum: SHA1: b79abf63f901266d8c55dcf7f895581a226db982
 FileChecksum: SHA256: f4f2aa573984d6e60805b47796ef5dddd1fac5187d90ed20ea1407db68141b97
 FileChecksum: MD5: 54d62baf0eecbed28b668ceda5146f66
 FileCopyrightText:
-Copyright (C) 2017 Denys Vlasenko Copyright (c) 2013-2015 INSIDE Secure
-Corporation Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
+Copyright (C) 2017 Denys Vlasenko
+Copyright (c) 2013-2015 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5296,10 +5350,12 @@ FileChecksum: SHA1: ae9145443fb033fdea378bd0d272cfa5c7b42c6b
 FileChecksum: SHA256: 9722ce024300c68e9c8d2d32c2c26854e6b4ad45173cd8bfc24d52f9b0cee6eb
 FileChecksum: MD5: 1b2ebed93f1597e5368417194f2cbd6e
 FileCopyrightText:
-Copyright (C) 2017 Denys Vlasenko Copyright (c) 2013-2015 INSIDE Secure
-Corporation Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
-Copyright (C) 2003 Bernardo Innocenti <bernie@develer.com> Copyright (C) 1999
-Hewlett-Packard Co Copyright (C) 1999 David Mosberger-Tang <davidm@hpl.hp.com>
+Copyright (C) 2017 Denys Vlasenko
+Copyright (c) 2013-2015 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
+Copyright (C) 2003 Bernardo Innocenti <bernie@develer.com>
+Copyright (C) 1999 Hewlett-Packard Co
+Copyright (C) 1999 David Mosberger-Tang <davidm@hpl.hp.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5311,8 +5367,9 @@ FileChecksum: SHA1: ed4d4051f4ae8f3ae97a2b5b56068d37cdfb8bad
 FileChecksum: SHA256: 02009f31d8e62426dfcc39bfc7819c08247550adc49625d4e986759b9f89ec0e
 FileChecksum: MD5: 9a16283d8d144075c3481f6412cc1fe1
 FileCopyrightText:
-Copyright (C) 2017 Denys Vlasenko Copyright (c) 2013-2015 INSIDE Secure
-Corporation Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
+Copyright (C) 2017 Denys Vlasenko
+Copyright (c) 2013-2015 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5324,8 +5381,9 @@ FileChecksum: SHA1: 1f302753b32fddf425c86dead854e08a5e71efd8
 FileChecksum: SHA256: c790784e5df2b485e395a5c429e71b0784db5c0fd0b3a8e24ff8c3003a3b0e22
 FileChecksum: MD5: 640f6ed14ea3cb009bcb04969fa1960f
 FileCopyrightText:
-Copyright (C) 2017 Denys Vlasenko Copyright (c) 2013-2015 INSIDE Secure
-Corporation Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
+Copyright (C) 2017 Denys Vlasenko
+Copyright (c) 2013-2015 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5337,8 +5395,8 @@ FileChecksum: SHA1: bef7a09180cdb979be22532afa61f73b888e34a3
 FileChecksum: SHA256: 206ddadaaf2f008e9163c05371f3d7e5e74d2ed9e6037fa23fad8d46a726e4fe
 FileChecksum: MD5: 7f8601d35628e30105b6e03f92f573e1
 FileCopyrightText:
-Copyright (c) 2013 INSIDE Secure Corporation Copyright (c) PeerSec Networks,
-2002-2011 All Rights Reserved
+Copyright (c) 2013 INSIDE Secure Corporation
+Copyright (c) PeerSec Networks, 2002-2011 All Rights Reserved
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5368,8 +5426,8 @@ FileChecksum: SHA1: 46ff62b28ed179c750d14ff8f8d35ae87c97a17c
 FileChecksum: SHA256: 84321c506a638caeb9d8c71b38916979134438fb0149a5202992c803595f38f7
 FileChecksum: MD5: 9a0a6dcbfa5692571de74c5dee5c1f64
 FileCopyrightText:
-Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org> Copyright (C) 2002 Roman
-Zippel <zippel@linux-m68k.org>
+Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org>
+Copyright (C) 2002 Roman Zippel <zippel@linux-m68k.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5391,8 +5449,8 @@ FileChecksum: SHA1: b9320638c6e7142a26dc57fb3fcda4ddbb4583b0
 FileChecksum: SHA256: 5b6ea89b3061602eadf2f05c2b51d2d99b3515faff7e7ec7811f8acbc0edfa36
 FileChecksum: MD5: 67316fff239b1879d551e07650bcf93d
 FileCopyrightText:
-Copyright (C) 2002-2003 Romain Lievin <roms@tilp.info> copyright (c) 2002 Romain
-Lievin <roms@lpg.ticalc.org> Roman Zippel.
+Copyright (C) 2002-2003 Romain Lievin <roms@tilp.info>
+copyright (c) 2002 Romain Lievin <roms@lpg.ticalc.org> Roman Zippel.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5425,8 +5483,8 @@ FileChecksum: SHA1: eb0b31c3462432353b177d52d342d523bf9d4e2c
 FileChecksum: SHA256: 76d0cd8d441df1ec499478eafd95f4ddbefb0e37f1891c0c6fe3c725b1ead3d5
 FileChecksum: MD5: 8fb8a3b9e58a0b4bc00fc4427d564b7e
 FileCopyrightText:
-Copyright (C) 2002-2005 Roman Zippel <zippel@linux-m68k.org> Copyright (C)
-2002-2005 Sam Ravnborg <sam@ravnborg.org>
+Copyright (C) 2002-2005 Roman Zippel <zippel@linux-m68k.org>
+Copyright (C) 2002-2005 Sam Ravnborg <sam@ravnborg.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -5633,7 +5691,7 @@ FileChecksum: SHA256: 224a941febb696871ff10ffa3a4adb8199c701ccd373098ba5c4c1b41f
 FileChecksum: MD5: 7794de7edd847de5349e93aeaadce925
 FileCopyrightText:
 Copyright (C) 2010 Nokia Corporation. All rights reserved. Written by Alexander
-Shishkin <virtuoso@slind.org>
+  Shishkin <virtuoso@slind.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5645,7 +5703,7 @@ FileChecksum: SHA256: 9250de6bdc412422d26ef4baf1ecb49cbaef759360088be49295caf263
 FileChecksum: MD5: d867b74a65ecc97f1891d8ee895a06bb
 FileCopyrightText:
 Copyright (C) 2010 Nokia Corporation. All rights reserved. Written by Alexander
-Shishkin <virtuoso@slind.org>
+  Shishkin <virtuoso@slind.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5725,7 +5783,7 @@ FileChecksum: SHA256: a05ba174e8dc9509d70f28cacaf704e201f131dd02b7cccb509dd4c705
 FileChecksum: MD5: 2ddd72c6b7584c0323161e709958306e
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5745,7 +5803,7 @@ FileChecksum: SHA256: 255b49a7a81ebd826e23c2635574f5d36e43c286985595ca34772ac1be
 FileChecksum: MD5: 524f864360004b1b3068caad892f7a98
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5756,15 +5814,18 @@ FileChecksum: SHA1: a9ad4e53483115fa0f91b5c7a3665dbd1e1a414f
 FileChecksum: SHA256: 455967669c9c9030bccfebe55242fe0b934b5e9224251bf48442bbaf897081ca
 FileChecksum: MD5: be3b83108188520e6914c9ca3f48032a
 FileCopyrightText:
-Copyright (C) 2008 Markus Franz Xaver Johannes Oberhumer Copyright (C) 2007
-Markus Franz Xaver Johannes Oberhumer Copyright (C) 2006 Markus Franz Xaver
-Johannes Oberhumer Copyright (C) 2005 Markus Franz Xaver Johannes Oberhumer
-Copyright (C) 2004 Markus Franz Xaver Johannes Oberhumer Copyright (C) 2003
-Markus Franz Xaver Johannes Oberhumer Copyright (C) 2002 Markus Franz Xaver
-Johannes Oberhumer Copyright (C) 2001 Markus Franz Xaver Johannes Oberhumer
-Copyright (C) 2000 Markus Franz Xaver Johannes Oberhumer Copyright (C) 1999
-Markus Franz Xaver Johannes Oberhumer Copyright (C) 1998 Markus Franz Xaver
-Johannes Oberhumer Copyright (C) 1997 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2008 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2007 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2006 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2005 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2004 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2003 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2002 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2001 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 2000 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 1999 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 1998 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 1997 Markus Franz Xaver Johannes Oberhumer
 Copyright (C) 1996 Markus Franz Xaver Johannes Oberhumer All Rights Reserved.
 
 LicenseConcluded:
@@ -5777,7 +5838,7 @@ FileChecksum: SHA256: 2a544181ad8ab8386d5cd8df85758286d429fe7dadbfd3f173f91f8aac
 FileChecksum: MD5: ff56e012fc074eaa168125f24a470e25
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5789,7 +5850,7 @@ FileChecksum: SHA256: ece65419355194234d31b78f59d3378581cc53cb959651bc613ba781f3
 FileChecksum: MD5: bcc866e0274696e691fcf215f275221e
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5852,7 +5913,7 @@ FileChecksum: SHA256: eba89167022a816fef6a8cf1e296588a1cf0de84ceadfee1b688ebb8b4
 FileChecksum: MD5: 935c3f05a8c7d737f2368f0ceba2dc38
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5920,7 +5981,7 @@ FileChecksum: SHA256: 74a904a32928066d1750cb8a9c43ffb225f548715fb577bf0421049332
 FileChecksum: MD5: 2b8abab22da70b79e637b2424e894672
 FileCopyrightText:
 Copyright (C) 1999 Matthew Ramsay <matthewr@moreton.com.au> Chris Trew
-<ctrew@moreton.com.au>
+  <ctrew@moreton.com.au>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -5983,7 +6044,7 @@ FileChecksum: SHA256: a63a1d20e33650fe04afe12c7ad5c09b09bbd0a040e857aba8d695f30c
 FileChecksum: MD5: b9942ade56bebe0a5ed197e496fc58da
 FileCopyrightText:
 Copyright (C) 1996..2008 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -6022,7 +6083,7 @@ FileChecksum: SHA256: ade8e29082ac3e029024db6b9ada02c60b5ebc713567f1e07969f1c29f
 FileChecksum: MD5: 4d23d5e4d98d37499b6d45c29020f715
 FileCopyrightText:
 Copyright (C) 1999 Matthew Ramsay <matthewr@moreton.com.au> Chris Trew
-<ctrew@moreton.com.au>
+  <ctrew@moreton.com.au>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -6045,7 +6106,7 @@ FileChecksum: SHA256: 2ce2f015b7378d083929a58017af6177afa223091b2fde7e464fa7e2ec
 FileChecksum: MD5: 75fe3ad96b13846a8116b168743d301e
 FileCopyrightText:
 Copyright (C) 1996..2003 Markus Franz Xaver Johannes Oberhumer All Rights
-Reserved.
+  Reserved.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -6090,7 +6151,7 @@ FileChecksum: SHA256: ac2aac1f8c285685494a25c504d3c6fcbfeeae0c57ad79cff65efe0476
 FileChecksum: MD5: 5dbdb18e3e79016502f8fc92b3ce77e1
 FileCopyrightText:
 Copyright (C) 2000 and written by Emanuele Caratti <wiz@iol.it> Erik Andersen
-<andersen@codepoet.org> Tito Ragusa <farmatito@tiscali.it>
+  <andersen@codepoet.org> Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -6424,8 +6485,8 @@ FileChecksum: SHA1: 08ac29f4c6c426c77847ad2d76795f4155547dcc
 FileChecksum: SHA256: a6f38ac184ec4c23e27666bdee21db19a52ddb006b77178ea8d604c101d5a551
 FileChecksum: MD5: f636c4036c32868699ca0c6d1a739934
 FileCopyrightText:
-Copyright (c) 2008 Vladimir Dronnikov Copyright (c) 2008 Bernhard Reutner-
-Fischer
+Copyright (c) 2008 Vladimir Dronnikov
+Copyright (c) 2008 Bernhard Reutner-Fischer
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -6444,8 +6505,9 @@ FileChecksum: SHA1: ae112c331aed7089b24137dc53fe6fc08b76fd9b
 FileChecksum: SHA256: 34ff51ad2f2b3b541451c17ab0547c5ae39902f5c5e74c266a1a50f899d2d5d5
 FileChecksum: MD5: 74188075c5c04935b45f0becd67a98c7
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2006 Rob Landley Copyright (C) 2006 Denys Vlasenko
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2006 Rob Landley
+Copyright (C) 2006 Denys Vlasenko
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -6544,8 +6606,9 @@ FileChecksum: SHA1: a4f9b26436cbafc6c8bd1d382a7817feef4ba361
 FileChecksum: SHA256: 9c89c15b644e37943a221ab2004e5386a9b30060d1cd56b1dd029cb8884f8f5c
 FileChecksum: MD5: be4fe3ab704b527f4be5a44399b5dbf5
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2006 Rob Landley Copyright (C) 2006 Denys Vlasenko
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2006 Rob Landley
+Copyright (C) 2006 Denys Vlasenko
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -6556,8 +6619,8 @@ FileChecksum: SHA1: d020effcf464c8e1cc5c937ae766036e45e92798
 FileChecksum: SHA256: 346fd6c6f197348a673a3db2bfbe177f51b35f81ba80c0ed68b40223d3c43cad
 FileChecksum: MD5: acc97972323c4cec7f7c281810179270
 FileCopyrightText:
-Copyright (C) 2008 Rob Landley <rob@landley.net> Copyright (C) 2008 Denys
-Vlasenko <vda.linux@googlemail.com>
+Copyright (C) 2008 Rob Landley <rob@landley.net>
+Copyright (C) 2008 Denys Vlasenko <vda.linux@googlemail.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -6808,9 +6871,9 @@ FileChecksum: SHA1: 621e86d3f57684b59643480c0dbbed4de09f1faf
 FileChecksum: SHA256: a88bddf4a2803ecf75d44a3e78732414b16a2ca4def539203262446214acd529
 FileChecksum: MD5: 3f5bba981ba7180bc1ea0f351ff7bdde
 FileCopyrightText:
-Copyright (C) 2003 Yang Xiaopeng <yxp at hanwang.com.cn> Copyright (C) 2007
-Natanael Copa <natanael.copa@gmail.com> Copyright (C) 2007 Tito Ragusa
-<farmatito@tiscali.it>
+Copyright (C) 2003 Yang Xiaopeng <yxp at hanwang.com.cn>
+Copyright (C) 2007 Natanael Copa <natanael.copa@gmail.com>
+Copyright (C) 2007 Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7071,8 +7134,9 @@ FileChecksum: SHA1: 6f113b99e6d3fbd2a42933a508613f031172f255
 FileChecksum: SHA256: 614890e68d6e436b69a44bc4afe87736ff1d9b848bced10b55a4c77b33bb177c
 FileChecksum: MD5: 10f8823d9979aa802cb9a23e82202bd7
 FileCopyrightText:
-Copyright (C) 2006 Jesse Dutton <jessedutton@gmail.com> Copyright (C) 2002 Mario
-Strasser <mast@gmx.net>, Zuercher Hochschule Winterthur, Netbeat AG
+Copyright (C) 2006 Jesse Dutton <jessedutton@gmail.com>
+Copyright (C) 2002 Mario Strasser <mast@gmx.net>, Zuercher Hochschule
+  Winterthur, Netbeat AG
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7291,7 +7355,8 @@ FileChecksum: SHA1: 8aca9e7265b12d149e1e7ca4905acd6280a5f06c
 FileChecksum: SHA256: e87ed8230d5eced5fbef21ba5aa2425afd6158ea1339234c96d3491039eb0885
 FileChecksum: MD5: bfc4df413f147574c4b902445ded6fe6
 FileCopyrightText:
-Copyright (C) 1993-2002 Werner Almesberger Copyright (C) 2002-2009 Craig Small
+Copyright (C) 1993-2002 Werner Almesberger
+Copyright (C) 2002-2009 Craig Small
 Copyright (C) 2010 Lauri Kasanen
 
 LicenseConcluded:
@@ -7358,7 +7423,8 @@ FileChecksum: SHA1: 9a358a927dcbae3e717c78a38f1317203183d554
 FileChecksum: SHA256: 6bc4a9982a5e4b136fc6f18490997e2fdd27c758291860c92a3483079ca38a8f
 FileChecksum: MD5: 06e4653e423a6a9c1ff76400e6fb2ef7
 FileCopyrightText:
-Copyright 2006 Rob Landley <rob@landley.net> Copyright 2006 Glenn McGrath
+Copyright 2006 Rob Landley <rob@landley.net>
+Copyright 2006 Glenn McGrath
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7369,10 +7435,11 @@ FileChecksum: SHA1: ea5f7659b6baad0541b6200f07f4cb7c427af0cf
 FileChecksum: SHA256: 3edf1f9ba70adff39748d8f91da4ff6a1ca6419ce23ac7425e641bd6cde144e4
 FileChecksum: MD5: 89a09d2304f2671337f4398c1e7e6844
 FileCopyrightText:
-Copyright (C) 1999,2000,2001 by Lineo, inc. and Mark Whitley Copyright (C)
-1999,2000,2001 by Mark Whitley <markw@codepoet.org> Copyright (C) 2002 Matt
-Kraai Copyright (C) 2003 by Glenn McGrath Copyright (C) 2003,2004 by Rob Landley
-<rob@landley.net>
+Copyright (C) 1999,2000,2001 by Lineo, inc. and Mark Whitley
+Copyright (C) 1999,2000,2001 by Mark Whitley <markw@codepoet.org>
+Copyright (C) 2002 Matt Kraai
+Copyright (C) 2003 by Glenn McGrath
+Copyright (C) 2003,2004 by Rob Landley <rob@landley.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7394,8 +7461,8 @@ FileChecksum: SHA1: 8798466f351420f3bb344670624977ff1b8631fd
 FileChecksum: SHA256: 63c30b08d86d4d7e1e0bf0a43df826050dca71b04a4da28cecccef5c226e5cb6
 FileChecksum: MD5: a9746cbe045ddc6b05aac80e29067027
 FileCopyrightText:
-Copyright 2006 by Natanael Copa <n@tanael.org> Copyright 2021 by Ron Yorston
-<rmy@pobox.com>
+Copyright 2006 by Natanael Copa <n@tanael.org>
+Copyright 2021 by Ron Yorston <rmy@pobox.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7407,7 +7474,7 @@ FileChecksum: SHA256: d586dce823e75abba5398279049e2bf3e5c4558f8a2f85c0926de53741
 FileChecksum: MD5: 63578b89c8a70402951f71973d9c5906
 FileCopyrightText:
 Copyright (C) 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003,
-2004, 2005 by Theodore Ts'o.
+  2004, 2005 by Theodore Ts'o.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7560,8 +7627,8 @@ FileChecksum: SHA1: eb453a574ddbb9c715180d01775303437dc5ec75
 FileChecksum: SHA256: 3d264a3d411ea81771f590dcaf3861854231aba6e40851584d2fc397e31740e0
 FileChecksum: MD5: ada650d2e45c602b2cd3f00e958977f5
 FileCopyrightText:
-Copyright 2006 Rob Landley <rob@landley.net> Copyright 2006 Bernhard Reutner-
-Fischer <rep.nop@aon.at>
+Copyright 2006 Rob Landley <rob@landley.net>
+Copyright 2006 Bernhard Reutner-Fischer <rep.nop@aon.at>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -7617,7 +7684,7 @@ FileChecksum: SHA256: 71c4fa5aca2065a14562b8635ee0a6eb3c7f3f25450cd6f55cbb677b49
 FileChecksum: MD5: 5742baf40a0914135f5fa846e86d99ba
 FileCopyrightText:
 Copyright (C) 1992, 1996 Free Software Foundation, Inc. Written by David
-MacKenzie <djm@gnu.ai.mit.edu>.
+  MacKenzie <djm@gnu.ai.mit.edu>.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8047,9 +8114,12 @@ FileChecksum: SHA1: 877827d46b25a7b85852601257628a58b81e37ee
 FileChecksum: SHA256: dbab92be285231967ca0e0583f0a8972b60087252a718084235874d6907c37ab
 FileChecksum: MD5: 1febab38160df26f10f5ab2308ce652e
 FileCopyrightText:
-(C) Eero Tamminen <oak at welho dot com> (C) 2002 <dzo@simtreas.ru> Copyright
-(c) 1992 Branko Lankester Copyright (c) 1992 Roger Binns Copyright (C) 1994-1996
-Charles L. Blake. Copyright (C) 1992-1998 Michael K. Johnson
+(C) Eero Tamminen <oak at welho dot com>
+(C) 2002 <dzo@simtreas.ru>
+Copyright (c) 1992 Branko Lankester
+Copyright (c) 1992 Roger Binns
+Copyright (C) 1994-1996 Charles L. Blake.
+Copyright (C) 1992-1998 Michael K. Johnson
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8236,8 +8306,8 @@ FileChecksum: SHA1: cf8b3be780b301a89fc5bd43b8749c688c71f869
 FileChecksum: SHA256: 8db3a3663429e0ab4aadd77a5c35d7a32656d273c1baa0f8f6ab3c78a24274b8
 FileChecksum: MD5: 45d8e29ece77a0f731840248953f2ed1
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2005 by Rob Landley <rob@landley.net>
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2005 by Rob Landley <rob@landley.net>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8430,7 +8500,7 @@ FileChecksum: SHA256: 153d9bc89502ecc724c4c3544ae7772b86d23aa3e800b4116997c144c9
 FileChecksum: MD5: 29ef51bff71cc8186cc520d2501dac8c
 FileCopyrightText:
 Copyright (c) 2008 Nuovation System Designs, LLC Grant Erickson
-<gerickson@nuovations.com>
+  <gerickson@nuovations.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8490,8 +8560,9 @@ FileChecksum: SHA1: 715e163a33a59be82fd59afea706fd6cd1588fc3
 FileChecksum: SHA256: 4e0ce08506ef1b93cf7e995493deac59a3acc59fa3a6484748d15c2826e1c82d
 FileChecksum: MD5: d1b4ed45c16dac2fcf8330161c35762a
 FileCopyrightText:
-Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2006 Rob Landley Copyright (C) 2006 Denys Vlasenko
+Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2006 Rob Landley
+Copyright (C) 2006 Denys Vlasenko
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8524,8 +8595,8 @@ FileChecksum: SHA1: 16acdfdf3deb88f83a1bd6493c5f636dab26a316
 FileChecksum: SHA256: 4fe8a5e570deed6e7b533f6d7fb9f79c8af8b8b8c7885d4d895a542843b03a3d
 FileChecksum: MD5: 61c27712d6c89ce6f43296077a14961c
 FileCopyrightText:
-Copyright 2005 Rob Landley <rob@landley.net> Copyright 2005 Frank Sorenson
-<frank@tuxrocks.com>
+Copyright 2005 Rob Landley <rob@landley.net>
+Copyright 2005 Frank Sorenson <frank@tuxrocks.com>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8624,8 +8695,8 @@ FileChecksum: SHA1: 2bffe3c1a1e49a03bd2bb5925bdd69a3f2d6c454
 FileChecksum: SHA256: 8eb18d5446a901c0189d651169ae108495a186704528f4f3495087150f7e1626
 FileChecksum: MD5: 2bf835d52366d592ae80137aa0bc1867
 FileCopyrightText:
-Copyright (C) 1999-2005 by Erik Andersen <andersen@codepoet.org> Copyright (C)
-2007 by KaiGai Kohei <kaigai@kaigai.gr.jp>
+Copyright (C) 1999-2005 by Erik Andersen <andersen@codepoet.org>
+Copyright (C) 2007 by KaiGai Kohei <kaigai@kaigai.gr.jp>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8846,9 +8917,10 @@ FileChecksum: SHA1: 33ae2629664afa4c10a19d08a1f6f2ec17f12cfe
 FileChecksum: SHA256: 45f4caf5df5594331bfabf8437fdcbda208947d082b10ed1201b77e36ef1e05b
 FileChecksum: MD5: e2198005e5ab310cda6428f9050b4868
 FileCopyrightText:
-Copyright (C) 2009 by Dan Fandrich <dan@coneharvesters.com>, et. al. Copyright
-(C) 2005 Free Software Foundation, Inc. Copyright (c) 1999, 2000 The ht://Dig
-Group Copyright (C) 2004 Free Software Foundation, Inc.
+Copyright (C) 2009 by Dan Fandrich <dan@coneharvesters.com>, et. al.
+Copyright (C) 2005 Free Software Foundation, Inc.
+Copyright (c) 1999, 2000 The ht://Dig Group
+Copyright (C) 2004 Free Software Foundation, Inc.
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8892,9 +8964,9 @@ FileChecksum: SHA1: 7ecfe06ce0261856d83aa6bb92748e498c0b413b
 FileChecksum: SHA256: c4af163807f763290df301cbf591945159de8f1d586b9714413f262e8c7071f3
 FileChecksum: MD5: df1331bb4c36447589c8eadec58fb31f
 FileCopyrightText:
-Copyright (C) 1999 by Lineo, inc. and John Beppu Copyright (C) 1999,2000,2001 by
-John Beppu <beppu@codepoet.org> Copyright (C) 2007 by Tito Ragusa
-<farmatito@tiscali.it>
+Copyright (C) 1999 by Lineo, inc. and John Beppu
+Copyright (C) 1999,2000,2001 by John Beppu <beppu@codepoet.org>
+Copyright (C) 2007 by Tito Ragusa <farmatito@tiscali.it>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-only
@@ -8955,7 +9027,7 @@ FileChecksum: SHA256: 07ac567607fb8a5cf1f98b50d0375a8531ca60be806f57b7a06438df5d
 FileChecksum: MD5: f1fe4c4ce4ef19116bc8042e8e6de1c0
 FileCopyrightText:
 Copyright (C) 1992, 1993, 1994, 1995 Remy Card (card@masi.ibp.fr) Laboratoire
-MASI - Institut Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
+  MASI - Institut Blaise Pascal Universite Pierre et Marie Curie (Paris VI)
 Copyright (C) 1991, 1992 Linus Torvalds
 
 --------
