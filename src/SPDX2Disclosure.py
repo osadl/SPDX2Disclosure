@@ -30,7 +30,7 @@ def wrapprint(text, maxlen):
         newtext = ''
         for line in lines:
             newtext += wrapper.fill(line) + '\n'
-        print(newtext)
+        print(newtext.rstrip())
 
 def getlicenselist(filename):
     filename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')

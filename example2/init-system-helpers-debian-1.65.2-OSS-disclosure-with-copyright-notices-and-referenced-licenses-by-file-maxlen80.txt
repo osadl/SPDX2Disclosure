@@ -17,8 +17,8 @@ FileChecksum: SHA1: 46d3cd6b76016b1b9edaa390d0b7a600f3ee69e7
 FileChecksum: SHA256: 1d389fa6f6297e77b2ba1d2df4a6ec60f4d4d37815b727889f38ba602e713f77
 FileChecksum: MD5: 43d2ad4ef102569eaa304402f81a8131
 FileCopyrightText:
-Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
-Copyright (c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
+Copyright (C) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org> Copyright
+(c) 2000,2001 Henrique de Moraes Holschuh <hmh@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -29,9 +29,9 @@ FileChecksum: SHA1: 8c4c4716b577792450c9f79ae6ae18bf8a49985a
 FileChecksum: SHA256: 4bf220ca8c715f1b683e00ad02f2da8f25db75a5d269faee144d29bff726ebd6
 FileChecksum: MD5: afe16605a1cc5717c04971deb74d67a0
 FileCopyrightText:
-Copyright (C) 2006 Red Hat, Inc. All rights reserved.
-Copyright (C) 2008 Canonical Ltd. August 2008 - Dustin Kirkland <kirkland@canonical.com>
-Copyright (C) 2013 Michael Stapelberg <stapelberg@debian.org>
+Copyright (C) 2006 Red Hat, Inc. All rights reserved. Copyright (C) 2008
+Canonical Ltd. August 2008 - Dustin Kirkland <kirkland@canonical.com> Copyright
+(C) 2013 Michael Stapelberg <stapelberg@debian.org>
 
 LicenseConcluded:
 LicenseRef-GPL-2.0-or-later
@@ -406,7 +406,6 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 
 signature of Ty Coon, 1 April 1989 Ty Coon, President of Vice
 
-
 --------
 LicenseRef-GPL-2.0-or-later:
 GNU GENERAL PUBLIC LICENSE
@@ -721,14 +720,12 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 
 < signature of Ty Coon > , 1 April 1989 Ty Coon, President of Vice
 
-
 --------
 LicenseRef-Permission-Notice-e736e00b0a92678104529a355e94bce1:
 This file was originally written by Joey Hess and Craig Small. As a special
 exception, when this file is copied by dh-make into a dh-make output file, you
 may use that output file without restriction. This special exception was added
 by Craig Small in version 0.37 of dh-make.
-
 
 --------
 LicenseRef-BSD-3-Clause-90005cdb54612ecb8538d62c6b6a6f88:
@@ -755,4 +752,3 @@ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
 IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
 OF SUCH DAMAGE.
-
