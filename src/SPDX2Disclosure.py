@@ -5,6 +5,8 @@
 # Author Carsten Emde <C.Emde@osadl.org>
 
 import argparse
+import textwrap
+import re
 
 def ishex(s):
     try:
@@ -17,6 +19,18 @@ def hashexsuffix(licensename):
     parts = licensename.split('-')
     suffix = parts[len(parts) - 1]
     return ishex(suffix)
+
+def wrapprint(text, maxlen):
+    if maxlen == 0:
+        print(text)
+    else:
+        text = re.sub('([^\n])\n([^\n])', '\\1 \\2', text)
+        lines = text.split('\n')
+        wrapper = textwrap.TextWrapper(width=maxlen, replace_whitespace=False)
+        newtext = ''
+        for line in lines:
+            newtext += wrapper.fill(line) + '\n'
+        print(newtext)
 
 def getlicenselist(filename):
     filename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
@@ -58,7 +72,7 @@ def collectlicenses(filename, showpreamble):
     f.close()
     return preamble, licenses
 
-def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showpreamble, verbose):
+def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showpreamble, verbose, maxlen):
     preamble, licenses = collectlicenses(filename, showpreamble)
     if showpreamble:
         for key, val in preamble.items():
@@ -158,7 +172,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
                                 if (licenselevel == 2 and 'BSD' in licensename and hashexsuffix(licensename)) or\
                                   (licenselevel == 3 and hashexsuffix(licensename)) or licenselevel == 4:
                                     print(licensename + ':')
-                                    print(licenses[licensename])
+                                    wrapprint(licenses[licensename], maxlen)
                                     print()
                                 else:
                                     print(licensename)
@@ -178,7 +192,7 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
                 else:
                     print('\n','-'*8, sep='')
                 print(k + ':')
-                print(licenses[k])
+                wrapprint(licenses[k], maxlen)
     f.close
 
 def main():
@@ -209,6 +223,12 @@ def main():
       action = 'store_true',
       default = False,
       help = 'show names and texts the program is using')
+    parser.add_argument('-w', '--width',
+      metavar = 'N',
+      type = int,
+      default = 0,
+      choices = range(40, 256),
+      help = 'limit line length to N characters (40 < N < 256)')
     args = parser.parse_args()
 
     if args.licensing in ['n', 'none']:
@@ -225,7 +245,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose)
+    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose, args.width)
 
 if __name__ == '__main__':
     main()
