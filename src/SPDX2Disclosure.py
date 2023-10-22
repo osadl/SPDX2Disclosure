@@ -6,6 +6,7 @@
 
 import argparse
 import textwrap
+import pathlib
 import re
 
 def ishex(s):
@@ -37,7 +38,6 @@ def wrapprint(text, maxlen, keepsections=False):
         print(newtext.rstrip())
 
 def getlicenselist(filename):
-    filename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
     f = open(filename, 'r')
     licenselist = ''
     for line in f:
@@ -76,7 +76,7 @@ def collectlicenses(filename, showpreamble):
     f.close()
     return preamble, licenses
 
-def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showpreamble, verbose, maxlen):
+def SPDX2Disclosure(filename, disclosurefile, licenselevel, showchecksums, shownumbers, showpreamble, verbose, maxlen):
     preamble, licenses = collectlicenses(filename, showpreamble)
     if showpreamble:
         for key, val in preamble.items():
@@ -84,7 +84,17 @@ def SPDX2Disclosure(filename, licenselevel, showchecksums, shownumbers, showprea
         print('-'*8,'\n', sep='')
 
     if licenselevel in [0, 2, 3]:
-        alllicenses = getlicenselist(filename)
+        if str(disclosurefile) == 'default':
+            if filename.find('-SPDX2TV.spdx') == -1:
+                print('Cannot generate the name of the disclosure file, if a non-standard SPDX file is specified, please use -d option')
+                return
+            disclosurefilename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
+        else:
+            if not disclosurefile.is_file():
+                print('Specified disclosure file not found')
+                return
+            disclosurefilename = str(disclosurefile)
+        alllicenses = getlicenselist(disclosurefilename)
         alllicenses = alllicenses.replace('LICENSES \n', 'LICENSES\n(See the details below for the assignment of licenses to files.)\n', 1)
         if licenselevel == 0: 
             print(alllicenses, 'by file:\n')
@@ -207,6 +217,12 @@ def main():
     parser.add_argument('filename',
       metavar = 'SPDX',
       help = 'file name of an SPDX tag:value input file to process')
+    parser.add_argument('-d', '--disclosurefile',
+      type = pathlib.Path,
+      metavar = 'DISCLOSURE',
+      nargs='?',
+      default = 'default',
+      help = 'name of the disclosure file to use, default: replace "-SPDX2TV.spdx" of the SPDX file by "-OSS-disclosure.txt"')
     parser.add_argument('-l', '--licensing',
       metavar = 'AMOUNT',
       default = 'none',
@@ -249,7 +265,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose, args.width)
+    SPDX2Disclosure(args.filename, args.disclosurefile, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose, args.width)
 
 if __name__ == '__main__':
     main()

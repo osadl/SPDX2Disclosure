@@ -8,13 +8,15 @@ Create more comprehensive versions of an SPDX disclosure file
 SPDX2Disclosure.py --help
 ```
 ```
-usage: SPDX2Disclosure.py [-h] [-l AMOUNT] [-c] [-n] [-p] [-v] [-w [40..255]] SPDX
+usage: SPDX2Disclosure.py [-h] [-d [DISCLOSURE]] [-l AMOUNT] [-c] [-n] [-p] [-v] [-w [40..255]] SPDX
 
 positional arguments:
   SPDX                  file name of an SPDX tag:value input file to process
 
 options:
   -h, --help            show this help message and exit
+  -d [DISCLOSURE], --disclosurefile [DISCLOSURE]
+                        name of the disclosure file to use, default: replace "-SPDX2TV.spdx" of the SPDX file by "-OSS-disclosure.txt"
   -l AMOUNT, --licensing AMOUNT
                         licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
   -c, --checksums       include SHA1, SHA256 and MD5 checksums
@@ -35,6 +37,11 @@ Create several more comprehensive versions of the disclosure document from the S
 |licensing=bsdtext    |     -lb      | Same as -ln plus non-standard BSD licenses verbatim |
 |licensing=hashedtext |     -lh      | Same as -ln plus all hashed licenses verbatim       |
 |licensing=text       |     -lt      | Same as -ln plus all licenses verbatim              |
+
+## Prerequisites
+This program was originally written to be used in conjunction with the <a href="https://github.com/fossology">FOSSology</a> Open Source license compliance software system and toolkit, and in particular to post-process the output files of the <a href="https://www.osselot.org">OSSelot</a> project. However, there is nothing to prevent the program from being used in another context as well.
+
+For the licensing options 'none', 'bsdtext' and 'hashedtext', the FOSSology generated disclosure file is needed, since it will be copied verbatim to the head of the output file. The program will generate its name internally by replacing the string part '-SPDX2TV.spdx' of the SPD input file by '-OSS-disclosure.txt'. However, any other file name of the disclosure file can be specified using the -d option. The FOSSology default name of the disclosure file is "ReadMe_OSS".
 
 ## Program description per command line option
 ### 1. licensing=none
