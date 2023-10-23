@@ -47,12 +47,16 @@ def getlicenselist(filename):
     f.close()
     return licenselist.strip()
 
-def collectlicenses(filename, showpreamble):
+def collectlicenses(filename, showpreamble, encoding):
     licenses = {}
     preamble = {}
     f = open(filename, 'r')
     intext = False
-    preambletags = ['PackageName', 'PackageVerificationCode', 'PackageChecksum', 'PackageLicenseConcluded']
+    preambletags = ['PackageName', 'PackageVerificationCode', 'PackageLicenseDeclared']
+
+    if len(encoding) > 0:
+        for e in encoding:
+            preambletags.append('PackageChecksum: ' + e.upper())
 
     for line in f:
         if showpreamble and len(preamble) < 4:
@@ -76,8 +80,8 @@ def collectlicenses(filename, showpreamble):
     f.close()
     return preamble, licenses
 
-def SPDX2Disclosure(filename, disclosurefile, licenselevel, showchecksums, shownumbers, showpreamble, verbose, maxlen):
-    preamble, licenses = collectlicenses(filename, showpreamble)
+def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumbers, showpreamble, verbose, maxlen):
+    preamble, licenses = collectlicenses(filename, showpreamble, encoding)
     if showpreamble:
         for key, val in preamble.items():
             print(key, ': ', val, sep='')
@@ -122,7 +126,7 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, showchecksums, shown
             infile = True
             continue
         if infile:
-            if showchecksums:
+            if len(encoding) > 0:
                 if line.startswith('FileChecksum: SHA1: '):
                     sha1 = line[20:].strip()
                 if line.startswith('FileChecksum: SHA256: '):
@@ -159,12 +163,12 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, showchecksums, shown
                             n = n + 1
                         else:
                             print('FileName: ' + file + ':')
-                        if showchecksums:
-                            if sha1 != '':
+                        if len(encoding) > 0:
+                            if sha1 != '' and 'sha1' in encoding:
                                 print('FileChecksum: SHA1:', sha1)
-                            if sha256 != '':
+                            if sha256 != '' and 'sha256' in encoding:
                                 print('FileChecksum: SHA256:', sha256)
-                            if md5 != '':
+                            if md5 != '' and 'md5' in encoding:
                                 print('FileChecksum: MD5:', md5)
                         needsection = True
                     else:
@@ -212,7 +216,7 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, showchecksums, shown
 def main():
     errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"'
     parser = argparse.ArgumentParser(prog = 'SPDX2Disclosure.py',
-        epilog = 'Create several more comprehensive versions of the disclosure document from the SPDX tag:value file')
+        epilog = 'Create several more comprehensive versions of the disclosure document from an SPDX tag:value file')
 
     parser.add_argument('filename',
       metavar = 'SPDX',
@@ -220,17 +224,21 @@ def main():
     parser.add_argument('-d', '--disclosurefile',
       type = pathlib.Path,
       metavar = 'DISCLOSURE',
-      nargs='?',
       default = 'default',
       help = 'name of the disclosure file to use, default: replace "-SPDX2TV.spdx" of the SPDX file by "-OSS-disclosure.txt"')
+    parser.add_argument('-c', '--checksums',
+      action = 'store_true',
+      default = False,
+      help = 'include SHA256 checksums, may be overridden by -e option' )
+    parser.add_argument('-e', '--encoding',
+      metavar = 'CHECKSUMTYPES',
+      default = [],
+      type=lambda t: [s.strip() for s in t.lower().split(',')],
+      help = 'checksum types, comma-separated list of sha1, sha256 and/or md5, overrides -c option' )
     parser.add_argument('-l', '--licensing',
       metavar = 'AMOUNT',
       default = 'none',
       help = 'licensing information per file to add, ' + errorhelp)
-    parser.add_argument('-c', '--checksums',
-      action = 'store_true',
-      default = False,
-      help = 'include SHA1, SHA256 and MD5 checksums')
     parser.add_argument('-n', '--numbered',
       action = 'store_true',
       default = False,
@@ -251,6 +259,19 @@ def main():
       help = 'limit line length of output (experimental)')
     args = parser.parse_args()
 
+    allencodings = ['sha1', 'sha256', 'md5']
+    encoding = []
+    if len(args.encoding) > 0:
+        encoding = args.encoding
+    else:
+        if args.checksums:
+            encoding = ['sha256']
+    if len(encoding) > 0:
+        for e in encoding:
+             if e not in allencodings:
+                 print('Encoding ', e, 'not valid,', 'must be a comma-separated list of one or more of', ', '.join(allencodings))
+                 exit(1)
+
     if args.licensing in ['n', 'none']:
         licenselevel = 0
     elif args.licensing in ['r', 'referenced']:
@@ -265,7 +286,7 @@ def main():
         print('Licensing "', args.licensing, '" unknown, ', errorhelp, sep = '')
         exit(1)
 
-    SPDX2Disclosure(args.filename, args.disclosurefile, licenselevel, args.checksums, args.numbered, args.preamble, args.verbose, args.width)
+    SPDX2Disclosure(args.filename, args.disclosurefile, licenselevel, encoding, args.numbered, args.preamble, args.verbose, args.width)
 
 if __name__ == '__main__':
     main()

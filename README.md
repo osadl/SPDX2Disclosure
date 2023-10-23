@@ -8,25 +8,27 @@ Create more comprehensive versions of an SPDX disclosure file
 SPDX2Disclosure.py --help
 ```
 ```
-usage: SPDX2Disclosure.py [-h] [-d [DISCLOSURE]] [-l AMOUNT] [-c] [-n] [-p] [-v] [-w [40..255]] SPDX
+usage: SPDX2Disclosure.py [-h] [-d DISCLOSURE] [-c] [-e CHECKSUMTYPES] [-l AMOUNT] [-n] [-p] [-v] [-w [40..255]] SPDX
 
 positional arguments:
   SPDX                  file name of an SPDX tag:value input file to process
 
 options:
   -h, --help            show this help message and exit
-  -d [DISCLOSURE], --disclosurefile [DISCLOSURE]
+  -d DISCLOSURE, --disclosurefile DISCLOSURE
                         name of the disclosure file to use, default: replace "-SPDX2TV.spdx" of the SPDX file by "-OSS-disclosure.txt"
+  -c, --checksums       include SHA256 checksums, may be overridden by -e option
+  -e CHECKSUMTYPES, --encoding CHECKSUMTYPES
+                        checksum types, comma-separated list of sha1, sha256 and/or md5, overrides -c option
   -l AMOUNT, --licensing AMOUNT
                         licensing information per file to add, may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"
-  -c, --checksums       include SHA1, SHA256 and MD5 checksums
   -n, --numbered        files are consecutively numbered
   -p, --preamble        prepend general package data
   -v, --verbose         show names and texts the program is using
   -w [40..255], --width [40..255]
                         limit line length of output (experimental)
 
-Create several more comprehensive versions of the disclosure document from the SPDX tag:value file
+Create several more comprehensive versions of the disclosure document from an SPDX tag:value file
 ```
 ## Options
 
