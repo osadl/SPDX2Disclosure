@@ -51,7 +51,10 @@ def collectlicenses(filename, showpreamble, encoding):
     licenses = {}
     preamble = {}
     f = open(filename, 'r')
-    intext = False
+    inextractedtext = False
+    inpackagelicensecommentstext = False
+    inadditionalinformation = False
+
     preambletags = ['PackageName', 'PackageVerificationCode', 'PackageLicenseDeclared']
 
     if len(encoding) > 0:
@@ -63,20 +66,47 @@ def collectlicenses(filename, showpreamble, encoding):
             for p in preambletags:
                 if line.startswith(p + ': '):
                     preamble[p] = line[len(p) + 2:].rstrip()
-        if not intext:
+
+        if not inextractedtext:
             if line.startswith('LicenseID: '):
                 ref = line[11:].rstrip()
                 continue
             if line.startswith('ExtractedText: '):
                 licensetext = ''
-                intext = True
-        if intext:
+                inextractedtext = True
+        if inextractedtext:
             cleanline = line.replace('ExtractedText: ', '')
             cleanline = cleanline.replace('<text>', '').replace('</text>', '').strip()
             licensetext += cleanline + '\n'
             if line.find('</text>') != -1:
-                intext = False
+                inextractedtext = False
                 licenses[ref] = licensetext.strip()
+
+        if not inpackagelicensecommentstext:
+            if line.startswith('PackageLicenseComments: '):
+                packagelicensecommentstext = ''
+                cleanline = line.replace('PackageLicenseComments: ', '')
+                cleanline = cleanline.replace('<text>', '').replace('</text>', '').strip()
+                if cleanline.startswith('Additional information found in: '):
+                    inadditionalinformation = True
+                if inadditionalinformation:
+                    packagelicensecommentstext = cleanline + '\n'
+                if line.find('</text>') != -1:
+                    preamble['PackageLicenseComments'] = packagelicensecommentstext
+                    inadditionalinformation = False
+                else:
+                    inpackagelicensecommentstext = True
+        else:
+            cleanline = line.replace('<text>', '').replace('</text>', '').strip()
+            if cleanline.startswith('Additional information found in: '):
+                inadditionalinformation = True
+            if inadditionalinformation:
+                packagelicensecommentstext += cleanline + '\n'
+            if line.find('</text>') != -1:
+                inpackagelicensecommentstext = False
+                inadditionalinformation = False
+                preamble['PackageLicenseComments'] = packagelicensecommentstext
+
     f.close()
     return preamble, licenses
 
@@ -84,7 +114,8 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
     preamble, licenses = collectlicenses(filename, showpreamble, encoding)
     if showpreamble:
         for key, val in preamble.items():
-            print(key, ': ', val, sep='')
+            if len(val) != 0:
+                print(key, ': ', val, sep='')
         print('-'*8,'\n', sep='')
 
     if licenselevel in [0, 2, 3]:

@@ -1,0 +1,193 @@
+PackageName: bzip2-bzip2-1.0.8.tar.gz
+PackageVerificationCode: 2edd2ef41e8555d0a4b467f158ddf1800fee7f59
+PackageChecksum: SHA256: 329e4eb98f6af8d39da05cb51bccec88ae015eac99a42b1ee04dec0af7f4b957
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseComments: Additional information found in: bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/compress.c
+Example additional information, line 1
+Example additional information, line 2
+Example additional information, line 3
+
+--------
+
+================================================================================
+
+bzip2-bzip2-1.0.8
+
+--------------------------------------------------------------------------------
+
+================================================================================
+
+LICENSES
+(See the details below for the assignment of licenses to files.)
+
+--------------------------------------------------------------------------------
+
+bzip2-1.0.8
+This program, "bzip2", the associated library "libbzip2", and all
+documentation, are copyright (C) 1996-2019 Julian R Seward.  All
+rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. The origin of this software must not be misrepresented; you must 
+   not claim that you wrote the original software.  If you use this 
+   software in a product, an acknowledgment in the product 
+   documentation would be appreciated but is not required.
+
+3. Altered source versions must be plainly marked as such, and must
+   not be misrepresented as being the original software.
+
+4. The name of the author may not be used to endorse or promote 
+   products derived from this software without specific prior written 
+   permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Julian Seward, jseward@acm.org
+bzip2/libbzip2 version 1.0.8 of 13 July 2019
+--------------------------------------------------------------------------------
+
+Public-domain
+
+Public Domain
+
+--------------------------------------------------------------------------------
+
+Copyright notices by file:
+
+FileName(1): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/manual.xml:
+FileChecksum: SHA256: f333eb33556218995a79870a1d2c01a06bdaa9994549142cfbeb0c8b96425234
+copyright Julian Seward
+Julian Seward. All rights reserved.
+
+--------
+FileName(2): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/format.pl:
+FileChecksum: SHA256: 6d858d3285fc89610dd8d67ee1e37590afa6e2058693c718bb2202b6b270afe1
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(3): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib_private.h:
+FileChecksum: SHA256: c0cda4f35ee1f2d54c9beacd524f8d28e0dbf8494aca30d854af3f143af4341b
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(4): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/compress.c:
+FileChecksum: SHA256: 75995bd6e8c5f1e1dad05178f3cf53137df99ce860a1984324f78591f28deed3
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(5): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/randtable.c:
+FileChecksum: SHA256: 407054ca6f54cd737dbc26ceb6b7874b55a0fcff86c2eb23cbec2fbdbb884815
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(6): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/unzcrash.c:
+FileChecksum: SHA256: d166748e4f8842b5aaaafc13dd7362fdbf67f01ef9e7ba438579ca8a83da0879
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(7): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/decompress.c:
+FileChecksum: SHA256: 31a89f8bf408ef0e4acae83e8be60a8eb4edece6c866d6e32b8f7e557ca54bc6
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(8): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/huffman.c:
+FileChecksum: SHA256: bdeb45f3f535546a672811b68aa87cc58fd395b28ecebc34fa3566a656a4d1d1
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(9): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile:
+FileChecksum: SHA256: 7e7cf0f050748c29caa9cb6abd30639d46d3b9c7880562f2834f9b908ac97f80
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(10): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.h:
+FileChecksum: SHA256: 6ac62e811669598ee30c9e1c379b9e627f6ff17a5a3dc1e0b4fa8b8ea75e580d
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(11): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/blocksort.c:
+FileChecksum: SHA256: 4e48cd2ccff44699e67a7c949b0e9576c05b8dcbe20f863475c4fcc8db11a409
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(12): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.COMPILATION.PROBLEMS:
+FileChecksum: SHA256: 8d19a9e83b36016aa55d7e4014da04ef0def40b43b34f40a370f7f8ff582939e
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(13): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/crctable.c:
+FileChecksum: SHA256: 2fb7a564629386456e731f431a5cf4f5026747bace4cd10be8f5ecf082066a92
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(14): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/Makefile-libbz2_so:
+FileChecksum: SHA256: 0c3c80f466d648432a5e11f0dd188dc86de273476726283cc35a38e39a6d3960
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(15): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzlib.c:
+FileChecksum: SHA256: d06cf1bd991df1f2dc8ef4f7713d186eb636767111cbd4807ef5fc4a54ca6838
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(16): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/spewG.c:
+FileChecksum: SHA256: 14aed503d0e03b32a5393eb033f4cd39d40af154b431b2f888ff6d1639816a87
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(17): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/xmlproc.sh:
+FileChecksum: SHA256: f965a7fd70dcc92ed168b650162acb2163f1b76dffbd47e59a315430acbe9830
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(18): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/CHANGES:
+FileChecksum: SHA256: 67d96e05c081c0784abbb566a70a36bc856cb5f913d52b96832d1d35c4f68eaf
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(19): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2recover.c:
+FileChecksum: SHA256: 36c0cb1ced40d5c62d02fda48f0bd717d1acfeb19b5f4f997b1ac9921f56a790
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(20): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/bzip2.c:
+FileChecksum: SHA256: 1e83a6afe1018600208d97b80351fa951689204f3fad508bd99ca36dc7e32e88
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+Copyright (C) 1996-2019 by Julian Seward.
+
+--------
+FileName(21): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README.XML.STUFF:
+FileChecksum: SHA256: 5c0bc2b3a1ed9103dcf65d0aa23d3082318ab99fb96d862eb63f5e37537e5d8d
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(22): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/mk251.c:
+FileChecksum: SHA256: 12a3031e2b1f2bd98a0b4e70669bfee81864304e43b696951f18120d39d1bdd9
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(23): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/README:
+FileChecksum: SHA256: 152f0da2867a1160a8f956628296ff45e766e492ad0d7054ffb8d981f7518782
+Copyright (C) 1996-2019 Julian Seward <jseward@acm.org>
+
+--------
+FileName(24): bzip2-bzip2-1.0.8.tar.gz/bzip2-bzip2-1.0.8.tar/bzip2-bzip2-1.0.8/LICENSE:
+FileChecksum: SHA256: c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3
+copyright (C) 1996-2019 Julian R Seward. All rights reserved.
+
