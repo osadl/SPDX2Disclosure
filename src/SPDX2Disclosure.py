@@ -42,10 +42,24 @@ def getlicenselist(filename):
     licenselist = ''
     for line in f:
         licenselist += line
-        if line.startswith('Copyright notices'):
+        if line.rstrip() == 'Copyright notices' or line.lstrip().rstrip() == 'ACKNOWLEDGEMENTS':
             break;
     f.close()
     return licenselist.strip()
+
+def getacknowledgments(filename):
+    f = open(filename, 'r')
+    inacknowledgments = False
+    acknowledgments = ''
+    for line in f:
+        if line.lstrip().rstrip() == 'ACKNOWLEDGEMENTS':
+            inacknowledgments = True
+        if line.rstrip() == 'Copyright notices':
+            break;
+        if inacknowledgments:
+            acknowledgments += line
+    f.close()
+    return acknowledgments.strip()
 
 def collectlicenses(filename, showpreamble, encoding):
     licenses = {}
@@ -114,27 +128,30 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
     preamble, licenses = collectlicenses(filename, showpreamble, encoding)
     if showpreamble:
         for key, val in preamble.items():
+            if key == 'PackageLicenseComments' and licenselevel not in [1, 4]:
+                continue
             if len(val) != 0:
                 print(key, ': ', val, sep='')
         print('-'*8,'\n', sep='')
 
+    if str(disclosurefile) == 'default':
+        if filename.find('-SPDX2TV.spdx') == -1:
+            print('Cannot generate the name of the disclosure file, if a non-standard SPDX file is specified, please use -d option')
+            return
+        disclosurefilename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
+    else:
+        if not disclosurefile.is_file():
+            print('Specified disclosure file not found')
+            return
+        disclosurefilename = str(disclosurefile)
     if licenselevel in [0, 2, 3]:
-        if str(disclosurefile) == 'default':
-            if filename.find('-SPDX2TV.spdx') == -1:
-                print('Cannot generate the name of the disclosure file, if a non-standard SPDX file is specified, please use -d option')
-                return
-            disclosurefilename = filename.replace('-SPDX2TV.spdx', '-OSS-disclosure.txt')
-        else:
-            if not disclosurefile.is_file():
-                print('Specified disclosure file not found')
-                return
-            disclosurefilename = str(disclosurefile)
         alllicenses = getlicenselist(disclosurefilename)
         alllicenses = alllicenses.replace('LICENSES \n', 'LICENSES\n(See the details below for the assignment of licenses to files.)\n', 1)
         if licenselevel == 0: 
             print(alllicenses, 'by file:\n')
         else:
             print(alllicenses, 'and licenses by file:\n')
+    acknowledgments = getacknowledgments(disclosurefilename)
 
     f = open(filename, 'r')
     first = True
@@ -165,7 +182,8 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
                 if line.startswith('FileChecksum: MD5: '):
                     md5 = line[19:].strip()
             if line.startswith('LicenseConcluded: '):
-                licensenotices = line[18:].strip().replace(' OR ', ' AND ').split(' AND ')
+                licenseconcluded = line[18:]
+                licensenotices = licenseconcluded.strip().replace(' OR ', ' AND ').split(' AND ')
             if line.startswith('FileCopyrightText: '):
                 incopyright = True
             if incopyright:
@@ -213,7 +231,12 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
                     if licenselevel > 0 and haslicense:
                         if len(copyrightnotice) > 0 and copyrightnotice != 'NOASSERTION':
                             print()
-                        print('LicenseConcluded:')
+                        if licenselevel == 1:
+                            print('LicenseConcluded:', licenseconcluded)
+                        else:
+                            print('LicenseConcluded:')
+                            if licenseconcluded.find(' OR ') > 0 or licenseconcluded.find(' AND '):
+                                print('Dual-licensing logic:', licenseconcluded)
                         for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
                                 if licensename not in licensesinuse:
@@ -224,11 +247,14 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
                                     wrapprint(licenses[licensename], maxlen)
                                     print()
                                 else:
-                                    print(licensename)
+                                    if licenselevel != 1:
+                                        print(licensename)
                                 needsection = True
                     copyrightnotice = ''
                     if needsection:
                         print()
+    f.close
+
     if licenselevel == 1:
         print('-'*8,'\n', sep='')
         print('\nReferenced licenses:')
@@ -242,7 +268,10 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
                     print('\n','-'*8, sep='')
                 print(k + ':')
                 wrapprint(licenses[k], maxlen)
-    f.close
+
+    if len(acknowledgments) > 0:
+        print('\n','\n','-'*8, sep='')
+        print(acknowledgments)
 
 def main():
     errorhelp = 'may be "(n)one" (default), "(r)eferenced", "(b)sdtext", "(h)ashedtext", or "(t)ext"'
