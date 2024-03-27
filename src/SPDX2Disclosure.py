@@ -236,7 +236,7 @@ def SPDX2Disclosure(filename, disclosurefile, licenselevel, encoding, shownumber
                         else:
                             print('LicenseConcluded:')
                             if licenseconcluded.find(' OR ') > 0 or licenseconcluded.find(' AND ') > 0:
-                                print('Dual-licensing logic:', licenseconcluded)
+                                print('Licensing logic:', licenseconcluded)
                         for licensename in licensenotices:
                             if licensename != 'NOASSERTION':
                                 if licensename not in licensesinuse:
